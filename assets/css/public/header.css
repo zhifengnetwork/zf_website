@@ -9,7 +9,7 @@
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	border-bottom: 1px solid #CCCCCC;
-	background-color: #25282D;
+	/* background-color: #25282D; */
 	position: fixed;
 	z-index: 100;
 }
@@ -96,6 +96,9 @@
 	color: white;
 }
 .zixiang_title a:hover{
+	background: #EC6941;
+}
+.zixiang_title a.active{
 	background: #EC6941;
 }
 

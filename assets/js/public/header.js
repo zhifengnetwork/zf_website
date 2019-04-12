@@ -2,7 +2,7 @@ window.onload = function(){
     //获取屏幕高度
     var windowwidth = $(window).width();
 
-    //将获取的屏幕的高度赋值给特效这个di
+    //将获取的屏幕的高度赋值给特效这个div
     $("#xiala_ear").width(windowwidth);
 
     //获取texiao 这个div的位置
@@ -28,13 +28,5 @@ window.onload = function(){
         }
     );
 
-    $(window).scroll(function(event) {
-        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-        if(scrollTop >= 400) {
-            $('.haisheng_header').css("background-color", '#25282D');
-        } else {
-            $('.haisheng_header').css("background-color", '');
-        }
-
-    });
+   
 }
