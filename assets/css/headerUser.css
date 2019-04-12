@@ -1,0 +1,283 @@
+/* common */
+.flex {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  }
+  /* 宽度随屏幕改变变化 */
+  .flex-1 {
+    flex: 1;
+    -webkit-flex: 1;
+  }
+  /* flex-1中需要使用省略号时使用 */
+  .flex-ell{
+    width: 0;
+  }
+  /* 垂直 水平 居中 */
+  .flex-center {
+    justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    align-items: center;
+    -webkit-align-items: center;
+  }
+  /* 垂直 居中 */
+  .flex-ver {
+    align-items: center;
+    -webkit-align-items: center;
+  }
+  /* 换行 */
+  .flex-wrap{
+    flex-wrap: wrap;
+    -moz-flex-wrap:wrap;
+    -webkit-flex-wrap: wrap;
+  }
+  .flex-end{
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+  }
+  
+  /* flex 容器（设置为flex）内子元素向两边顶齐平分 */
+  .flex-jcsb {
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+  }
+
+
+/*导航栏*/
+
+#header .navWrap a{
+  font-family: Microsoft YaHei;
+} 
+
+.sanFen{margin-left: 18px;margin-top:18px;}
+
+
+.more{
+  color:#999 !important;
+  font-size: 12px !important;
+}
+
+.downList .li .sanFen .name{
+  color:#ccc;
+  font-size: 12px;
+}
+
+.rm-layout-expanded .rm-nav > ul > li > a, .rm-layout-expanded .rm-top-menu > .rm-menu-item > a{
+  height:auto;
+  line-height:0;
+  padding:17px;
+  margin:13px 0;
+  border-radius:10px;
+}
+.logo>img{
+  padding:0;
+}
+
+ .click {
+  background-color:#ec6941;
+  margin:0 30px 0 10px;;
+}
+
+.rm-container{
+  border:none;
+}
+
+.rm-layout-expanded .rm-nav > ul > li, .rm-layout-expanded .rm-top-menu > .rm-menu-item{
+  height:60px;
+  margin:0 5px;
+}
+
+.mt4{
+  margin-top:4px !important;
+}
+.yanshi{
+  margin: 12px 0;
+}
+
+.leftCatory{
+  background: #fef9f5;
+}
+.navbar-brand{
+  padding :7px 0;
+}
+
+.mt4:hover{
+  background-color:transparent !important;
+}
+
+.img_header{
+    max-width: 1200px;
+    margin:0 auto; 
+    padding:10px 0; 
+    
+  }
+
+  .img_header img{
+    width: 80%;
+  
+  }
+
+  .img_header ul li {
+    width: 33%;
+    padding: 30px 10px 10px;
+    text-align: center;
+    
+  }
+
+  .common-topbar-body .common-topbar-bottom .common-topbar-dropdown{
+    box-shadow: none;
+  }
+
+  .downList .li{
+    width:16%;
+  }
+
+  .border_tu{border:1px solid #777777;width: 120px;}
+  .border_tu img{width: 18px;height: 18px;}
+  .hotDel ul, .FenWrap{width: 67%;padding-left: 110px;}
+
+
+  .activity{
+    background-color:#ec6941;
+    border-radius: 10px;
+  }
+
+  .navWrap{
+    position: fixed;
+    background-color:#25282d;
+  }
+  #header{
+    height: 60px;
+  }
+
+  #header .navWrap:hover{
+    background-color:#25282d;
+  }
+
+  /* 商桥 */
+
+  .dd_bridge{
+    position: fixed;
+    right:50px;
+    top:250px;
+    z-index: 2;
+    background-color:#fff;
+    border-radius: 5px;
+    text-align: center;
+    max-width:100%;
+  }
+
+  .bridge_head{
+    position:absolute;
+    top:-38px;
+    left:50%;
+    transform: translateX(-50%)
+  }
+  .bridge_head p{
+    font-family: "微软雅黑";
+    font-size:16px;;
+    color:#333;
+    padding-top:15px;
+  }
+
+  .bridge_online{
+    margin-top:92px;
+    border-bottom:1px solid #e6e6e6;
+    border-top:1px solid #e6e6e6;
+    
+  }
+  .bridge_wc{
+    padding:10px 45px;
+    border-bottom:1px solid #e5e5e5;
+  }
+  .bridge_wc div{
+    margin:10px 0;
+  }
+
+  .bridge_wc p{
+    font-size:16px;
+    font-family: '微软雅黑';
+    color:#333;
+  }
+
+  .bridge_wc div p{
+    padding-left:10px;
+    font-size:16px;
+    font-family: '微软雅黑';
+    color:#333;
+  }
+
+  .bridge_online div{
+    padding:10px 0;
+  }
+
+  .bridge_online div span{
+    padding-left:10px;
+    font-size:16px;
+    font-family: '微软雅黑';
+    color:#2f87dc;
+  }
+
+  .bridge_call{
+    border-bottom:1px solid #e5e5e5;
+    padding:20px 0;
+  }
+  
+  .bridge_call p:first-child{
+    padding-bottom:15px;
+    font-size:16px;
+    font-family: '微软雅黑';
+  }
+  .bridge_call p:last-child{
+    font-size:16px;
+    font-family: '微软雅黑';
+    color:#2f87dc;
+  }
+  .bridge_back {
+    padding:20px 45px;
+    padding-bottom:20px;
+    font-size:16px;
+    font-family: '微软雅黑';
+  }
+
+  .dd_close{
+    width: 30px;
+    height: 30px;
+    background:#fff url('../images/newBridge/close.png') no-repeat center center;
+  
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px; 
+    border:1px solid #e5e5e5;
+    position:absolute;
+    right:-14px;
+    top:-13px;
+  }
+  .bridge_online div:hover{
+    background-color:#f5f7f9;
+  }
+  .img_bridge{
+    position: fixed;
+    right:50px;
+    bottom:350px;
+    z-index: 2;
+  }
+
+  /*产品详情*/
+.absoluteClassDetail2{
+  position:absolute;
+  left: -135px;
+  top:32px;
+}
+.fixedClassDetail2{
+  position:fixed;
+  top:173px;
+  left: 11%;
+}

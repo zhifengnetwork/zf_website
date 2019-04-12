@@ -1,0 +1,216 @@
+
+.haisheng_header{
+	width: 100%;
+	height: 60px;
+	color: white;
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	border-bottom: 1px solid #CCCCCC;
+	background-color: #25282D;
+	position: fixed;
+	z-index: 100;
+}
+.haisheng_title{
+	position: relative;
+	top: 0;
+	width: 1200px;
+	height: 100%;
+	margin: auto;
+}
+.logo{
+	position:absolute;
+	top: 50%;
+	transform: translate(0,-50%);
+	-moz-transform: translate(0,-50%);
+	-ms-transform: translate(0,-50%);
+	-webkit-transform: translate(0,-50%);
+	-o-transform: translate(0,-50%);
+}
+.xiala{
+	position: absolute;
+	top: 0px;
+	width: 120px;
+	height: 100%;
+	display: inline-block;
+	margin-left: 180px;
+	text-align: center;	
+	background: #EC6941;
+	cursor: pointer;
+}
+.img1{
+	position:absolute;
+	top: 50%;
+	left: 8px;
+	transform: translate(0,-50%);
+	-moz-transform: translate(0,-50%);
+	-ms-transform: translate(0,-50%);
+	-webkit-transform: translate(0,-50%);
+	-o-transform: translate(0,-50%);
+}
+.img2{
+	position:absolute;
+	top: 50%;
+	right: 8px;
+	transform: translate(0,-50%);
+	-moz-transform: translate(0,-50%);
+	-ms-transform: translate(0,-50%);
+	-webkit-transform: translate(0,-50%);
+	-o-transform: translate(0,-50%);
+}
+
+.xiala span{
+	position:absolute;
+	top: 50%;
+	left: 32px;
+	transform: translate(0,-50%);
+	-moz-transform: translate(0,-50%);
+	-ms-transform: translate(0,-50%);
+	-webkit-transform: translate(0,-50%);
+	-o-transform: translate(0,-50%);
+}
+.zixiang_title{
+	position: absolute;
+	top: 50%;
+	left: 280px;
+	transform: translate(0,-50%);
+	-moz-transform: translate(0,-50%);
+	-ms-transform: translate(0,-50%);
+	-webkit-transform: translate(0,-50%);
+	-o-transform: translate(0,-50%);
+	display: inline-block;
+	width: 800px;
+	padding-left: 25px;
+	font-size: 16px;
+}
+.zixiang_title a{
+	display: inline-block;
+	width: 100px;
+	height: 34px;
+	line-height:34px;
+	text-align: center;
+	border-radius: 20px;
+	cursor: pointer;
+	color: white;
+}
+.zixiang_title a:hover{
+	background: #EC6941;
+}
+
+#xiala_ear{
+	position: relative;
+	width: 1200;
+	height: 360px;
+	background: #25282D;	
+	top: 60px;
+}
+.cc{
+	width: 1200px;
+	height:360px;
+	margin: auto;
+}
+.haisheng_header .ear{
+	color: red;
+	display: flex;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+.earitem{
+	flex: 1;
+	margin:auto;
+	display: inline-block;
+	text-align: center;	
+}
+.haisheng_header .ear div p{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+	color: white;
+	font-size: 16px;
+	border: 1px solid #777777;
+	text-align: center;
+
+}
+
+.earitem p img{
+	width: 16px;
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	transform: translate(0,-50%);
+	-moz-transform: translate(0,-50%);
+	-ms-transform: translate(0,-50%);
+	-webkit-transform: translate(0,-50%);
+	-o-transform: translate(0,-50%);
+}
+.ear div p span{
+	position: absolute;
+	left: 40px;
+}
+
+.haisheng_header .lianjie div{
+	position: relative;
+	height: 130px;
+	margin-top: 16px;
+}
+.haisheng_header .lianjie a{
+	text-align: left;
+	font-size: 12px;
+	display: block;
+	padding-left: 50px;
+	box-sizing: border-box;
+	height: 25px;
+	line-height: 25px;
+	color: #CCCCCC;	
+	cursor: pointer;
+}
+.lianjie a:hover{
+	color: #1CC2D6;
+}
+
+.haisheng_header .lianjie a:last-child{
+	position: absolute;
+	bottom: 0;
+	color: #999999;
+}
+.pic{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+.pic img{
+	display:inline-block;
+	width: 260px;
+	height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

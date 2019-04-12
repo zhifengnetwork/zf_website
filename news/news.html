@@ -1,0 +1,1244 @@
+<html>
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+    <title>最新资讯</title>
+
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/logoico.png">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../assets/css/animate.css"  rel="stylesheet"  type="text/css" media="all">
+    <link rel="stylesheet" href="../assets/css/flexslider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../assets/css/responsive-menu.css" type="text/css" media="screen" />
+
+    <link href="../assets/css/base.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../assets/css/main.css" rel="stylesheet" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/public/header.css">
+    <link rel="stylesheet" href="../assets/css/public/footer.css">
+    <script src="../assets/js/public/header.js"></script>
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/wow.min.js"></script>
+    <link href="../assets/css/fashionfoucs.css" rel="stylesheet" />
+    <script type="text/javascript" src="../assets/js/jqueryss.js"></script>
+    <link rel="stylesheet" href="../assets/css/headerUser.css" type="text/css" media="screen" />
+    <!-- <script src="../assets/js/headerUser.js" ></script> -->
+
+   
+
+    <style type="text/css">
+        /* common */
+        a:focus {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+
+        }
+
+        .dd_w1200 {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .clearboth {
+            clear: both;
+        }
+
+        .tab_content {
+            display: none;
+        }
+
+        /*位置*/
+        .cur_position {
+            padding: 20px 10px;
+            font-size: 12px;
+            color: #808080;
+            font-family: "微软雅黑";
+        }
+
+        .cur_position a {
+            font-size: 12px;
+            color: #333;
+            font-family: "微软雅黑";
+        }
+
+        .cur_position a:hover {
+            color: #2096fa;
+        }
+
+        /*动态导航*/
+        .news_head ul li {
+            float: left;
+        }
+
+        .news_head ul li a {
+            display: block;
+            padding: 12px 20px;
+            font-size: 16px;
+            color: #333;
+            font-family: "微软雅黑"
+        }
+
+        .news_head .dd_active a {
+            background-color: #2096fa;
+            color: #fff;
+        }
+
+        .change_item {
+            margin: 20px 0 80px 0;
+        }
+
+        .news_item {
+            font-size: 0;
+            background-color: #f7f7f7;
+            margin-bottom: 20px;
+        }
+
+        .items_img {
+            display: inline-block;
+            vertical-align: top;
+            font-size: 14px;
+            width: 25%;
+            padding: 40px 10px 40px 40px;
+        }
+
+        .items_c {
+            display: inline-block;
+            vertical-align: top;
+            font-size: 14px;
+            width: 75%;
+            padding: 50px 45px 40px 20px;
+        }
+
+        .items_title {
+            font-family: '微软雅黑';
+            font-size: 20px;
+            color: #333;
+        }
+
+        .item_content {
+            height: 75px;
+            margin: 20px 0 10px 0;
+        }
+
+        .item_content p {
+            font-family: '微软雅黑';
+            font-size: 16px;
+            color: #808080;
+            position: relative;
+            line-height: 20px;
+            max-height: 60px;
+            overflow: hidden;
+
+        }
+
+        .item_bottom span:first-child {
+            color: #2096fa;
+            font-size: 14px
+        }
+
+        .item_bottom span:last-child {
+            position: absolute;
+            right: 0px;
+            padding: 10px 17px;
+            background-color: #2096fa;
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .item_bottom {
+            position: relative;
+            z-index: 0;
+        }
+
+        /* 商桥 */
+
+        .dd_bridge {
+            position: fixed;
+            right: 50px;
+            top: 250px;
+            z-index: 2;
+            background-color: #fff;
+            border-radius: 5px;
+            text-align: center;
+            max-width: 100%;
+        }
+
+        .bridge_head {
+            position: absolute;
+            top: -38px;
+            left: 50%;
+            transform: translateX(-50%)
+        }
+
+        .bridge_head p {
+            font-family: "微软雅黑";
+            font-size: 16px;
+            ;
+            color: #333;
+            padding-top: 15px;
+        }
+
+        .bridge_online {
+            margin-top: 92px;
+            border-bottom: 1px solid #e6e6e6;
+            border-top: 1px solid #e6e6e6;
+
+        }
+
+        .bridge_wc {
+            padding: 10px 45px;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .bridge_wc div {
+            margin: 10px 0;
+        }
+
+        .bridge_wc p {
+            font-size: 16px;
+            font-family: '微软雅黑';
+            color: #333;
+        }
+
+        .bridge_wc div p {
+            padding-left: 10px;
+            font-size: 16px;
+            font-family: '微软雅黑';
+            color: #333;
+        }
+
+        .bridge_online div {
+            padding: 10px 0;
+        }
+
+        .bridge_online div span {
+            padding-left: 10px;
+            font-size: 16px;
+            font-family: '微软雅黑';
+            color: #2f87dc;
+        }
+
+        .bridge_call {
+            border-bottom: 1px solid #e5e5e5;
+            padding: 20px 0;
+        }
+
+        .bridge_call p:first-child {
+            padding-bottom: 15px;
+            font-size: 16px;
+            font-family: '微软雅黑';
+        }
+
+        .bridge_call p:last-child {
+            font-size: 16px;
+            font-family: '微软雅黑';
+            color: #2f87dc;
+        }
+
+        .bridge_back {
+            padding: 20px 45px;
+            padding-bottom: 20px;
+            font-size: 16px;
+            font-family: '微软雅黑';
+        }
+
+        .dd_close {
+            width: 30px;
+            height: 30px;
+            background: #fff url('../assets/images/newBridge/close.png') no-repeat center center;
+
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            border: 1px solid #e5e5e5;
+            position: absolute;
+            right: -14px;
+            top: -13px;
+        }
+
+        .bridge_online div:hover {
+            background-color: #f5f7f9;
+        }
+
+        .img_bridge {
+            position: fixed;
+            right: 50px;
+            bottom: 350px;
+            z-index: 2;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <section style="position: relative; z-index:1;">
+
+    <!-- 头部 -->
+    <div class="haisheng_header">
+        <div class="haisheng_title">
+            <img src="../assets/images/public/logo.png" class="logo" />
+            <div class="xiala">
+                <img src="../assets/images/public/cand.png" class="img1" />
+                <span>全部产品</span>
+                <img src="../assets/images/public/xiala.png" class="img2" />
+                <!--下拉框开始-->
+                <div id="xiala_ear" style="display: none;">
+                    <!--style="display: none;"-->
+                    <div class="cc">
+                        <div class="ear">
+                            <div class="earitem">
+                                <p class="earitem">
+                                    <img src="../assets/images/public/shangc.png" />
+                                    <span>商城类别</span>
+                                </p>
+                                <div class="lianjie">
+                                    <div>
+                                        <a>分销商城</a>
+                                        <a>代理分红系统</a>
+                                        <a>微商管理系统</a>
+                                        <a>直销公排系统</a>
+                                        <a>更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="earitem">
+                                <p>
+                                    <img src="../assets/images/public/h5e.png" />
+                                    <span>H5游戏</span>
+                                </p>
+                                <div class="lianjie">
+                                    <div>
+                                        <a>果园系统</a>
+                                        <a>农场养殖系统</a>
+                                        <a>游戏理财系统</a>
+                                        <a>抢红包系统</a>
+                                        <a>更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="earitem">
+                                <p>
+                                    <img src="../assets/images/public/wangzh.png" />
+                                    <span>网址搭建</span>
+                                </p>
+
+                                <div class="lianjie">
+                                    <div>
+                                        <a>官网建设</a>
+                                        <a>电商网站建设</span>
+                                            <a>商务网站建设</a>
+                                            <a>门户网站建设</a>
+                                            <a>更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="earitem">
+                                <p>
+                                    <img src="../assets/images/public/o2o.png" />
+                                    <span>&nbsp;O2O</span>
+                                </p>
+
+                                <div class="lianjie">
+                                    <div>
+                                        <a>直播APP</a>
+                                        <a>新零售系统</span>
+                                            <a>多商家入驻平台</a>
+                                            <a>餐饮酒店系统</a>
+                                            <a>更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="earitem">
+                                <p>
+                                    <img src="../assets/images/public/loog.png" />
+                                    <span>&nbsp;小程序</span>
+                                </p>
+
+                                <div class="lianjie">
+                                    <div>
+                                        <a>分销小程序</a>
+                                        <a>更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="earitem">
+                                <p>
+                                    <img src="../assets/images/public/addServer.png" />
+                                    <span>增值服务</span>
+                                </p>
+
+                                <div class="lianjie">
+                                    <div>
+                                        <a>UI设计</a>
+                                        <a>平面设计</a>
+                                        <a>软件定制开发</a>
+                                        <a>系统二次开发</a>
+                                        <a>更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pic">
+                            <img src="../assets/images/public/bodyHeader1.png" />
+                            <img src="../assets/images/public/bodyHeader2.png" />
+                            <img src="../assets/images/public/bodyHeader3.png" />
+                        </div>
+                    </div>
+
+                </div>
+                <!--下拉框结束-->
+
+            </div>
+            <div class="zixiang_title">
+                <a>首&nbsp;页</a>
+                <a>产品中心</a>
+                <a>案例中心</a>
+                <a>帮助中心</a>
+                <a>最新资讯</a>
+                <a>关于海生</a>
+                <a>经典模式</a>
+            </div>
+        </div>
+    </div>
+
+    <!--banner -->
+    <div class="banner" style="padding-top:60px">
+        <div class="banner-main">
+            <section class="slider">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li class="f-relative">
+                            <img class="hidden-xs" src="../assets/images/contectBanner.jpg" style="width: 100%;">
+                            <img class="visible-xs-block" src="../assets/images/phCase.jpg" style="width: 100%;">
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix"> </div>
+            </section>
+        </div>
+    </div>
+
+        <!-- 位置注明 -->
+        <div class="contactPath1">
+
+            <!-- 当前位置 -->
+            <div class="container">
+                <div class="dd_w1200">
+                    <div class="cur_position">
+                        <b>当前位置:</b>
+                        <a href="../index.html">首页</a> &gt;
+                        <a href="#">最新资讯</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="dd_new dd_w1200">
+
+                <!-- tab切换标题 -->
+                <div class="news_head">
+                    <ul>
+                        <li class="dd_active"><a href="#news_all">全部动态</a></li>
+                        <li><a href="#news_industry">行业动态</a></li>
+                        <li><a href="#news_competer">公司动态</a></li>
+                    </ul>
+                </div>
+
+                <div class="clearboth"></div>
+
+                <!-- tab切换内容 -->
+                <div class="change_item">
+                    <div id="news_industry" class="tab_content">
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/11.jpg"></div>
+                                <div class="items_c">
+                                    <div class="items_title">区块链为解决价值交换和信任交互提供思路</div>
+                                    <div class="item_content">
+                                        <p>QBD获悉，人民网报道，在“大AI无疆”——人工智能产业创新应用论坛上，人民创投总经理赵亚辉表示：回顾计算机和互联网的发展，均是在数十年以后才从量变到质变，区块链技术的发展现在同样处于黎明前的一段混沌期。计算机产业发展的拐点是windows的出现，互联网产业发展的拐点是万维网的出现。区块链技术的出现无疑是互联网的重要补丁，因为互联网经过多年发展，解决了信息传递的问题，但没有解决价值交换和信任交互的问题，而区块链给我们提供了很好的思路。
+                                        </p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-8-24</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/10.jpg"></div>
+                                <div class="items_c">
+                                    <div class="items_title">区块链技术将如何推动农产业的变革？</div>
+                                    <div class="item_content">
+                                        <p>事实证明，农业应该是最有希望发展和实施区块链技术的领域之一。但在现如今，这个庞大的产业却面临着许多地方性问题。农业贸易需要依赖于农民和零售商之间的复杂关系以及复杂的供应链流程，这可能会进一步使支付过程更加繁琐，从而拉高产品的价格。随着农业贸易国际化的需求日益增长，供应商和创新者们都希望利用分布式账本技术来将农业贸易带入到新的时代。
+                                        </p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-8-24</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/9.jpg"></div>
+                                <div class="items_c">
+                                    <div class="items_title">牵手区块链，能让密码更安全吗？</div>
+                                    <div class="item_content">
+                                        <p>“区块链概念持续升温，这股热潮也涌进了商业密码行业，目前市场上出现了很多做区块链密码的创业公司。”众享比特科技有限公司高级顾问陈红在近日举办的商用密码高性能技术创新发展论坛上对科技日报记者说。
+                                        </p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-8-24</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/8.jpg"></div>
+                                <div class="items_c">
+                                    <div class="items_title">黑客用智能手机挖矿日益严重，你的手机还好吗？</div>
+                                    <div class="item_content">
+                                        <p>2018年8月22日，据“每日邮报”报道，黑客利用智能手机挖矿的问题日益严重，并强调保护用户智能手机的必要性。</p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-8-24</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/7.jpg">
+                                </div>
+                                <div class="items_c">
+                                    <div class="items_title">工信部推动区块链发展，率先布局企业受益</div>
+                                    <div class="item_content">
+                                        <p>日前，工业和信息化部信息化和软件服务业司组织召开区块链工作座谈会，邀请部分地方主管部门等机构交流各地区块链发展情况，分析区块链发展面临的形势和挑战，研究探讨下一步工作推进思路。下一步，工信部信息化和软件服务业司将继续加强与各地主管部门的衔接互动，共同营造良好的发展环境，积极推动区块链健康有序发展。
+                                        </p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-8-24</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/1.png"></div>
+                                <div class="items_c">
+                                    <div class="items_title">百货商超电商解决方案</div>
+                                    <div class="item_content">
+                                        <p>适合传统百货商场、商超等经营管理企业，如凯德龙之梦、仲盛集团、南方商城、奥特莱斯等。</p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-5-11</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/2.png"></div>
+                                <div class="items_c">
+                                    <div class="items_title">跨境电商解决方案</div>
+                                    <div class="item_content">
+                                        <p>跨境电商的意义：跨境电子商务作为推动经济一体化、贸易全球化的技术基础，具有非常重要的战略意义。
+                                            跨境电子商务不仅冲破了国间的障碍，使国际贸易走向无国界贸易，同时它也正在引起世界经济贸易的巨大变革。
+                                            对企业来说，跨境电子商务构建的开放、多维、立体的多边经贸合作模式，极大地拓宽了进入国际市场的路径，大大促进了多边资源的优化配置与企业间的互利共赢；
+                                            对于消费者来说，跨境电子商务使他们非常容易地获取其他国家的信息并买到物美价廉的商品。</p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-5-11</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/3.png">
+                                </div>
+                                <div class="items_c">
+                                    <div class="items_title">连锁店电商解决方案</div>
+                                    <div class="item_content">
+                                        <p>适合快消、通讯数码、服装、鞋帽、电器、化妆品、食品、酒水等连锁直营、加盟经营模式的企业。</p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-5-11</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/4.png"></div>
+                                <div class="items_c">
+                                    <div class="items_title">旅游行业电商解决方案</div>
+                                    <div class="item_content">
+                                        <p>旅游电商发展趋势日常化：旅游网购已融入日常生活（订机票、酒店)细分化：平台将基于行业、商圈、区域等进行细分;多元化：旅游电商平台的划分日益成熟，旅游行业更加多元化;核心化：成为旅行社电商系统的重要组成部分，支持旅行社可持续发展，提升竞争力。
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-5-11</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/5.png">
+                                </div>
+                                <div class="items_c">
+                                    <div class="items_title">生鲜电商行业解决方案</div>
+                                    <div class="item_content">
+                                        <p>传统生鲜行业特点：配送时效性高、区域化销售、产品零散、高重复产品购买率、季节性限制。</p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-5-11</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/6.png"></div>
+                                <div class="items_c">
+                                    <div class="items_title">为什么那么多人开通微信商城?</div>
+                                    <div class="item_content">
+                                        <p>随着互联网向移动互联网时代迈进，基于微信平台搭建的微商城越来越成为企业商家的心头好。</p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-5-11</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div id="news_all" class="tab_content" style='display:block'>
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_competer/1.png"></div>
+                                <div class="items_c">
+                                    <div class="items_title">海生科技2018销售百问百答</div>
+                                    <div class="item_content">
+                                        <p>为提高公司业务员对公司产品和业务知识的了解，提高业务员解决客户可能遇到的难题的专业性和效率，公司决定于2018年5月4日起，不定期举行销售百问百答。以面对面、一对一解决往日客户较多疑问的问题为形式，让每位业务员可以更好的理解处理问题的方式.
+                                        </p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-05-14</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_competer/2.png">
+                                </div>
+                                <div class="items_c">
+                                    <div class="items_title">2017感恩有你，2018我们携手同行！</div>
+                                    <div class="item_content">
+                                        <p>回首2017，我们共同走过的三百多个日夜，千般感受，万分感慨
+                                            ，感谢长期关心和支持我们的各界朋友，以及默默无闻、不离不弃地支持、陪伴和鼓励我们的家人，因为你们的存在，才有海生的今天，在此向你们致以最诚挚的感谢！
+                                        </p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-01-13</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_competer/3.png">
+                                </div>
+                                <div class="items_c">
+                                    <div class="items_title">传统行业转型不可避免 借助系统开发行之有效</div>
+                                    <div class="item_content">
+                                        <p>目前，各行各业的销售模式已逐渐由传统的直销、代销、经销、电话销售等向网络销售发展。微商、网店、团购、平台代购等新的销售方式更成为了日常的一种新消费习惯。
+                                            因此，类似广州海生网络科技有限公司这样的微信第三方开发服务商所开发的B2B,B2C,C2C,B2B2B,B2B2C,O2O,P2P等
+                                            类似淘宝，京东，美团的平台，以及代理商管理系统、微商管理系统、社交平台、聊天软件、直播平台等，也成为各种传统企业成功转型的必选手段。
+                                            但单单从现在社会的经济结构组成来看，实体店还是有其发展的必要的，网店也有其不可避免的弊处，
+                                            所以，将二者结合起来才能够取得市场上的长期发展，二者也可以避免矛盾，实现互惠互利的新格局。</p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-1-10</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_competer/4.png">
+                                </div>
+                                <div class="items_c">
+                                    <div class="items_title">海生定制开发</div>
+                                    <div class="item_content">
+                                        <p>提供微信商城、PC商城、H5游戏、O2O平台、App、小程序、商务网站、企业官网等个性化定制开发，专业的服务团队，完整的服务流程，为企业拓展无限商机，引领移动互联新时代。
+                                        </p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-1-5</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_competer/5.png">
+                                </div>
+                                <div class="items_c">
+                                    <div class="items_title">果园系统</div>
+                                    <div class="item_content">
+                                        <p>还在玩QQ农场吗？怀念玩QQ农场的那段时光吗？怀念成功偷摘朋友的农产品时的心情吗？那你一定不能错过这款果园系统！</p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-1-4</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_competer/6.png"></div>
+                                <div class="items_c">
+                                    <div class="items_title">三级传销究竟与传销有何不同?海生竞拍系统</div>
+                                    <div class="item_content">
+                                        <p>海生竞拍系统是在商城的基础上增加的竞拍平台，平台可以根据自身需求开设竞拍的商品，适用于各种经营需求；以低价参与竞拍的方式吸客固客，保证商城的盈利性；平台还设有晒单奖励，拓宽了宣传推广渠道；在增加商城流量的同时，也是很好的营销宣传方式之一。
+                                        </p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-1-4</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_competer/7.png"></div>
+                                <div class="items_c">
+                                    <div class="items_title">谭八爷代理系统</div>
+                                    <div class="item_content">
+                                        <p>谭八爷代理系统是一套比较完整的代理商奖金管理系统，根据商城的实际运营情况设定合理的代理商奖金区间，同时去管理团队奖金和个人奖金分发，并且代理商还可拿直推奖，促进代理推广的积极性。
+                                        </p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-1-4</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/11.jpg"></div>
+                                <div class="items_c">
+                                    <div class="items_title">区块链为解决价值交换和信任交互提供思路</div>
+                                    <div class="item_content">
+                                        <p>QBD获悉，人民网报道，在“大AI无疆”——人工智能产业创新应用论坛上，人民创投总经理赵亚辉表示：回顾计算机和互联网的发展，均是在数十年以后才从量变到质变，区块链技术的发展现在同样处于黎明前的一段混沌期。计算机产业发展的拐点是windows的出现，互联网产业发展的拐点是万维网的出现。区块链技术的出现无疑是互联网的重要补丁，因为互联网经过多年发展，解决了信息传递的问题，但没有解决价值交换和信任交互的问题，而区块链给我们提供了很好的思路。
+                                        </p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-8-24</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/10.jpg"></div>
+                                <div class="items_c">
+                                    <div class="items_title">区块链技术将如何推动农产业的变革？</div>
+                                    <div class="item_content">
+                                        <p>事实证明，农业应该是最有希望发展和实施区块链技术的领域之一。但在现如今，这个庞大的产业却面临着许多地方性问题。农业贸易需要依赖于农民和零售商之间的复杂关系以及复杂的供应链流程，这可能会进一步使支付过程更加繁琐，从而拉高产品的价格。随着农业贸易国际化的需求日益增长，供应商和创新者们都希望利用分布式账本技术来将农业贸易带入到新的时代。
+                                        </p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-8-24</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/9.jpg">
+                                </div>
+                                <div class="items_c">
+                                    <div class="items_title">牵手区块链，能让密码更安全吗？</div>
+                                    <div class="item_content">
+                                        <p>“区块链概念持续升温，这股热潮也涌进了商业密码行业，目前市场上出现了很多做区块链密码的创业公司。”众享比特科技有限公司高级顾问陈红在近日举办的商用密码高性能技术创新发展论坛上对科技日报记者说。
+                                        </p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-8-24</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/8.jpg">
+                                </div>
+                                <div class="items_c">
+                                    <div class="items_title">黑客用智能手机挖矿日益严重，你的手机还好吗？</div>
+                                    <div class="item_content">
+                                        <p>2018年8月22日，据“每日邮报”报道，黑客利用智能手机挖矿的问题日益严重，并强调保护用户智能手机的必要性。</p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-8-24</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/7.jpg">
+                                </div>
+                                <div class="items_c">
+                                    <div class="items_title">工信部推动区块链发展，率先布局企业受益</div>
+                                    <div class="item_content">
+                                        <p>日前，工业和信息化部信息化和软件服务业司组织召开区块链工作座谈会，邀请部分地方主管部门等机构交流各地区块链发展情况，分析区块链发展面临的形势和挑战，研究探讨下一步工作推进思路。下一步，工信部信息化和软件服务业司将继续加强与各地主管部门的衔接互动，共同营造良好的发展环境，积极推动区块链健康有序发展。
+                                        </p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-8-24</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/1.png"></div>
+                                <div class="items_c">
+                                    <div class="items_title">百货商超电商解决方案</div>
+                                    <div class="item_content">
+                                        <p>适合传统百货商场、商超等经营管理企业，如凯德龙之梦、仲盛集团、南方商城、奥特莱斯等。</p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-5-11</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/2.png"></div>
+                                <div class="items_c">
+                                    <div class="items_title">跨境电商解决方案</div>
+                                    <div class="item_content">
+                                        <p>跨境电商的意义：跨境电子商务作为推动经济一体化、贸易全球化的技术基础，具有非常重要的战略意义。
+                                            跨境电子商务不仅冲破了国间的障碍，使国际贸易走向无国界贸易，同时它也正在引起世界经济贸易的巨大变革。
+                                            对企业来说，跨境电子商务构建的开放、多维、立体的多边经贸合作模式，极大地拓宽了进入国际市场的路径，大大促进了多边资源的优化配置与企业间的互利共赢；
+                                            对于消费者来说，跨境电子商务使他们非常容易地获取其他国家的信息并买到物美价廉的商品。</p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-5-11</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/3.png">
+                                </div>
+                                <div class="items_c">
+                                    <div class="items_title">连锁店电商解决方案</div>
+                                    <div class="item_content">
+                                        <p>适合快消、通讯数码、服装、鞋帽、电器、化妆品、食品、酒水等连锁直营、加盟经营模式的企业。</p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-5-11</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/4.png"></div>
+                                <div class="items_c">
+                                    <div class="items_title">旅游行业电商解决方案</div>
+                                    <div class="item_content">
+                                        <p>旅游电商发展趋势日常化：旅游网购已融入日常生活（订机票、酒店)细分化：平台将基于行业、商圈、区域等进行细分;多元化：旅游电商平台的划分日益成熟，旅游行业更加多元化;核心化：成为旅行社电商系统的重要组成部分，支持旅行社可持续发展，提升竞争力。
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-5-11</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/5.png"></div>
+                                <div class="items_c">
+                                    <div class="items_title">生鲜电商行业解决方案</div>
+                                    <div class="item_content">
+                                        <p>传统生鲜行业特点：配送时效性高、区域化销售、产品零散、高重复产品购买率、季节性限制。</p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-5-11</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_industry/6.png">
+                                </div>
+                                <div class="items_c">
+                                    <div class="items_title">为什么那么多人开通微信商城?</div>
+                                    <div class="item_content">
+                                        <p>随着互联网向移动互联网时代迈进，基于微信平台搭建的微商城越来越成为企业商家的心头好。</p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-5-11</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div id="news_competer" class="tab_content">
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_competer/1.png"></div>
+                                <div class="items_c">
+                                    <div class="items_title">海生科技2018销售百问百答</div>
+                                    <div class="item_content">
+                                        <p>为提高公司业务员对公司产品和业务知识的了解，提高业务员解决客户可能遇到的难题的专业性和效率，公司决定于2018年5月4日起，不定期举行销售百问百答。以面对面、一对一解决往日客户较多疑问的问题为形式，让每位业务员可以更好的理解处理问题的方式.
+                                        </p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-05-14</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_competer/2.png"></div>
+                                <div class="items_c">
+                                    <div class="items_title">2017感恩有你，2018我们携手同行！</div>
+                                    <div class="item_content">
+                                        <p>回首2017，我们共同走过的三百多个日夜，千般感受，万分感慨
+                                            ，感谢长期关心和支持我们的各界朋友，以及默默无闻、不离不弃地支持、陪伴和鼓励我们的家人，因为你们的存在，才有海生的今天，在此向你们致以最诚挚的感谢！
+                                        </p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-01-13</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_competer/3.png"></div>
+                                <div class="items_c">
+                                    <div class="items_title">传统行业转型不可避免 借助系统开发行之有效</div>
+                                    <div class="item_content">
+                                        <p>目前，各行各业的销售模式已逐渐由传统的直销、代销、经销、电话销售等向网络销售发展。微商、网店、团购、平台代购等新的销售方式更成为了日常的一种新消费习惯。
+                                            因此，类似广州海生网络科技有限公司这样的微信第三方开发服务商所开发的B2B,B2C,C2C,B2B2B,B2B2C,O2O,P2P等
+                                            类似淘宝，京东，美团的平台，以及代理商管理系统、微商管理系统、社交平台、聊天软件、直播平台等，也成为各种传统企业成功转型的必选手段。
+                                            但单单从现在社会的经济结构组成来看，实体店还是有其发展的必要的，网店也有其不可避免的弊处，
+                                            所以，将二者结合起来才能够取得市场上的长期发展，二者也可以避免矛盾，实现互惠互利的新格局。</p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-1-10</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_competer/4.png">
+                                </div>
+                                <div class="items_c">
+                                    <div class="items_title">海生定制开发</div>
+                                    <div class="item_content">
+                                        <p>提供微信商城、PC商城、H5游戏、O2O平台、App、小程序、商务网站、企业官网等个性化定制开发，专业的服务团队，完整的服务流程，为企业拓展无限商机，引领移动互联新时代。
+                                        </p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-1-5</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_competer/5.png">
+                                </div>
+                                <div class="items_c">
+                                    <div class="items_title">果园系统</div>
+                                    <div class="item_content">
+                                        <p>还在玩QQ农场吗？怀念玩QQ农场的那段时光吗？怀念成功偷摘朋友的农产品时的心情吗？那你一定不能错过这款果园系统！</p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-1-4</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_competer/6.png"></div>
+                                <div class="items_c">
+                                    <div class="items_title">三级传销究竟与传销有何不同?海生竞拍系统</div>
+                                    <div class="item_content">
+                                        <p>海生竞拍系统是在商城的基础上增加的竞拍平台，平台可以根据自身需求开设竞拍的商品，适用于各种经营需求；以低价参与竞拍的方式吸客固客，保证商城的盈利性；平台还设有晒单奖励，拓宽了宣传推广渠道；在增加商城流量的同时，也是很好的营销宣传方式之一。
+                                        </p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-1-4</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="news_item">
+                                <div class="items_img"><img src="../assets/images/news/news_competer/7.png"></div>
+                                <div class="items_c">
+                                    <div class="items_title">谭八爷代理系统</div>
+                                    <div class="item_content">
+                                        <p>谭八爷代理系统是一套比较完整的代理商奖金管理系统，根据商城的实际运营情况设定合理的代理商奖金区间，同时去管理团队奖金和个人奖金分发，并且代理商还可拿直推奖，促进代理推广的积极性。
+                                        </p>
+                                    </div>
+                                    <div class="item_bottom">
+                                        <span>2018-1-4</span>
+                                        <span>查看详情</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- 底部 -->
+        <div class="footer">
+            <!--1200-->
+            <div class="footer_center">
+                <div class="san">
+                    <div>
+                        <img src="../assets/images/public/shoucang.png" class="title_img" />
+                        <span>专注服务于电商领域</span>
+                    </div>
+                    <div>
+                        <img src="../assets/images/public/dianhua.png" class="title_img" />
+                        <span>7X24小时售后支持</span>
+                    </div>
+                    <div>
+                        <img src="../assets/images/public/huiyuan.png" class="title_img" />
+                        <span>一对一专属会员经理</span>
+                    </div>
+                    <div>
+                        <img src="../assets/images/public/zan.png" class="title_img" />
+                        <span>385万用户诚意推荐</span>
+                    </div>
+                </div>
+                <div class="spp">
+                    <span>全方位的购买咨询</span><span>精准的产品推荐</span><span>专业支持的售后咨询</span><span>电商业务开展咨询</span>
+                </div>
+                <div style="width: 100%;height: 50px;border-bottom: 2px solid #35383C;"></div>
+                <div class="ear">
+                    <div class="ear_left">
+                        <div class="ear_left_text">
+                            <div>
+                                <p>微商城开发</p>
+                                <a>区域分销</a>
+                                <a>门店分销</a>
+                                <a>单品分销</a>
+                                <a>微商分销</a>
+                            </div>
+                            <div>
+                                <p>H5游戏</p>
+                                <a>吉祥兔系统</a>
+                                <a>渔场系统</a>
+                                <a>果园系统</a>
+                                <a>大转盘</a>
+                            </div>
+                            <div>
+                                <p>O2O开发</p>
+                                <a>理财系统</a>
+                                <a>外卖系统</a>
+                                <a>直播系统</a>
+                                <a>拼团系统</a>
+                            </div>
+                            <div>
+                                <p>公排系统</p>
+                                <a>大公排</a>
+                                <a>小公排</a>
+                                <a>二二复制</a>
+                                <a>三三复制</a>
+                            </div>
+                        </div>
+    
+                        <!--时间地点-->
+                        <div class="where">
+                            <p>工作时间：10:00AM-19:00PM</p>
+                            <p>公司地址：广东省广州市天河区新路街8号吉邦科技园3栋海生科技</p>
+                        </div>
+                    </div>
+                    <div class="ear_right">
+                        <div>
+                            <img src="../assets/images/public/erweima.png" />
+                            <p>扫码关注</p>
+                        </div>
+                        <div>
+                            <img src="../assets/images/public/erweima.png" />
+                            <p>扫码服务</p>
+                        </div>
+                    </div>
+                </div>
+                <!--友情链接-->
+                <div class="lianjie">
+                    <span>友情链接</span>
+                    <div class="lianjie_right">
+                        <a>阿里云</a>
+                        <a>百度云</a>
+                        <a>61微商网</a>
+                        <a>淘宝网</a>
+                        <a>京东网</a>
+                        <a>猪八戒</a>
+                        <a>新浪微博</a>
+                        <a>财付通</a>
+                        <a>蚂蚁金服</a>
+                        <a>微商网</a>
+                        <a>Microsoft</a>
+                        <a>财付通</a>
+                    </div>
+                </div>
+                <p class="bottom_text">Copyright ©2016-2018 All Rights Reserved. 广州海生网络科技有限公司版权所有 粤ICP备18128006号</p>
+        </div>
+
+        
+
+    </section>
+
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/jquery.flexslider.js"></script>
+    <script src="../assets/js/wow.min.js"></script>
+    <script src="../assets/js/responsiveMenu.js"></script>
+    <script type="text/javascript" src="../assets/js/sketch.min.js"></script>
+    <script src="../assets/js/number.js"></script>
+
+    <script>
+        $(function () {
+            /*轮播图*/
+            $('.flexslider').flexslider({
+                animation: "slide",
+                directionNav: true,
+                start: function (slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        /*字数限制*/
+        function rtrim(str) { //删除全部空格
+            return str.replace(/\s/g, "");
+        }
+
+        $(".items_c .item_content p").each(function () {
+            var maxwidth = 120;
+            if (rtrim($(this).text()).length > maxwidth) {
+                var content = rtrim($(this).text()).substring(0, maxwidth);
+                $(this).html(content + '......');
+            }
+        });
+
+        /*动态切换*/
+        $('.news_head').on('click', 'li', function () {
+            $(this).addClass('dd_active');
+            $(this).siblings().removeClass('dd_active');
+            $('.tab_content').hide();
+            var tabactive = $(this).find('a').attr('href');
+            $(tabactive).fadeIn()
+            return false;
+        });
+    </script>
+
+</body>
+</html>

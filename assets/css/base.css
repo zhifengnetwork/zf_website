@@ -1,0 +1,200 @@
+*{margin: 0; padding:0;box-sizing: border-box;}
+/* reset */
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body{background:#f2f2f2;color:#282828;}
+a,a:hover{color:#333;}
+
+/* function */
+.f-cb:after,.f-cbli li:after{display:block;clear:both;visibility:hidden;height:0;overflow:hidden;content:".";}
+.f-cb,.f-cbli li{zoom:1;}
+.f-ib{display:inline-block;*display:inline;*zoom:1;}
+.f-dn{display:none;}
+.f-db{display:block;}
+.f-fl{float:left;}
+.f-fr{float:right;}
+.f-pr{position:relative;}
+.f-prz{position:relative;zoom:1;}
+.f-oh{overflow:hidden;}
+.f-ff0{font-family:arial,\5b8b\4f53;}
+.f-ff1{font-family:"Microsoft YaHei",\5fae\8f6f\96c5\9ed1,arial,\5b8b\4f53;}
+.f-fs1{font-size:12px;}
+.f-fs2{font-size:14px;}
+.f-fwn{font-weight:normal;}
+.f-fwb{font-weight:bold;}
+.f-tal{text-align:left;}
+.f-tac{text-align:center;}
+.f-tar{text-align:right;}
+.f-taj{text-align:justify;text-justify:inter-ideograph;}
+.f-vam,.f-vama *{vertical-align:middle;}
+.f-wsn{word-wrap:normal;white-space:nowrap;}
+.f-pre{overflow:hidden;text-align:left;white-space:pre-wrap;word-wrap:break-word;word-break:break-all;}
+.f-wwb{white-space:normal;word-wrap:break-word;word-break:break-all;}
+.f-ti{overflow:hidden;text-indent:-30000px;}
+.f-ti2{text-indent:2em;}
+.f-lhn{line-height:normal;}
+.f-tdu,.f-tdu:hover{text-decoration:underline;}
+.f-tdn,.f-tdn:hover{text-decoration:none;}
+.f-toe{overflow:hidden;word-wrap:normal;white-space:nowrap;text-overflow:ellipsis;}
+.f-csp{cursor:pointer;}
+.f-csd{cursor:default;}
+.f-csh{cursor:help;}
+.f-csm{cursor:move;}
+.f-usn{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;}
+.f-borderR{border-right: 1px solid #eaeaea;}
+
+header{position: fixed;top: 0px;left: 0px;width: 100%;z-index: 99;}
+.u-btn{display: block; background: #b7434d; width: 80px;height: 40px;line-height: 40px;color: white;font-size: 14px; border-radius: 5px;text-align: center;}
+.u-btn-default{width: 90%; background: #0383fe;  line-height: 40px;margin: 0 auto;}
+.u-btn-other{background: rgba(46, 113, 239, 0);height: 38px;line-height: 38px;width: 90%;margin: 15px auto; color: #2e71ef;border: 1px solid #2e71ef;}
+.bg_white{background: white;}
+.bg_250{background: rgb(250,250,233)}
+
+.f-shengnuehao{width:60%;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;}
+.fr{float: right;}
+.fl{float: left;}
+.cl-b{clear: both;}
+.not{color: #15a9ff;text-align: center;font-size: 16px;height: 40px;line-height: 40px;clear: both;}
+.empty{height: 30px;width: auto;}
+.header_top{border-bottom: 1px solid #dedede;font-weight: bold;background:#ffffff; color:#212121; text-align: center;position: relative;height: 40px;line-height: 40px;font-size: 16px;}
+.header_top .arrow{position: absolute;left: 10px;font-size: 17px;}
+.header_top .u-textR{position: absolute;right: 15px;font-size: 14px;color: #212121;}
+.hang{height: 40px;line-height: 40px; color: #999;position: relative;margin-bottom: 10px;}
+.line{height: 25px;line-height: 25px;color: #999;position: relative;}
+.f-width100{width: 100%;}
+.f-width90{width: 90% !important;}
+.f-width80{width: 80% !important;}
+.f-width70{width: 70% !important;}
+.f-width50{width: 50% !important;}
+.f-width30{width: 30% !important;}
+.f-padding2015{padding: 20px 15px;}
+.f-colorwhite{color: white;}
+.f-color9c{color: #9c9c9c;}
+.f-colorblack{color: black;}
+.f-colorgray{color: gray;}
+.u-bggray{background: #c5c4c4;}
+a:visited{direction: none;}
+.f-fsize12{font-size: 12px;}
+.f-fsize13{font-size: 13px;}
+.f-fsize14{font-size: 14px;}
+.f-fsize15{font-size: 15px;}
+.f-fsize16{font-size: 16px;}
+.f-fsize17{font-size: 17px;}
+.f-fsize25{font-size: 25px;}
+.f-fsize30{font-size: 30px;}
+.f-marginL5{margin-left: 5px;}
+.f-marginL10{margin-left: 10px;}
+.f-marginR5{margin-right:5px;}
+.f-marginR15{margin-right: 15px;}
+.f-marginR10{margin-right: 10px}
+.f-marginT5{margin-top: 5px;}
+.f-colorblue{color: #3e78e6;}
+.f-marginT10{margin-top: 10px;}
+.f-marginB10{margin-bottom: 10px;}
+.f-marginB15{margin-bottom: 15px;}
+.f-borderT{border-top: 1px solid #eee;}
+.f-borderB{border-bottom: 1px solid #eaeaea;}
+.f-absoluteR{position: absolute;right: 10px;top:10px;}
+.f-relative{position: relative;}
+.f-block{display: block;}
+.f-tac{text-align: center;}
+.f-marginL5{margin-left: 5px;}
+.empty10{height: 10px; }
+.f-marginT30{margin-top: 30px;}
+.f-bgRed{background: #b7434d;}
+.f-padding2010{padding:20px 10px;}
+.f-padding1510{padding:15px 10px;}
+.f-padding010{padding:0px 10px;}
+.f-fsize20{font-size: 20px;}
+.f-colorRed{color: #e45050;}
+.f-color333{color: #333;}
+.f-cb{clear: both;}
+.f-show{display: block;}
+.f-hide{display: none;}
+.f-paddingT15{padding-top:15px;}
+.f-fsize18{font-size: 18px;}
+.f-width33{width: 33%;}
+.f-fsize24{font-size: 24px;}
+.f-paddingB5{padding-bottom: 5px;}
+.f-coloryellow{color: #f1c40f;}
+.f-padding0510{padding: 5px 10px;}
+.headerArrow{width: 25px;height: 25px;position: absolute;left: 5px;top:7px;}
+.headerRightImg{width: 25px;height: 25px;position: absolute;right: 10px;top:8px;}
+.headerRightIcon{width: 25px;height: 25px;position: absolute;right: 10px;top:0px;}
+.f-padding1010{padding: 10px;}
+.f-padding1015{padding: 10px 15px;}
+.f-bgWhite{background: white;}
+.f-paddingTB10{padding: 10px 0px;}
+.f-yuan{position: absolute;top: 0px;right: 25px;background: red; width: 15px;height: 15px;line-height: 15px;text-align: center;border-radius: 50%;color: white;font-size: 12px;}
+
+/* 模态框 内容滚动*/
+.model{position: fixed;left: 0;top: 0;right: 0;bottom: 0;z-index: 100;height: 100%; width: 100%;background: rgba(0,0,0,0.6);}
+.modelAlert{font-size: 15px;width:80%;height:340px;position:fixed;left:50%;top:50%;margin-top:-180px;margin-left:-40%; background: white;text-align: center;line-height: 25px;z-index: 102;border-radius: 5px;}
+.closeModel{color: #fff;text-align: center;height: 40px;line-height: 40px;border-radius: 5px;font-size: 16px;background: #ff6801;}
+.modelAlert .tit{margin: 15px 0 10px 0px;color: #282828; font-size: 14px;}
+.gunscoll{height: 315px;overflow: scroll;}
+.gunscollcontent{height: 280px;font-size: 12px; padding: 0 10px 10px;color: #656565 ;}
+/* <div class="model"></div>
+    <div class="modelAlert">
+		<div class="gunscoll">
+		      <ul class="gunscollcontent">
+		        <li data-lng="116.417854"  data-lat="39.921988" data-content="名称：小奋保岛国电影有限公司</br>地址：北京市东城区王府井大街88号乐天银泰百货八层">
+		            <div class="line">
+		               小奋保岛国电影有限公司
+		            </div>
+		        </li>
+		      </ul>
+		</div>
+    </div>
+</div>
+
+
+/* 模态框 内容有按钮和输入框*/
+/* .model{display: none; position: fixed;left: 0;top: 0;right: 0;bottom: 0;z-index: 100;height: 100%; width: 100%;background: rgba(0,0,0,0.6);}
+.modelAlert{display:none;font-size: 15px;width:70%;height:140px;position:fixed;left:50%;top:50%;margin-top:-180px;margin-left:-35%; background: white;text-align: center;line-height: 25px;z-index: 102;border-radius: 5px;}
+.closeModel{color: #fff;text-align: center;height: 40px;line-height: 40px;border-radius: 5px;font-size: 16px;background: #ff6801;}
+.modelAlert .tit{margin: 15px 0 10px 0px;color: #282828; font-size: 14px;border-bottom: 1px solid #e6e6e6;padding-bottom: 10px;}
+.gunscoll{height: 315px;overflow: scroll;}
+.gunscollcontent{height: 280px;font-size: 12px; padding: 0 10px 10px;color: #656565 ;}
+.u-btns{width: 50%;float: left;border:1px solid #e6e6e6;border:1px solid #e6e6e6;padding: 5px 10px;margin-top: 10px;border-bottom: 0px;font-size: 14px;}
+.mobile{border:1px solid #e6e6e6;text-align: center;font-size: 14px;}
+
+
+<div class="model"></div>
+    <div class="modelAlert">
+        <div class="tit">手机号码充值</div>
+        <div class="btnWrap">
+          <input type="number" class="mobile" placeholder="请输入手机号码">
+          <div>
+              <div class="u-btns conform">充值</div>
+              <div class="u-btns cancel">取消</div>
+          </div>
+        </div>
+    </div>
+</div> */
+
+  /* 模态框JS */
+  /* $(".search").on("click",function(){
+    $(".model").fadeIn();
+
+    $(".modelAlert").fadeIn();
+  })
+  $(".model").on("click",function(){
+    $(".model").fadeOut();
+    $(".modelAlert").fadeOut();
+  })  */
