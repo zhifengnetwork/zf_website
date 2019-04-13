@@ -60,7 +60,7 @@ a:focus{
    background-color:#323B48;
    text-align: center;
    padding:20px 0;
-   margin:10px 3% 1% 0;
+   margin:10px 1% 1% 0;
 }
 .lb_leibie ul li a{
   color:#fff;
@@ -95,7 +95,7 @@ a:focus{
       text-align: center;
       font-size: 18px;
       background: #fff;
-
+      
       /* Center slide text vertically */
       display: -webkit-box;
       display: -ms-flexbox;
@@ -273,7 +273,10 @@ a:focus{
     margin: 0 auto 2px auto;
     padding: 24px 0;
     }
-
+    .swiper-wrapper .swiper-slide {
+      width: 220px;
+      margin-right: 50px;
+    }
     .new_product .bonus-content{
       min-height:170px;
       text-align: center;

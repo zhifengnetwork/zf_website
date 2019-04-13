@@ -205,42 +205,18 @@
 		<div class="leibie">
 			<div class="lb_leibie" id="tab">
 				<ul>
-					<li class="active">
-						<a> 分销系统 </a>
-					</li>
-					<li>
-						<a>分红系统</a>
-					</li>
-					<li>
-						<a>代理系统</a>
-					</li>
-					<li>
-						<a>增值服务</a>
-					</li>
-					<li>
-						<a>全返系统</a>
-					</li>
-					<li>
-						<a>O2O</a>
-					</li>
-					<li>
-						<a>小程序</a>
-					</li>
-					<li>
-						<a>H5游戏</a>
-					</li>
-					<li>
-						<a>公排系统</a>
-					</li>
-					<li>
-						<a>网站建设</a>
-					</li>
-					
-		
+					<li class="active"><a href="#fenxiao"> 分销系统 </a></li>
+             <li><a href="#fenhong">分红系统</a></li>
+             <li><a href="#daili">代理系统</a></li>
+             <li><a href="#shangjia">增值服务</a></li>
+             <li><a href="#quanfan">全返系统</a></li>
+             <li><a href="#o2o">O2O</a></li>           
+             <li><a href="#littleApp">小程序</a></li>
+             <li><a href="#H5game">H5游戏</a></li>
+             <li><a href="#gongpai">公排系统</a></li>
+             <li><a href="#webDesign">网站建设</a></li>
+             <li><a href="../product/detail.html">定制开发</a></li>
 				</ul>
-        <div style="width: 14%;background-color: #323B48;text-align: center;padding: 20px 0;margin: 10px 1% 1% 7.5%;">
-						<a href="../product/detail.html" style="color:#fff;">定制开发</a>
-				</div>
 			</div>
 		
 		</div>
@@ -1818,11 +1794,12 @@
   	<script type="text/javascript" src="../assets/js/responsiveMenu.js" ></script>
   	<script type="text/javascript" src="../assets/js/swiper-4.2.0.min.js" ></script>
   	<script type="text/javascript" src="../assets/js/sketch.min.js" ></script>
-  	<script type="text/javascript" src="../assets/js/public/header.js" ></script>
+    <script type="text/javascript" src="../assets/js/public/header.js" ></script>
+    <script src="../assets/js/number.js"></script>
   	
   	<script>
   		var Tab = document.getElementById('tab');
-		var list = Tab.getElementsByTagName('li');
+		  var list = Tab.getElementsByTagName('li');
   		var bonusMain = document.getElementsByClassName('bonus-main');
   		
 		for(var i=0;i<list.length;i++) {
@@ -1830,10 +1807,10 @@
 			list[i].onclick = function (){
 				var a = this.xuhao;
 				for(var i=0;i<10;i++) {
-					bonusMain[i].style.display = 'none';
+					// bonusMain[i].style.display = 'none';
 					list[i].className = "";
 				}
-					bonusMain[a].style.display = 'block';
+					// bonusMain[a].style.display = 'block';
 					list[a].className = "active";
 			}
 		}
@@ -2199,11 +2176,11 @@
     })
   	</script>
 	<script>
-//		  aa();
-//function aa(){
+// 		  aa();
+// function aa(){
 //  var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
 //  document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fc8e70d3fbdce198650e3060a5fa6c8f4' type='text/javascript'%3E%3C/script%3E"));
-//}
+// }
 
 
 
@@ -2231,7 +2208,6 @@
     var swiper0= new Swiper('#slider_fenxiao', {
       slidesPerView: 4,
       spaceBetween: 50,
-      pagination:'#slider_fenxiao .swiper-wrapper',
       freeMode: true,
       autoplay: {
       delay: 3000,
@@ -2240,38 +2216,46 @@
 
       navigation:true,
     });
-    var swiper2 = new Swiper('#slider_daili', {
-      slidesPerView: 4,
-      spaceBetween: 50,
-      pagination:'#slider_daili .swiper-wrapper',
-      freeMode: true,
-      autoplay: {
-      delay: 3000,
-      },
-      speed:1000,
+    // var swiper2 = new Swiper('#slider_webDesign', {
+    //   slidesPerView: 4,
+    //   spaceBetween: 50,
+    //   freeMode: true,
+    //   autoplay: {
+    //   delay: 3000,
+    //   },
+    //   speed:1000,
 
-      navigation:true,
-    });
-    
+    //   navigation:true,
+    // });
+    // var swiper3 = new Swiper('#slider_daili', {
+    //   slidesPerView: 4,
+    //   spaceBetween: 50,
+    //   freeMode: true,
+    //   autoplay: {
+    //   delay: 3000,
+    //   },
+    //   speed:1000,
 
-//function tabChange(index){
-//  var dd_li=$('.lb_leibie ul li').eq(index);
-//  var activeTab = dd_li.find("a").attr("href");
-//  if(!activeTab||activeTab==''){
-//    alert("该板块暂无内容")
-//    return false;
-//    }
-//  dd_li.addClass("active");
-//  dd_li.siblings().removeClass('active');
-//  $('.tab_content').hide();
-//  $(activeTab).fadeIn();
-//
-//}
+    //   navigation:true,
+    // });
+    function tabChange(index){
+    var dd_li=$('.lb_leibie ul li').eq(index);
+    var activeTab = dd_li.find("a").attr("href");
+    if(!activeTab||activeTab==''){
+      alert("该板块暂无内容")
+      return false;
+      }
+    dd_li.addClass("active");
+    dd_li.siblings().removeClass('active');
+    $('.tab_content').hide();
+    $(activeTab).fadeIn();
 
-var key=getQueryString('key');
+}
+
+    var key=getQueryString('key');
 
 
-if(key==2){
+  if(key==2){
     
     tabChange(2);
 
@@ -2287,9 +2271,9 @@ if(key==2){
       navigation:true,
     });
 
-}
+  }
 
-if(key==3){
+  if(key==3){
 
     tabChange(3);
 
@@ -2304,9 +2288,9 @@ if(key==3){
 
       navigation:true,
     });
-}
+  }
 
-if(key==4){
+  if(key==4){
 
     tabChange(8);
 
@@ -2321,9 +2305,9 @@ if(key==4){
       navigation:true,
     });
 
-}
+  }
 
-if(key==5){
+  if(key==5){
 
     tabChange(1);
 
@@ -2340,11 +2324,11 @@ if(key==5){
     });
 
     }
-//  if(key==6){
-//   
-//   window.location.href='../detail/detail11.php.htm'/*tpa=http://www.47cu.com/detail/detail11.php*/;
-//    
-//  }
+    // if(key==6){
+     
+    //  window.location.href='../detail/detail11.php.htm'/*tpa=http://www.47cu.com/detail/detail11.php*/;
+      
+    // }
 
     if(key==7){
 
@@ -2449,7 +2433,7 @@ $('.lb_leibie').on('click','li',function(e){
       tabChange(index);
     }
 
-
+  
 
    //初始化相应模块的slider插件
    if($(this).index()==0){
@@ -2481,7 +2465,7 @@ $('.lb_leibie').on('click','li',function(e){
     }
    
 
-if(key==2||$(this).index()==2){
+  if(key==2||$(this).index()==2){
       var swiper2 = new Swiper('#slider_daili', {
       slidesPerView: 4,
       spaceBetween: 50,
@@ -2590,13 +2574,14 @@ if(key==2||$(this).index()==2){
     });
     }
 
-//  if($(this).index()==10){
-//    window.location.href='../detail/detail11.php.htm'/*tpa=http://www.47cu.com/detail/detail11.php*/;
-//  }
+    // if($(this).index()==10){
+    //   window.location.href='../detail/detail11.php.htm'/*tpa=http://www.47cu.com/detail/detail11.php*/;
+    // }
 
 
    return false; 
 })
+
 
 // 商桥的点击关闭事件
 
