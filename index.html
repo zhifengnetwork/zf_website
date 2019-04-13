@@ -793,7 +793,7 @@ background: url("assets/images/pre.png") no-repeat;
 	<!-- 头部 -->
 	<div class="haisheng_header">
 			<div class="haisheng_title">
-				<img src="./assets/images/public/logo.png" class="logo" />
+				<a href="./index.html"><img src="./assets/images/public/logo.png" class="logo" /></a>
 				<div class="xiala">
 					<img src="./assets/images/public/cand.png" class="img1" />
 					<span>全部产品</span>
@@ -909,7 +909,7 @@ background: url("assets/images/pre.png") no-repeat;
 				</div>
 				<div class="zixiang_title">
 					<a href="./index.html" class="active">首&nbsp;页</a>
-					<a>产品中心</a>
+					<a href="./product/product.html">产品中心</a>
 					<a>案例中心</a>
 					<a>帮助中心</a>
 					<a href="#">最新资讯</a>
@@ -2236,14 +2236,13 @@ $(".fangan_c ul li").mouseover(function(){
 <script type="text/javascript">
 
 
-
 window.casedata = [
                     {
                      "category":"百货商超",
                      "apps":[{
                         "id":"1_1",
                         "title":"爱保税",
-                        "icon":"./assets/images/index/cases/superMarket/aibaosui/icon_2.png",
+                        "icon":"../assets/images/index/cases/superMarket/aibaosui/icon_2.png",
                         "icon_shadow":"../assets/images/index/cases/superMarket/aibaosui/icon_1.png",
                         "er_code":"../assets/images/index/cases/superMarket/aibaosui/Qr.png",
                         "slider":["../assets/images/index/cases/superMarket/aibaosui/1.jpg",
@@ -2296,9 +2295,9 @@ window.casedata = [
                         "icon_shadow":"../assets/images/index/cases/clothes/oiwas/icon_1.png",
                         "er_code":"../assets/images/index/cases/clothes/oiwas/Qr.jpg",
                         "slider":[
-                          "../../assets/images/index/cases/clothes/oiwas/1.jpg",
-                          "../../assets/images/index/cases/clothes/oiwas/2.jpg",
-                          "../../assets/images/index/cases/clothes/oiwas/3.jpg",
+                          "../assets/images/index/cases/clothes/oiwas/1.jpg",
+                          "../assets/images/index/cases/clothes/oiwas/2.jpg",
+                          "../assets/images/index/cases/clothes/oiwas/3.jpg",
                           ]
                           },
                           {
@@ -2587,6 +2586,7 @@ window.casedata = [
        console.log(casesSliderNow);
       gotoCasesSlider();
   });
+
   //加载
   var menuNow = 0;
   function tempMenus(isnow,icon,shadow,title){
@@ -2615,6 +2615,7 @@ window.casedata = [
       //更改info
       $(".cases-img").attr("src",$("#staticUrl").val()+"/"+data.apps[index].er_code);
       $(".cases-erwei").attr("src",$("#staticUrl").val()+"/"+data.apps[index].er_code);
+     
       $(".cases-txt h2").text(data.apps[index].title);
       $(".cases-info .cases-title").text(data.apps[index].title);
       $(".cases-txt p").text(data.apps[index].desc);
@@ -2622,6 +2623,8 @@ window.casedata = [
       casesSliderNow = 0;
       gotoCasesSlider();
   }
+
+  // 点击标题
   $(".cases-menus li").each(function(index){
       $(this).click(function(){
           $(".cases-menus .now").removeClass("now");
@@ -2632,6 +2635,8 @@ window.casedata = [
           change(casedata[menuNow],0);
       });
   });
+
+  // 点击logo
   $(".cases-logo").on("click","li",function(index){
       if($(this).hasClass("now")){
           return false;
@@ -2642,6 +2647,9 @@ window.casedata = [
       var casedata = window.casedata;
       change(casedata[menuNow],index);
   });
+
+
+
 $(document).ready(function(){
   $('.navWrap').show();
   $('#banner').addClass('mt84');
