@@ -1,0 +1,880 @@
+<html><!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+<title>区域分销</title>
+
+<meta name="keywords" content="" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="icon" type="image/png" sizes="16x16" href="../assets/images/logoico.png" >
+
+<link href="../assets/css/bootstrap.min.css"  rel="stylesheet" type="text/css" media="all">
+
+<link href="../assets/css/animate.css"  rel="stylesheet" type="text/css" media="all">
+
+<link rel="stylesheet" href="../assets/css/flexslider.css"  type="text/css" media="screen" />
+
+<link rel="stylesheet" href="../assets/css/responsive-menu.css"  type="text/css" media="screen" />
+
+<link href="../assets/css/base.css"  rel="stylesheet" type="text/css" media="all"/>
+
+<link href="../assets/css/main.css"  rel="stylesheet" type="text/css" media="all"/>
+<link rel="stylesheet" href="../assets/css/public/header.css">
+<link rel="stylesheet" href="../assets/css/public/footer.css">
+
+<script src="../assets/js/jquery.min.js" ></script>
+<!-- <script src="../assets/js/main-10d5624058.js"></script> -->
+<script src="../assets/js/wow.min.js" ></script>
+<link href="../assets/css/fashionfoucs.css"  rel="stylesheet" />
+<script type="text/javascript" src="../assets/js/jqueryss.js" </script>
+
+
+<link rel="stylesheet" href="../assets/css/headerUser.css" tppabs="http://www.47cu.com/assets/css/headerUser.css" type="text/css" media="screen" />
+
+<script src="../assets/js/headerUser.js" tppabs="http://www.47cu.com/assets/js/headerUser.js"></script>
+
+<style type="text/css">
+/* common */
+a:focus{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+
+}
+
+.dd_w1200{
+  width:1200px;
+  margin:0 auto;
+}
+.clearboth{
+ clear: both;
+}
+.tab_content{
+  display:none;
+}
+
+/*位置*/
+.cur_position{
+  padding:20px 10px;
+  font-size:12px;
+  color:#808080;
+  font-family: "微软雅黑";
+}
+.cur_position a{
+  font-size:12px;
+  color:#333;
+  font-family: "微软雅黑";
+}
+.cur_position a:hover{
+    color:#2096fa;
+}
+
+/*分类导航*/
+.dd_nav{
+  font-size:0px;
+  text-align: center;
+}
+.dd_nav ul li{
+ display: inline-block;
+ vertical-align: top;
+ font-size:16px;
+}
+.dd_nav ul li a{
+  padding: 20px 55px;
+  border:1px solid #d1d1d1;
+  border-bottom:none;
+  display: block;
+}
+.dd_nav ul li a:first-child{
+  font-family:'微软雅黑';
+  font-size: 28px;
+  color:#808080;
+}
+.dd_nav ul li a:last-child{
+  font-family:'微软雅黑';
+  font-size: 20px;
+  color:#808080;
+}
+
+.nav_fixed{
+  background-color:#fff;
+}
+
+/*线*/
+.dd_line{
+ border:1.5px solid #dfdfdf;
+ box-shadow:0 0px 3px 4px #f1f1f1 ;
+ margin-top:2px;
+}
+
+.replace{
+  width:100%;
+  height: 137px;
+  display: none;
+}
+
+/* 商桥 */
+
+    .dd_bridge{
+      position: fixed;
+      right:50px;
+      top:250px;
+      z-index: 2;
+      background-color:#fff;
+      border-radius: 5px;
+      text-align: center;
+      max-width:100%;
+    }
+
+    .bridge_head{
+      position:absolute;
+      top:-38px;
+      left:50%;
+      transform: translateX(-50%)
+    }
+    .bridge_head p{
+      font-family: "微软雅黑";
+      font-size:16px;;
+      color:#333;
+      padding-top:15px;
+    }
+
+    .bridge_online{
+      margin-top:92px;
+      border-bottom:1px solid #e6e6e6;
+      border-top:1px solid #e6e6e6;
+      
+    }
+    .bridge_wc{
+      padding:10px 45px;
+      border-bottom:1px solid #e5e5e5;
+    }
+    .bridge_wc div{
+      margin:10px 0;
+    }
+
+    .bridge_wc p{
+      font-size:16px;
+      font-family: '微软雅黑';
+      color:#333;
+    }
+
+    .bridge_wc div p{
+      padding-left:10px;
+      font-size:16px;
+      font-family: '微软雅黑';
+      color:#333;
+    }
+
+    .bridge_online div{
+      padding:10px 0;
+    }
+
+    .bridge_online div span{
+      padding-left:10px;
+      font-size:16px;
+      font-family: '微软雅黑';
+      color:#2f87dc;
+    }
+
+    .bridge_call{
+      border-bottom:1px solid #e5e5e5;
+      padding:20px 0;
+    }
+    
+    .bridge_call p:first-child{
+      padding-bottom:15px;
+      font-size:16px;
+      font-family: '微软雅黑';
+    }
+    .bridge_call p:last-child{
+      font-size:16px;
+      font-family: '微软雅黑';
+      color:#2f87dc;
+    }
+    .bridge_back {
+      padding:20px 45px;
+      padding-bottom:20px;
+      font-size:16px;
+      font-family: '微软雅黑';
+    }
+
+    .dd_close{
+      width: 30px;
+      height: 30px;
+      background:#fff url('../assets/images/newBridge/close.png') no-repeat center center;
+    
+      -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      border-radius: 50px; 
+      border:1px solid #e5e5e5;
+      position:absolute;
+      right:-14px;
+      top:-13px;
+    }
+    .bridge_online div:hover{
+      background-color:#f5f7f9;
+    }
+    .img_bridge{
+      position: fixed;
+      right:50px;
+      bottom:350px;
+      z-index: 2;
+    }
+
+
+    /* 侧旁导航栏 */
+
+    .navSide{
+      background-color:#f9f9f9;
+      border-radius: 15px;
+      box-shadow:rgba(0, 0, 0,.2) 0 0 5px;
+    }
+
+    .fixedClassDetail{
+
+      position: fixed;
+      left: 275px;
+      top:150px;
+    }
+
+    .absoluteClassDetail1{
+     position: absolute;
+     left: -180px;
+     top:50px;
+    }
+
+    .navSide ul li a {
+      padding:20px;
+      padding-bottom:1px solid #dddddd;
+      color:#333;
+      font-weight:400;
+      font-size:16px;
+      display: block;
+     border-bottom:1px solid #ddd;
+    }
+
+  .navSide ul li:first-child a{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .navSide ul li:last-child a{
+    border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      border: none;
+  }
+
+    .navSide .active a{
+      background:linear-gradient(0deg,#2e75cd,#4f9cec);
+      color:#fff;
+      font-weight: 800;
+    }
+
+    .navImg{
+      position:absolute;
+      top:-23px;
+      right: 50%;
+      transform: translateX(50%)
+    }
+
+    .ddImg2{
+      display: none;
+    }
+
+     .navSide ul li a:hover{
+      background:linear-gradient(0deg,#2e75cd,#4f9cec);
+      color:#fff;
+      font-weight: 800;
+     }
+
+     .navContent{
+       position:relative;
+      
+     }
+
+     .absoluteClassDetail2{
+       position:absolute;
+       right:-44px;
+       top:32px;
+     }
+     .fixedClassDetail2{
+       position:fixed;
+       top:130px;
+       right: 308px;
+     }
+
+
+
+
+</style>
+
+
+</head>
+
+<body>
+
+<section style="position: relative; z-index:1;">
+
+      <div id='header'></div>
+      <!--header区域开始-->
+ <!-- 头部 -->
+    <div class="haisheng_header" style="position: fixed;top: 0px;background: #25282D;">
+        <div class="haisheng_title">
+            <img src="../assets/images/public/logo.png" class="logo" />
+            <div class="xiala">
+                <img src="../assets/images/public/cand.png" class="img1" />
+                <span>全部产品</span>
+                <img src="../assets/images/public/xiala.png" class="img2" />
+                <!--下拉框开始-->
+                <div id="xiala_ear" style="display: none;">
+                    <!--style="display: none;"-->
+                    <div class="cc">
+                        <div class="ear">
+                            <div class="earitem">
+                                <p class="earitem">
+                                    <img src="../assets/images/public/shangc.png" />
+                                    <span>商城类别</span>
+                                </p>
+                                <div class="lianjie">
+                                    <div>
+                                        <a>分销商城</a>
+                                        <a>代理分红系统</a>
+                                        <a>微商管理系统</a>
+                                        <a>直销公排系统</a>
+                                        <a>更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="earitem">
+                                <p>
+                                    <img src="../assets/images/public/h5e.png" />
+                                    <span>H5游戏</span>
+                                </p>
+                                <div class="lianjie">
+                                    <div>
+                                        <a>果园系统</a>
+                                        <a>农场养殖系统</a>
+                                        <a>游戏理财系统</a>
+                                        <a>抢红包系统</a>
+                                        <a>更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="earitem">
+                                <p>
+                                    <img src="../assets/images/public/wangzh.png" />
+                                    <span>网址搭建</span>
+                                </p>
+
+                                <div class="lianjie">
+                                    <div>
+                                        <a>官网建设</a>
+                                        <a>电商网站建设</span>
+                                            <a>商务网站建设</a>
+                                            <a>门户网站建设</a>
+                                            <a>更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="earitem">
+                                <p>
+                                    <img src="../assets/images/public/o2o.png" />
+                                    <span>&nbsp;O2O</span>
+                                </p>
+
+                                <div class="lianjie">
+                                    <div>
+                                        <a>直播APP</a>
+                                        <a>新零售系统</span>
+                                            <a>多商家入驻平台</a>
+                                            <a>餐饮酒店系统</a>
+                                            <a>更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="earitem">
+                                <p>
+                                    <img src="../assets/images/public/loog.png" />
+                                    <span>&nbsp;小程序</span>
+                                </p>
+
+                                <div class="lianjie">
+                                    <div>
+                                        <a>分销小程序</a>
+                                        <a>更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="earitem">
+                                <p>
+                                    <img src="../assets/images/public/addServer.png" />
+                                    <span>增值服务</span>
+                                </p>
+
+                                <div class="lianjie">
+                                    <div>
+                                        <a>UI设计</a>
+                                        <a>平面设计</a>
+                                        <a>软件定制开发</a>
+                                        <a>系统二次开发</a>
+                                        <a>更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pic">
+                            <img src="../assets/images/public/bodyHeader1.png" />
+                            <img src="../assets/images/public/bodyHeader2.png" />
+                            <img src="../assets/images/public/bodyHeader3.png" />
+                        </div>
+                    </div>
+
+                </div>
+                <!--下拉框结束-->
+
+            </div>
+            <div class="zixiang_title">
+                <a>首&nbsp;页</a>
+                <a class="active">产品中心</a>
+                <a>案例中心</a>
+                <a>帮助中心</a>
+                <a>最新资讯</a>
+                <a>关于海生</a>
+                <a>经典模式</a>
+            </div>
+        </div>
+    </div>
+
+<!--header区域结束-->
+
+        <!--banner -->
+     <div class="banner">
+        <div class="banner-main">
+           <section class="slider">
+           <div class="flexslider">
+            <ul class="slides">
+               <li class="f-relative">
+                  <img class="hidden-xs" src="../assets/images/detail/type1/banner3.jpg" tppabs="http://www.47cu.com/assets/images/detail/type1/banner3.jpg" alt="" style="width: 100%;">
+                  <img class="visible-xs-block" src="../assets/images/phCase.jpg" tppabs="http://www.47cu.com/assets/images/phCase.jpg" alt="" style="width: 100%;" >
+               </li>
+              </ul>
+           </div>
+           <div class="clearfix"> </div>
+           </section>
+        </div>
+     </div>
+
+   <!-- 位置 -->
+    <div class='dd_w1200'>
+      <div class="cur_position">
+          <b>当前位置:</b>
+
+          <a href="../index.php.htm" tppabs="http://www.47cu.com/index.php">首页</a> &gt;
+
+           <a href="../product/index.php.htm" tppabs="http://www.47cu.com/product/index.php">产品中心</a> &gt;
+
+          <a href="detail1_3.php.htm" tppabs="http://www.47cu.com/detail/detail1_3.php">区域分销</a>
+      </div>
+    </div>
+
+
+    <!-- 分类导航   -->
+    <!-- <div class="nav_fixed">
+        <div class='dd_nav'>
+            <ul>
+              <li>
+                <a href="javascript:void(0)" id='nav1'>
+                  <span>01</span>
+                  <span>系统简介</span>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" id='nav2'>
+                  <span>02</span>
+                  <span>功能详情</span>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" id='nav3'>
+                  <span>03</span>
+                  <span>后台设置</span>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)" id='nav4'>
+                  <span>04</span>
+                  <span>前端演示</span>
+                </a>
+              </li>
+            </ul>
+        </div>
+        <div class="dd_line"></div> 
+    </div> 
+
+    <div class="replace">
+
+    </div> -->
+      
+      <!-- 详情内容 -->
+    <div class="dd_w1200" style='position:relative'>
+
+     
+
+      <!-- 图片内容   -->
+      <!-- <div class="">
+      <div id='system'><img src="../assets/images/detail/type8/1.1.jpg" alt=""></div>
+      <div id='function'>
+      <img src="../assets/images/detail/type8/1.2.jpg" alt="">
+      <img src="../assets/images/detail/type8/1.3.jpg" alt="">
+      </div>
+      <div id='backstage'>
+      
+      <img src="../assets/images/detail/type8/1.4.jpg" alt="">
+      <img src="../assets/images/detail/type8/1.5.jpg" alt="">
+      <img src="../assets/images/detail/type8/1.6.jpg" alt="">
+      <img src="../assets/images/detail/type8/1.7.jpg" alt="">
+      <img src="../assets/images/detail/type8/1.8.jpg" alt="">
+      <img src="../assets/images/detail/type8/1.9.jpg" alt="">
+      <img src="../assets/images/detail/type8/1.10.jpg" alt="">
+      <img src="../assets/images/detail/type8/1.11.jpg" alt="">
+      <img src="../assets/images/detail/type8/1.12.jpg" alt="">
+      <img src="../assets/images/detail/type8/1.13.jpg" alt="">
+      <img src="../assets/images/detail/type8/1.14.jpg" alt="">
+      <img src="../assets/images/detail/type8/1.15.jpg" alt="">
+      </div>
+      <div id='front-end'>  
+     
+      <img src="../assets/images/detail/type8/1.16.jpg" alt="">
+      <img src="../assets/images/detail/type8/1.17.jpg" alt="">
+      <img src="../assets/images/detail/type8/1.18.jpg" alt="">
+      <img src="../assets/images/detail/type8/1.19.jpg" alt="">
+      <img src="../assets/images/detail/type8/1.20.jpg" alt="">
+    </div>
+    </div>  -->
+
+
+    <!-- 图片内容 -->
+
+      <img src="../assets/images/detail/type1/3.1.png"  alt="">
+      <img src="../assets/images/detail/type1/3.2.png" alt="">
+      <img src="../assets/images/detail/type1/3.3.png"  alt="">
+      <img src="../assets/images/detail/type1/3.4.png" alt="">
+      <img src="../assets/images/detail/type1/3.5.png"  alt="">
+      <img src="../assets/images/detail/type1/3.5.png"  alt="">
+    
+      <div class="navSide absoluteClassDetail1">
+            <div class="navContent">
+                <ul>
+                  
+                      <li><a href="detail1_1.php-current=2.htm" >3+3分销</a></li>
+                      <li><a href="detail1_2.php-current=2.htm" >单品分销</a></li>
+                      <li class="active"><a href="detail1_3.php-current=2.htm" >区域分销</a></li>
+                      <li><a href="detail1_5.php-current=2.htm" >二级分销</a></li>
+                      <li><a href="detail1_6.php-current=2.htm" >门店分销</a></li>
+                      <li ><a href="detail1_7.php-current=2.htm" >微商分销</a></li>
+                      
+                </ul>
+    
+              <div class="navImg ddImg1">
+                <img src="../assets/images/newBridge/4.png"  alt="">
+              </div>
+    
+            </div> 
+        </div>        
+  
+        <div class="ddImg2 absoluteClassDetail2" >
+            <img src="../assets/images/newBridge/5.png"  alt="">
+        </div>
+
+      
+    </div>    
+
+
+    <!-- 商桥 -->
+
+    <div id='ddBridge'></div>
+   
+  
+  <!-- 底部 -->
+  <!--<div id='ddFooter'></div>-->
+  <!-- 底部 -->
+        <div class="footer">
+            <!--1200-->
+            <div class="footer_center">
+                <div class="san">
+                    <div>
+                        <img src="../assets/images/public/shoucang.png" class="title_img" />
+                        <span>专注服务于电商领域</span>
+                    </div>
+                    <div>
+                        <img src="../assets/images/public/dianhua.png" class="title_img" />
+                        <span>7X24小时售后支持</span>
+                    </div>
+                    <div>
+                        <img src="../assets/images/public/huiyuan.png" class="title_img" />
+                        <span>一对一专属会员经理</span>
+                    </div>
+                    <div>
+                        <img src="../assets/images/public/zan.png" class="title_img" />
+                        <span>385万用户诚意推荐</span>
+                    </div>
+                </div>
+                <div class="spp">
+                    <span>全方位的购买咨询</span><span>精准的产品推荐</span><span>专业支持的售后咨询</span><span>电商业务开展咨询</span>
+                </div>
+                <div style="width: 100%;height: 50px;border-bottom: 2px solid #35383C;"></div>
+                <div class="ear">
+                    <div class="ear_left">
+                        <div class="ear_left_text">
+                            <div>
+                                <p>微商城开发</p>
+                                <a href="../product/detail_2.html">区域分销</a>
+                                <a  href="../product/detail_2.html">门店分销</a>
+                                <a  href="../product/detail_2.html">单品分销</a>
+                                <a  href="../product/detail_2.html">微商分销</a>
+                            </div>
+                            <div>
+                                <p href="../product/detail_2.html">H5游戏</p>
+                                <a href="../product/detail_2.html">吉祥兔系统</a>
+                                <a href="../product/detail_2.html">渔场系统</a>
+                                <a href="../product/detail_2.html">果园系统</a>
+                                <a href="../product/detail_2.html">大转盘</a>
+                            </div>
+                            <div>
+                                <p href="../product/detail_2.html">O2O开发</p>
+                                <a href="../product/detail_2.html">理财系统</a>
+                                <a href="../product/detail_2.html">外卖系统</a>
+                                <a href="../product/detail_2.html">直播系统</a>
+                                <a href="../product/detail_2.html">拼团系统</a>
+                            </div>
+                            <div>
+                                <p href="../product/detail_1.html">公排系统</p>
+                                <a href="../product/detail_1.html">大公排</a>
+                                <a href="../product/detail_1.html">小公排</a>
+                                <a href="../product/detail_1.html">二二复制</a>
+                                <a href="../product/detail_1.html">三三复制</a>
+                            </div>
+                        </div>
+    
+                        <!--时间地点-->
+                        <div class="where">
+                            <p>工作时间：10:00AM-19:00PM</p>
+                            <p>公司地址：广东省广州市天河区新路街8号吉邦科技园3栋海生科技</p>
+                        </div>
+                    </div>
+                    <div class="ear_right">
+                        <div>
+                            <img src="../assets/images/public/erweima.png" />
+                            <p>扫码关注</p>
+                        </div>
+                        <div>
+                            <img src="../assets/images/public/erweima.png" />
+                            <p>扫码服务</p>
+                        </div>
+                    </div>
+                </div>
+                <!--友情链接-->
+                <div class="lianjie">
+                    <span>友情链接</span>
+                    <div class="lianjie_right">
+                        <a>阿里云</a>
+                        <a>百度云</a>
+                        <a>61微商网</a>
+                        <a>淘宝网</a>
+                        <a>京东网</a>
+                        <a>猪八戒</a>
+                        <a>新浪微博</a>
+                        <a>财付通</a>
+                        <a>蚂蚁金服</a>
+                        <a>微商网</a>
+                        <a>Microsoft</a>
+                        <a>财付通</a>
+                    </div>
+                </div>
+                <p class="bottom_text">Copyright ©2016-2018 All Rights Reserved. 广州海生网络科技有限公司版权所有 粤ICP备18128006号</p>
+        </div>
+
+</section>
+
+
+<script src="../assets/js/jquery.min.js" ></script>
+
+<script src="../assets/js/bootstrap.min.js" ></script>
+
+<script src="../assets/js/jquery.flexslider.js" ></script> 
+
+<script src="../assets/js/wow.min.js" ></script>
+
+<script src="../assets/js/responsiveMenu.js" ></script>
+
+<script type="text/javascript" src="../assets/js/sketch.min.js" ></script>
+<script src="../assets/js/number.js" ></script>
+
+<script type="text/javascript">
+
+$(function () {
+
+   new WOW().init();
+
+});
+
+</script>
+<script>
+
+$(function(){
+    /*轮播图*/
+
+  $('.flexslider').flexslider({
+
+    animation: "slide",
+
+    directionNav:true,
+
+    start: function(slider){
+
+      $('body').removeClass('loading');
+
+      }
+
+    });
+
+});
+
+</script>
+
+<!-- <script type="text/javascript">
+
+
+
+/*固定分类导航栏*/
+
+$(window).scroll(function(){
+ 
+ var currentPostion=621.75;//获取当前盒子距离顶部的位置
+
+ var scroH = $(this).scrollTop()//获取滚动条的滑动距离
+
+  if (currentPostion-60<scroH) {
+    $('.nav_fixed').css({'position':'fixed','top':'60px',"z-index":"3","width":"100%","padding-bottom":"20px"});
+    $('.replace').css('display','block');
+  }else{
+    $('.nav_fixed').css({'position':'static',"width":"auto","padding-bottom":"0"});
+    $('.replace').css('display','none');
+  }
+
+
+ var wst = $(window).scrollTop(); //滚动条距离顶端值
+
+ var content_id=new Array('#system','#function','#backstage','#front-end');
+
+ var nav_id=new Array('#nav1','#nav2','#nav3','#nav4');
+
+
+for(var i=0;i<content_id.length;i++){
+   if($(content_id[i]).offset().top<=wst+180){
+    $('.dd_nav ul li a').css('color','#808080')
+     $(nav_id[i]).css('color','#2c93e8');  
+     console.log($(content_id[i]).offset().top+'dd');
+   }
+}
+console.log(wst);
+  
+})
+
+/*点击滚动切换*/
+$('.dd_nav ul li').click(function(){
+
+console.log(11);
+
+if($(this).index()==0){
+  $('html,body').animate({scrollTop:$('#system').offset().top-150}, 500);
+
+  // document.getElementById('system').scrollIntoView(true);
+
+
+}
+
+if($(this).index()==1){
+  $('html,body').animate({scrollTop:$('#function').offset().top-150}, 500);
+  // document.getElementById('function').scrollIntoView(true);
+   
+}
+
+if($(this).index()==2){
+  $('html,body').animate({scrollTop:$('#backstage').offset().top-150}, 500);
+  // document.getElementById('backstage').scrollIntoView(true);
+
+
+}
+
+if($(this).index()==3){
+  $('html,body').animate({scrollTop:$('#front-end').offset().top-150}, 500);
+  // document.getElementById('front-end').scrollIntoView(true);
+
+
+}
+
+
+})
+
+
+
+
+</script> -->
+
+<script>
+
+$(function(){
+
+//固定侧边栏
+
+$(window).scroll(function(){
+  if($(window).scrollTop()>450){
+    $('.navSide').addClass('fixedClassDetail');
+    $('.navSide').removeClass('absoluteClassDetail1');
+    $('.ddImg2').addClass('fixedClassDetail2');
+    $('.ddImg2').removeClass('absoluteClassDetail2') 
+  }else{
+    $('.navSide').removeClass('fixedClassDetail');
+    $('.navSide').addClass('absoluteClassDetail1');
+    $('.ddImg2').addClass('absoluteClassDetail2');
+    $('.ddImg2').removeClass('fixedClassDetail2') 
+  }
+
+
+})
+
+// 侧面导航栏的点击关闭事件
+
+$('.ddImg1').on('click',function(){
+  $('.navSide').hide();
+  $('.ddImg2').css('display','block');
+})
+
+$('.ddImg2').on('click',function(){
+  $('.ddImg2').hide();
+  $('.ddImg1').css('display','block');
+  $('.navSide').css('display','block');
+})
+
+});
+
+</script>
+
+
+<!--<script type="text/javascript" src="../../s.union.360.cn/198390.js"  async defer></script>-->
+
+
+
+</body>
+
+</html>
