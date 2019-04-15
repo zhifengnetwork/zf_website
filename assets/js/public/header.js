@@ -19,11 +19,13 @@ window.onload = function(){
                 $(this).addClass("h")
             });
         }, function() {
-            document.getElementById("xiala_ear").style.display = "none";
+//          document.getElementById("xiala_ear").style.display = "none";
             $(this).find("#xiala_ear").animate({
                 height: 0
             }, 300, function() {
+          	document.getElementById("xiala_ear").style.display = "none";
                 $(this).removeClass("h")
+                
             });
         }
     );
