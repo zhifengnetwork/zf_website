@@ -824,16 +824,16 @@ a:focus{
    <div class="leibie">
      <div class="lb_leibie" id="tab">
        <ul>
-         <li class="active"><a href="../product/detail_1.htmlfenxiao"> 分销系统 </a></li>
-            <li><a href="../product/detail_1.htmlfenhong">分红系统</a></li>
-            <li><a href="../product/detail_1.htmldaili">代理系统</a></li>
-            <li><a href="../product/detail_1.htmlshangjia">增值服务</a></li>
-            <li><a href="../product/detail_1.htmlquanfan">全返系统</a></li>
-            <li><a href="../product/detail_1.htmlo2o">O2O</a></li>           
-            <li><a href="../product/detail_1.htmllittleApp">小程序</a></li>
-            <li><a href="../product/detail_1.htmlH5game">H5游戏</a></li>
-            <li><a href="../product/detail_1.htmlgongpai">公排系统</a></li>
-            <li><a href="../product/detail_1.htmlwebDesign">网站建设</a></li>
+         <li class="active"><a href="#fenxiao"> 分销系统 </a></li>
+            <li><a href="#fenhong">分红系统</a></li>
+            <li><a href="#daili">代理系统</a></li>
+            <li><a href="#shangjia">增值服务</a></li>
+            <li><a href="#quanfan">全返系统</a></li>
+            <li><a href="#o2o">O2O</a></li>           
+            <li><a href="#littleApp">小程序</a></li>
+            <li><a href="#H5game">H5游戏</a></li>
+            <li><a href="#gongpai">公排系统</a></li>
+            <li><a href="#webDesign">网站建设</a></li>
             <li><a href="../product/detail.html">定制开发</a></li>
        </ul>
      </div>
@@ -2424,7 +2424,7 @@ $(function(){
 
   /*轮播图*/
 
-  $('../product/detail_1.htmlflexslider_head').flexslider({
+  $('#flexslider_head').flexslider({
 
     animation: "slide",
 
@@ -2535,7 +2535,7 @@ $(function(){
 
       if(checkHover(e,this)){
        
-        $("../product/detail_1.htmlJ_topbar_2016").slideUp();
+        $("#J_topbar_2016").slideUp();
 
        }
 
@@ -2629,15 +2629,15 @@ $(function(){
 
   $(".category-layer .list").on("click",function() {
 
-    $(".cat-name").css({"background":'../product/detail_1.htmlf3f3f3'});
+    $(".cat-name").css({"background":'#f3f3f3'});
 
     $(this).find(".cat-name").css({"background":'white'});
 
 
 
-    $(".cat-name a").css({"color":'../product/detail_1.html333'});
+    $(".cat-name a").css({"color":'#333'});
 
-    $(this).find(".cat-name a").css({"color":'../product/detail_1.html03a9f4'});
+    $(this).find(".cat-name a").css({"color":'#03a9f4'});
 
 
 
@@ -2723,7 +2723,7 @@ $(function(){
 
         $(".product").on("click",function(){
 
-          window.location.href="index.php.htm"/*tpa=http://www.47cu.com/product/index.php*/;
+          window.location.href="index.html"/*tpa=http://www.47cu.com/product/index.php*/;
 
         })
 
@@ -2792,9 +2792,9 @@ $(function(){
 
       $(".go_connect,.yanshi, .dd_service").click(function(event) {
 
-          if ($('../product/detail_1.htmlnb_invite_ok').length > 0) {
+          if ($('#nb_invite_ok').length > 0) {
 
-              $('../product/detail_1.htmlnb_invite_ok').click();
+              $('#nb_invite_ok').click();
 
           }
 
@@ -2809,7 +2809,7 @@ $(function(){
 
     //初始化swiper轮播
    
-    var swiper0= new Swiper('../product/detail_1.htmlslider_fenxiao', {
+    var swiper0= new Swiper('slider_fenxiao', {
       slidesPerView: 4,
       spaceBetween: 50,
       freeMode: true,
@@ -2844,7 +2844,7 @@ function tabChange(index){
     
     tabChange(2);
 
-      var swiper2 = new Swiper('../product/detail_1.htmlslider_daili', {
+      var swiper2 = new Swiper('#slider_daili', {
       slidesPerView: 4,
       spaceBetween: 50,
       freeMode: true,
@@ -2862,7 +2862,7 @@ function tabChange(index){
 
     tabChange(3);
 
-    var swiper3 = new Swiper('../product/detail_1.htmlslider_shangjia', {
+    var swiper3 = new Swiper('#slider_shangjia', {
       slidesPerView: 4,
       spaceBetween: 50,
       freeMode: true,
@@ -2879,7 +2879,7 @@ function tabChange(index){
 
     tabChange(8);
 
-    var swiper4 = new Swiper('../product/detail_1.htmlslider_gongpai', {
+    var swiper4 = new Swiper('#slider_gongpai', {
       slidesPerView: 4,
       spaceBetween: 50,
       freeMode: true,
@@ -2896,7 +2896,7 @@ function tabChange(index){
 
     tabChange(1);
 
-    var swiper1= new Swiper('../product/detail_1.htmlslider_fenhong', {
+    var swiper1= new Swiper('#slider_fenhong', {
       slidesPerView: 4,
       spaceBetween: 50,
       freeMode: true,
@@ -2919,7 +2919,7 @@ function tabChange(index){
 
       tabChange(7);
 
-      var swiper7= new Swiper('../product/detail_1.htmlslider_H5game', {
+      var swiper7= new Swiper('#slider_H5game', {
         slidesPerView: 4,
         spaceBetween: 50,
         freeMode: true,
@@ -2938,7 +2938,7 @@ function tabChange(index){
 
       tabChange(9);
 
-      var swiper9= new Swiper('../product/detail_1.htmlslider_webDesign', {
+      var swiper9= new Swiper('#slider_webDesign', {
         slidesPerView: 4,
         spaceBetween: 50,
         freeMode: true,
@@ -2956,7 +2956,7 @@ function tabChange(index){
 
       tabChange(5);
 
-      var swiper5= new Swiper('../product/detail_1.htmlslider_o2o', {
+      var swiper5= new Swiper('#slider_o2o', {
         slidesPerView: 4,
         spaceBetween: 50,
         freeMode: true,
@@ -2974,7 +2974,7 @@ function tabChange(index){
 
       tabChange(6);
 
-      var swiper6= new Swiper('../product/detail_1.htmlslider_littleApp', {
+      var swiper6= new Swiper('#slider_littleApp', {
         slidesPerView: 4,
         spaceBetween: 50,
         freeMode: true,
@@ -2992,7 +2992,7 @@ function tabChange(index){
 
     tabChange(4);
 
-    var swiper4= new Swiper('../product/detail_1.htmlslider_quanfan', {
+    var swiper4= new Swiper('#slider_quanfan', {
       slidesPerView: 4,
       spaceBetween: 50,
       freeMode: true,
@@ -3022,7 +3022,7 @@ $('.lb_leibie').on('click','li',function(e){
 
    //初始化相应模块的slider插件
    if($(this).index()==0){
-      var swiper0= new Swiper('../product/detail_1.htmlslider_fenxiao', {
+      var swiper0= new Swiper('#slider_fenxiao', {
       slidesPerView: 4,
       spaceBetween: 50,
       freeMode: true,
@@ -3036,7 +3036,7 @@ $('.lb_leibie').on('click','li',function(e){
     }
 
      if($(this).index()==1){
-      var swiper1= new Swiper('../product/detail_1.htmlslider_fenhong', {
+      var swiper1= new Swiper('#slider_fenhong', {
       slidesPerView: 4,
       spaceBetween: 50,
       freeMode: true,
@@ -3051,7 +3051,7 @@ $('.lb_leibie').on('click','li',function(e){
    
 
   if(key==2||$(this).index()==2){
-      var swiper2 = new Swiper('../product/detail_1.htmlslider_daili', {
+      var swiper2 = new Swiper('#slider_daili', {
       slidesPerView: 4,
       spaceBetween: 50,
       freeMode: true,
@@ -3065,7 +3065,7 @@ $('.lb_leibie').on('click','li',function(e){
     }
 
     if($(this).index()==3){
-      var swiper3 = new Swiper('../product/detail_1.htmlslider_shangjia', {
+      var swiper3 = new Swiper('#slider_shangjia', {
       slidesPerView: 4,
       spaceBetween: 50,
       freeMode: true,
@@ -3078,7 +3078,7 @@ $('.lb_leibie').on('click','li',function(e){
     });
     }
     if($(this).index()==4){
-      var swiper4 = new Swiper('../product/detail_1.htmlslider_quanfan', {
+      var swiper4 = new Swiper('#slider_quanfan', {
       slidesPerView: 4,
       spaceBetween: 50,
       freeMode: true,
@@ -3091,7 +3091,7 @@ $('.lb_leibie').on('click','li',function(e){
     });
     }
     if($(this).index()==5){
-      var swiper5 = new Swiper('../product/detail_1.htmlslider_o2o', {
+      var swiper5 = new Swiper('#slider_o2o', {
       slidesPerView: 4,
       spaceBetween: 50,
       freeMode: true,
@@ -3105,7 +3105,7 @@ $('.lb_leibie').on('click','li',function(e){
     }
 
     if($(this).index()==6){
-      var swiper5 = new Swiper('../product/detail_1.htmlslider_littleApp', {
+      var swiper5 = new Swiper('#slider_littleApp', {
       slidesPerView: 4,
       spaceBetween: 50,
       freeMode: true,
@@ -3119,7 +3119,7 @@ $('.lb_leibie').on('click','li',function(e){
     }
 
     if($(this).index()==7){
-      var swiper7 = new Swiper('../product/detail_1.htmlslider_H5game', {
+      var swiper7 = new Swiper('#slider_H5game', {
       slidesPerView: 4,
       spaceBetween: 50,
       freeMode: true,
@@ -3133,7 +3133,7 @@ $('.lb_leibie').on('click','li',function(e){
     }
 
     if($(this).index()==8){
-      var swiper8 = new Swiper('../product/detail_1.htmlslider_gongpai', {
+      var swiper8 = new Swiper('#slider_gongpai', {
       slidesPerView: 4,
       spaceBetween: 50,
       freeMode: true,
@@ -3146,7 +3146,7 @@ $('.lb_leibie').on('click','li',function(e){
     });
     }
     if($(this).index()==9){
-      var swiper8 = new Swiper('../product/detail_1.htmlslider_webDesign', {
+      var swiper8 = new Swiper('#slider_webDesign', {
       slidesPerView: 4,
       spaceBetween: 50,
       freeMode: true,
