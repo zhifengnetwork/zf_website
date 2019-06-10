@@ -4,122 +4,141 @@
 
 <head>
 
-<title>产品中心</title>
+  <title>产品中心</title>
 
-<meta name="keywords" content="" />
+  <meta name="keywords" content="" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<link rel="stylesheet" type="text/css" href="../assets/css/reset.css"/>
-<link rel="stylesheet" type="text/css" href="../assets/css/product/product.css"/>
-<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css"/>
-<link rel="stylesheet" href="../assets/css/animate.css" />
-<link rel="stylesheet" type="text/css" href="../assets/css/flexslider.css"/>
-<link rel="stylesheet" type="text/css" href="../assets/css/swiper-4.2.0.min.css"/>
-<link rel="stylesheet" type="text/css" href="../assets/css/responsive-menu.css"/>
-<link rel="stylesheet" type="text/css" href="../assets/css/base.css"/>
-<link rel="stylesheet" type="text/css" href="../assets/css/main.css"/>
-<link rel="stylesheet" type="text/css" href="../assets/css/public/footer.css"/>
-<link rel="stylesheet" type="text/css" href="../assets/css/public/header.css"/>
-<link rel="stylesheet" href="../assets/css/headerUser.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/product/product.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../assets/css/animate.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/flexslider.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/swiper-4.2.0.min.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/responsive-menu.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/base.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/main.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/public/footer.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/public/header.css" />
+  <link rel="stylesheet" href="../assets/css/headerUser.css">
 
-<style type="text/css">
+  <style type="text/css">
+    @media screen and (min-width: 768px) {
 
-@media screen and (min-width: 768px){
+      body {
+        background: ../product/detail_1.htmleff2f3;
+      }
 
-  body{background: ../product/detail_1.htmleff2f3;}
+    }
 
-}
-@media (min-width: 1200px){
+    @media (min-width: 1200px) {
       .container {
         width: 1200px;
-        padding:0;
+        padding: 0;
+      }
     }
-}
 
-img{
-  max-width:100%;
-}
-.container{margin:1rem auto;}
+    img {
+      max-width: 100%;
+    }
 
-a:focus{
-  text-decoration: none;
-}
+    .container {
+      margin: 1rem auto;
+    }
+
+    a:focus {
+      text-decoration: none;
+    }
 
 
-.leibie{
-    width:1200px;
-    margin: 0 auto;
-}
-.lb_local{
-    width:100%;
-    padding:10px 0;
+    .leibie {
+      width: 1200px;
+      margin: 0 auto;
+    }
 
-}
-.lb_local span{
-  font-size:18px;
+    .lb_local {
+      width: 100%;
+      padding: 10px 0;
 
- 
-}
-.lb_leibie{
-  width:100%;
+    }
 
-}
+    .lb_local span {
+      font-size: 18px;
 
-.lb_leibie ul{
-  box-sizing: border-box;
-  display: flex;
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox;      /* TWEENER - IE 10 */
-  display: -webkit-flex;     /* NEW - Chrome */
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  justify-content: center;
-  -webkit-justify-content:center;
-  margin:1% 0;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-}
-.lb_leibie ul li{
-   width: 14%;
-   background-color:../product/detail_1.html323B48;
-   text-align: center;
-   padding:20px 0;
-   margin:10px 1% 1% 0;
-}
-.lb_leibie ul li a{
-  color:../product/detail_1.htmlfff;
-  text-decoration: none;
-}
-.lb_leibie .active{
-  background:../product/detail_1.html2096fa;
-}
-.tab_content{
-  display:none;
-}
 
-/*分销系统字体*/
-.ziti{    
-	text-align: left;
-    font-size: 20px;
-    margin-top: 2%;
-    width: 53%;
-    float: left;
-    color: ../product/detail_1.html333;
-    margin-left: 5%;}
+    }
 
-.clearboth{
-  clear: both;
-}
-.swiper-container {
+    .lb_leibie {
+      width: 100%;
+
+    }
+
+    .lb_leibie ul {
+      box-sizing: border-box;
+      display: flex;
+      display: -webkit-box;
+      /* OLD - iOS 6-, Safari 3.1-6 */
+      display: -moz-box;
+      /* OLD - Firefox 19- (buggy but mostly works) */
+      display: -ms-flexbox;
+      /* TWEENER - IE 10 */
+      display: -webkit-flex;
+      /* NEW - Chrome */
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      justify-content: center;
+      -webkit-justify-content: center;
+      margin: 1% 0;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+    }
+
+    .lb_leibie ul li {
+      width: 14%;
+      background-color: ../product/detail_1.html323B48;
+      text-align: center;
+      padding: 20px 0;
+      margin: 10px 1% 1% 0;
+    }
+
+    .lb_leibie ul li a {
+      color: ../product/detail_1.htmlfff;
+      text-decoration: none;
+    }
+
+    .lb_leibie .active {
+      background: ../product/detail_1.html2096fa;
+    }
+
+    .tab_content {
+      display: none;
+    }
+
+    /*分销系统字体*/
+    .ziti {
+      text-align: left;
+      font-size: 20px;
+      margin-top: 2%;
+      width: 53%;
+      float: left;
+      color: ../product/detail_1.html333;
+      margin-left: 5%;
+    }
+
+    .clearboth {
+      clear: both;
+    }
+
+    .swiper-container {
       width: 1030px;
       height: 391px;
-      
+
     }
+
     .swiper-slide {
       text-align: center;
       font-size: 18px;
@@ -140,2626 +159,2801 @@ a:focus{
       align-items: center;
     }
 
-    .swiper_fx_bg1{
-      background: url('../assets/images/proIcon/type1/1.1.png') no-repeat;background-size:100% 100%;
-    }
-    .swiper_fx_bg2{
-      background: url('../assets/images/proIcon/type1/1.2.png') no-repeat;background-size:100% 100%;
-    }
-    .swiper_fx_bg3{
-      background: url('../assets/images/proIcon/type1/1.3.png') no-repeat;background-size:100% 100%;
-    }
-    .swiper_fx_bg4{
-      background: url('../assets/images/proIcon/type1/1.4.png') no-repeat;background-size:100% 100%;
-    }
-    .swiper_fx_bg5{
-      background: url('../assets/images/proIcon/type1/1.5.png') no-repeat;background-size:100% 100%;
+    .swiper_fx_bg1 {
+      background: url('../assets/images/proIcon/type1/1.1.png') no-repeat;
+      background-size: 100% 100%;
     }
 
-    .swiper_fh_bg1{
-    background: url('../assets/images/proIcon/type2/1.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_fh_bg2{
-      background: url('../assets/images/proIcon/type2/2.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_fh_bg3{
-      background: url('../assets/images/proIcon/type2/3.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_fh_bg4{
-      background: url('../assets/images/proIcon/type2/4.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_fh_bg5{
-      background: url('../assets/images/proIcon/type2/5.png') no-repeat center;background-size:100% 100%;
+    .swiper_fx_bg2 {
+      background: url('../assets/images/proIcon/type1/1.2.png') no-repeat;
+      background-size: 100% 100%;
     }
 
-    .swiper_dl_bg1{
-    background: url('../assets/images/proIcon/type3/1.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_dl_bg2{
-    background: url('../assets/images/proIcon/type3/2.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_dl_bg3{
-    background: url('../assets/images/proIcon/type3/3.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_dl_bg4{
-    background: url('../assets/images/proIcon/type3/4.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_dl_bg5{
-    background: url('../assets/images/proIcon/type3/5.png') no-repeat center;background-size:100% 100%;
-    }
-  
-    .swiper_sj_bg1{
-    background: url('../assets/images/proIcon/type4/1.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_sj_bg2{
-    background: url('../assets/images/proIcon/type4/2.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_sj_bg3{
-    background: url('../assets/images/proIcon/type4/3.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_sj_bg4{
-    background: url('../assets/images/proIcon/type4/4.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_sj_bg5{
-    background: url('../assets/images/proIcon/type4/5.png') no-repeat center;background-size:100% 100%;
+    .swiper_fx_bg3 {
+      background: url('../assets/images/proIcon/type1/1.3.png') no-repeat;
+      background-size: 100% 100%;
     }
 
-    .swiper_qf_bg1{
-    background: url('../assets/images/proIcon/type5/1.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_qf_bg2{
-    background: url('../assets/images/proIcon/type5/2.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_qf_bg3{
-    background: url('../assets/images/proIcon/type5/3.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_qf_bg4{
-    background: url('../assets/images/proIcon/type5/4.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_qf_bg5{
-    background: url('../assets/images/proIcon/type5/5.png') no-repeat center;background-size:100% 100%;
+    .swiper_fx_bg4 {
+      background: url('../assets/images/proIcon/type1/1.4.png') no-repeat;
+      background-size: 100% 100%;
     }
 
-    .swiper_o2o_bg1{
-    background: url('../assets/images/proIcon/type6/1.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_o2o_bg2{
-    background: url('../assets/images/proIcon/type6/2.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_o2o_bg3{
-    background: url('../assets/images/proIcon/type6/3.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_o2o_bg4{
-    background: url('../assets/images/proIcon/type6/4.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_o2o_bg5{
-    background: url('../assets/images/proIcon/type6/5.png') no-repeat center;background-size:100% 100%;
-    }
-  
-    .swiper_xcx_bg1{
-    background: url('../assets/images/proIcon/type7/1.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_xcx_bg2{
-    background: url('../assets/images/proIcon/type7/2.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_xcx_bg3{
-    background: url('../assets/images/proIcon/type7/3.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_xcx_bg4{
-    background: url('../assets/images/proIcon/type7/4.jpg') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_xcx_bg5{
-    background: url('../assets/images/proIcon/type7/5.jpg') no-repeat center;background-size:100% 100%;
-    }
-    
-    .swiper_h5_bg1{
-    background: url('../assets/images/proIcon/type8/11.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_h5_bg2{
-    background: url('../assets/images/proIcon/type8/12.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_h5_bg3{
-    background: url('../assets/images/proIcon/type8/13.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_h5_bg4{
-    background: url('../assets/images/proIcon/type8/14.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_h5_bg5{
-    background: url('../assets/images/proIcon/type8/15.png') no-repeat center;background-size:100% 100%;
+    .swiper_fx_bg5 {
+      background: url('../assets/images/proIcon/type1/1.5.png') no-repeat;
+      background-size: 100% 100%;
     }
 
-    .swiper_gp_bg1{
-    background: url('../assets/images/proIcon/type9/1.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_gp_bg2{
-    background: url('../assets/images/proIcon/type9/2.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_gp_bg3{
-    background: url('../assets/images/proIcon/type9/3.png') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_gp_bg4{
-    background: url('../assets/images/proIcon/type9/4.jpg') no-repeat center;background-size:100% 100%;
-    }
-    .swiper_gp_bg5{
-    background: url('../assets/images/proIcon/type9/5.jpg') no-repeat center;background-size:100% 100%;
+    .swiper_fh_bg1 {
+      background: url('../assets/images/proIcon/type2/1.png') no-repeat center;
+      background-size: 100% 100%;
     }
 
-    .swiper_c{
-      padding:38px 0;
-      border-top:2px solid ../product/detail_1.htmld9d9d9;
-      border-bottom:2px solid ../product/detail_1.htmld9d9d9;
-      margin:-50px 0 40px 0;
-
-      }
-
-    .new_product .bonus-img{
-      right:0;
+    .swiper_fh_bg2 {
+      background: url('../assets/images/proIcon/type2/2.png') no-repeat center;
+      background-size: 100% 100%;
     }
 
-    .bonus-icon{
-    width: 100%;
-    height: 100px;
-    margin: 0 auto 2px auto;
-    padding: 24px 0;
+    .swiper_fh_bg3 {
+      background: url('../assets/images/proIcon/type2/3.png') no-repeat center;
+      background-size: 100% 100%;
     }
 
-    .new_product .bonus-content{
-      min-height:170px;
+    .swiper_fh_bg4 {
+      background: url('../assets/images/proIcon/type2/4.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_fh_bg5 {
+      background: url('../assets/images/proIcon/type2/5.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_dl_bg1 {
+      background: url('../assets/images/proIcon/type3/1.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_dl_bg2 {
+      background: url('../assets/images/proIcon/type3/2.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_dl_bg3 {
+      background: url('../assets/images/proIcon/type3/3.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_dl_bg4 {
+      background: url('../assets/images/proIcon/type3/4.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_dl_bg5 {
+      background: url('../assets/images/proIcon/type3/5.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_sj_bg1 {
+      background: url('../assets/images/proIcon/type4/1.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_sj_bg2 {
+      background: url('../assets/images/proIcon/type4/2.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_sj_bg3 {
+      background: url('../assets/images/proIcon/type4/3.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_sj_bg4 {
+      background: url('../assets/images/proIcon/type4/4.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_sj_bg5 {
+      background: url('../assets/images/proIcon/type4/5.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_qf_bg1 {
+      background: url('../assets/images/proIcon/type5/1.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_qf_bg2 {
+      background: url('../assets/images/proIcon/type5/2.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_qf_bg3 {
+      background: url('../assets/images/proIcon/type5/3.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_qf_bg4 {
+      background: url('../assets/images/proIcon/type5/4.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_qf_bg5 {
+      background: url('../assets/images/proIcon/type5/5.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_o2o_bg1 {
+      background: url('../assets/images/proIcon/type6/1.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_o2o_bg2 {
+      background: url('../assets/images/proIcon/type6/2.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_o2o_bg3 {
+      background: url('../assets/images/proIcon/type6/3.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_o2o_bg4 {
+      background: url('../assets/images/proIcon/type6/4.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_o2o_bg5 {
+      background: url('../assets/images/proIcon/type6/5.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_xcx_bg1 {
+      background: url('../assets/images/proIcon/type7/1.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_xcx_bg2 {
+      background: url('../assets/images/proIcon/type7/2.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_xcx_bg3 {
+      background: url('../assets/images/proIcon/type7/3.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_xcx_bg4 {
+      background: url('../assets/images/proIcon/type7/4.jpg') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_xcx_bg5 {
+      background: url('../assets/images/proIcon/type7/5.jpg') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_h5_bg1 {
+      background: url('../assets/images/proIcon/type8/11.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_h5_bg2 {
+      background: url('../assets/images/proIcon/type8/12.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_h5_bg3 {
+      background: url('../assets/images/proIcon/type8/13.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_h5_bg4 {
+      background: url('../assets/images/proIcon/type8/14.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_h5_bg5 {
+      background: url('../assets/images/proIcon/type8/15.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_gp_bg1 {
+      background: url('../assets/images/proIcon/type9/1.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_gp_bg2 {
+      background: url('../assets/images/proIcon/type9/2.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_gp_bg3 {
+      background: url('../assets/images/proIcon/type9/3.png') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_gp_bg4 {
+      background: url('../assets/images/proIcon/type9/4.jpg') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_gp_bg5 {
+      background: url('../assets/images/proIcon/type9/5.jpg') no-repeat center;
+      background-size: 100% 100%;
+    }
+
+    .swiper_c {
+      padding: 38px 0;
+      border-top: 2px solid ../product/detail_1.htmld9d9d9;
+      border-bottom: 2px solid ../product/detail_1.htmld9d9d9;
+      margin: -50px 0 40px 0;
+
+    }
+
+    .new_product .bonus-img {
+      right: 0;
+    }
+
+    .bonus-icon {
+      width: 100%;
+      height: 100px;
+      margin: 0 auto 2px auto;
+      padding: 24px 0;
+    }
+
+    .new_product .bonus-content {
+      min-height: 170px;
       text-align: center;
     }
 
-    .bonus.index{
-      margin:0;
+    .bonus.index {
+      margin: 0;
     }
 
 
     /* 商桥 */
 
-    .dd_bridge{
+    .dd_bridge {
       position: fixed;
-      right:50px;
-      top:250px;
+      right: 50px;
+      top: 250px;
       z-index: 2;
-      background-color:../product/detail_1.htmlfff;
+      background-color: ../product/detail_1.htmlfff;
       border-radius: 5px;
       text-align: center;
-      max-width:100%;
+      max-width: 100%;
     }
 
-    .bridge_head{
-      position:absolute;
-      top:-38px;
-      left:50%;
+    .bridge_head {
+      position: absolute;
+      top: -38px;
+      left: 50%;
       transform: translateX(-50%)
     }
-    .bridge_head p{
+
+    .bridge_head p {
       font-family: "微软雅黑";
-      font-size:16px;;
-      color:../product/detail_1.html333;
-      padding-top:15px;
+      font-size: 16px;
+      ;
+      color: ../product/detail_1.html333;
+      padding-top: 15px;
     }
 
-    .bridge_online{
-      margin-top:92px;
-      border-bottom:1px solid ../product/detail_1.htmle6e6e6;
-      border-top:1px solid ../product/detail_1.htmle6e6e6;
-      
-    }
-    .bridge_wc{
-      padding:10px 45px;
-      border-bottom:1px solid ../product/detail_1.htmle5e5e5;
-    }
-    .bridge_wc div{
-      margin:10px 0;
+    .bridge_online {
+      margin-top: 92px;
+      border-bottom: 1px solid ../product/detail_1.htmle6e6e6;
+      border-top: 1px solid ../product/detail_1.htmle6e6e6;
+
     }
 
-    .bridge_wc p{
-      font-size:16px;
+    .bridge_wc {
+      padding: 10px 45px;
+      border-bottom: 1px solid ../product/detail_1.htmle5e5e5;
+    }
+
+    .bridge_wc div {
+      margin: 10px 0;
+    }
+
+    .bridge_wc p {
+      font-size: 16px;
       font-family: '微软雅黑';
-      color:../product/detail_1.html333;
+      color: ../product/detail_1.html333;
     }
 
-    .bridge_wc div p{
-      padding-left:10px;
-      font-size:16px;
+    .bridge_wc div p {
+      padding-left: 10px;
+      font-size: 16px;
       font-family: '微软雅黑';
-      color:../product/detail_1.html333;
+      color: ../product/detail_1.html333;
     }
 
-    .bridge_online div{
-      padding:10px 0;
+    .bridge_online div {
+      padding: 10px 0;
     }
 
-    .bridge_online div span{
-      padding-left:10px;
-      font-size:16px;
+    .bridge_online div span {
+      padding-left: 10px;
+      font-size: 16px;
       font-family: '微软雅黑';
-      color:../product/detail_1.html2f87dc;
+      color: ../product/detail_1.html2f87dc;
     }
 
-    .bridge_call{
-      border-bottom:1px solid ../product/detail_1.htmle5e5e5;
-      padding:20px 0;
+    .bridge_call {
+      border-bottom: 1px solid ../product/detail_1.htmle5e5e5;
+      padding: 20px 0;
     }
-    
-    .bridge_call p:first-child{
-      padding-bottom:15px;
-      font-size:16px;
+
+    .bridge_call p:first-child {
+      padding-bottom: 15px;
+      font-size: 16px;
       font-family: '微软雅黑';
     }
-    .bridge_call p:last-child{
-      font-size:16px;
+
+    .bridge_call p:last-child {
+      font-size: 16px;
       font-family: '微软雅黑';
-      color:../product/detail_1.html2f87dc;
+      color: ../product/detail_1.html2f87dc;
     }
+
     .bridge_back {
-      padding:20px 45px;
-      padding-bottom:20px;
-      font-size:16px;
+      padding: 20px 45px;
+      padding-bottom: 20px;
+      font-size: 16px;
       font-family: '微软雅黑';
     }
 
-    .dd_close{
+    .dd_close {
       width: 30px;
       height: 30px;
-      background:../product/detail_1.htmlfff url('../assets/images/newBridge/close.png') no-repeat center center;
-    
+      background: ../product/detail_1.htmlfff url('../assets/images/newBridge/close.png') no-repeat center center;
+
       -moz-border-radius: 50px;
       -webkit-border-radius: 50px;
-      border-radius: 50px; 
-      border:1px solid ../product/detail_1.htmle5e5e5;
-      position:absolute;
-      right:-14px;
-      top:-13px;
+      border-radius: 50px;
+      border: 1px solid ../product/detail_1.htmle5e5e5;
+      position: absolute;
+      right: -14px;
+      top: -13px;
     }
-    .bridge_online div:hover{
-      background-color:../product/detail_1.htmlf5f7f9;
+
+    .bridge_online div:hover {
+      background-color: ../product/detail_1.htmlf5f7f9;
     }
-    .img_bridge{
+
+    .img_bridge {
       position: fixed;
-      right:50px;
-      bottom:350px;
+      right: 50px;
+      bottom: 350px;
       z-index: 2;
     }
 
     /*定制开发样式*/
 
-  .dz_title{
-    padding-top:10px;
-    padding-bottom: 10px;
-    text-align: center;
-    font-size: 46px;
-    font-weight: bold;
-    color: ../product/detail_1.html333;
-    font-family: '宋体';
-  }  
+    .dz_title {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+      font-size: 46px;
+      font-weight: bold;
+      color: ../product/detail_1.html333;
+      font-family: '宋体';
+    }
 
-  .line{
-    height: 5px;
-    width: 28px;
-    background-color: ../product/detail_1.html2096fa;
-    margin: 0 auto;
-  }
+    .line {
+      height: 5px;
+      width: 28px;
+      background-color: ../product/detail_1.html2096fa;
+      margin: 0 auto;
+    }
 
-  .dz_f_title{
-    font-family: '宋体' ,'微软雅黑';
-    padding: 20px 0 30px 0;
-    text-align: center;
-    font-size: 24px;
-    color: ../product/detail_1.html333;
-  }
+    .dz_f_title {
+      font-family: '宋体', '微软雅黑';
+      padding: 20px 0 30px 0;
+      text-align: center;
+      font-size: 24px;
+      color: ../product/detail_1.html333;
+    }
 
-  .fontsize0{
-    font-size: 0;
-  }
+    .fontsize0 {
+      font-size: 0;
+    }
 
-  .inline-block{
-    display: inline-block;
-    font-size:16px;
-    vertical-align: top;
-  }
+    .inline-block {
+      display: inline-block;
+      font-size: 16px;
+      vertical-align: top;
+    }
 
-  .dz_part1{
-    padding:0 50px;
-    background-color:../product/detail_1.htmleef3f2;
-  }
-  
-  .dz_part1 ul li{
-    width:50%;
-    padding:35px 0;
-    
-  }
+    .dz_part1 {
+      padding: 0 50px;
+      background-color: ../product/detail_1.htmleef3f2;
+    }
 
-  .item_content{
-    overflow: hidden;
-    padding-left: 20px;
-  }
+    .dz_part1 ul li {
+      width: 50%;
+      padding: 35px 0;
 
-  .float_left{
-    float: left;
-    overflow: hidden;
-  }
+    }
 
-  .item_title{
-    font-size: 20px;
-    font-family: '微软雅黑';
-    color:../product/detail_1.html333;
-    padding-bottom:20px;
-  }
-  
-  .item_text{
-    font-size: 14px;
-    font-family: '微软雅黑';
-    color:../product/detail_1.html808080;
-    white-space: normal;
-    
-  }
+    .item_content {
+      overflow: hidden;
+      padding-left: 20px;
+    }
 
-  .dd_w1200{
-    width:1200px;
-    margin:0 auto;
- }
+    .float_left {
+      float: left;
+      overflow: hidden;
+    }
 
-.dz_part2{
-    background-color:../product/detail_1.htmlfff;
-    padding-top:30px;
-    padding-bottom:40px;
-}
+    .item_title {
+      font-size: 20px;
+      font-family: '微软雅黑';
+      color: ../product/detail_1.html333;
+      padding-bottom: 20px;
+    }
 
-.text_center{
-  text-align: center;
-}
+    .item_text {
+      font-size: 14px;
+      font-family: '微软雅黑';
+      color: ../product/detail_1.html808080;
+      white-space: normal;
 
-.dz_part2 .fontsize0 ul li{
-  width:20%;
-}
+    }
 
-.part2_img1{
-  padding-bottom:20px;
-}
+    .dd_w1200 {
+      width: 1200px;
+      margin: 0 auto;
+    }
 
-.part2_img2{
-  padding-bottom:10px;
-}
+    .dz_part2 {
+      background-color: ../product/detail_1.htmlfff;
+      padding-top: 30px;
+      padding-bottom: 40px;
+    }
 
-.part2_img3{
-  letter-spacing: .1em;
-}
+    .text_center {
+      text-align: center;
+    }
 
-.dz_part3{
-  padding:30px 0 40px 0;
-}
+    .dz_part2 .fontsize0 ul li {
+      width: 20%;
+    }
 
-.dz_part3 .fontsize0 ul li{
-  width:23%;
-  margin-right:30px;
-  background-color:../product/detail_1.htmlfff;
-}
+    .part2_img1 {
+      padding-bottom: 20px;
+    }
 
-.dz_part3 .fontsize0 ul li:last-child{
-  margin-right:0;
-}
+    .part2_img2 {
+      padding-bottom: 10px;
+    }
 
-.part3_img1{
-  padding:40px 0;
-}
+    .part2_img3 {
+      letter-spacing: .1em;
+    }
 
-.part3_img2{
-  padding-bottom:25px;
-  font-size:20px;
-  color:../product/detail_1.html333;
-  font-family: "微软雅黑"
-}
-.part3_img3{
-  margin-bottom:45px;
-  padding:0 20px;
-  min-height: 120px;
-  font-size:14px;
-  color:../product/detail_1.html333;
-  font-family: "微软雅黑"
-}
+    .dz_part3 {
+      padding: 30px 0 40px 0;
+    }
 
-/* .dz_part3 .fontsize0 ul li:hover{
+    .dz_part3 .fontsize0 ul li {
+      width: 23%;
+      margin-right: 30px;
+      background-color: ../product/detail_1.htmlfff;
+    }
+
+    .dz_part3 .fontsize0 ul li:last-child {
+      margin-right: 0;
+    }
+
+    .part3_img1 {
+      padding: 40px 0;
+    }
+
+    .part3_img2 {
+      padding-bottom: 25px;
+      font-size: 20px;
+      color: ../product/detail_1.html333;
+      font-family: "微软雅黑"
+    }
+
+    .part3_img3 {
+      margin-bottom: 45px;
+      padding: 0 20px;
+      min-height: 120px;
+      font-size: 14px;
+      color: ../product/detail_1.html333;
+      font-family: "微软雅黑"
+    }
+
+    /* .dz_part3 .fontsize0 ul li:hover{
 
   box-shadow: 0px 4px 20px ../product/detail_1.html919191;
 
 } */
 
-.dz_part4{
-  background-color:../product/detail_1.htmlfff;
-}
-.form_msg{
-  width:50%;
-}
+    .dz_part4 {
+      background-color: ../product/detail_1.htmlfff;
+    }
 
-.form_msg input{
-  width:70%;
-  border: 1px solid ../product/detail_1.htmlccc;
-  padding: 13px 0px;
-  border-radius: 3px;
-  padding-left:5px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
-}
+    .form_msg {
+      width: 50%;
+    }
 
- .form_msg  input:focus{
-  border-color: ../product/detail_1.html66afe9;
-  outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
-  }
+    .form_msg input {
+      width: 70%;
+      border: 1px solid ../product/detail_1.htmlccc;
+      padding: 13px 0px;
+      border-radius: 3px;
+      padding-left: 5px;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+      -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+      -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+      transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+    }
 
-  .form_msg div{
-    padding-bottom:40px;
-  }
+    .form_msg input:focus {
+      border-color: ../product/detail_1.html66afe9;
+      outline: 0;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+    }
 
-  .form_msg div:last-child{
-    padding-bottom:0px;
-  }
+    .form_msg div {
+      padding-bottom: 40px;
+    }
 
-  .dz_part4{
-    padding:30px 0 50px 0;
-  }
+    .form_msg div:last-child {
+      padding-bottom: 0px;
+    }
 
-  .dz_btm input{
-    width:10%;
-    margin-top:30px;
-  }
+    .dz_part4 {
+      padding: 30px 0 50px 0;
+    }
 
-  .dz_textarea{
-    padding-right:50px;
-    text-align: center;
-  }
+    .dz_btm input {
+      width: 10%;
+      margin-top: 30px;
+    }
 
-  .dz_textarea textarea{
-    border-radius: 5px;
-    padding:5px;
-  }
+    .dz_textarea {
+      padding-right: 50px;
+      text-align: center;
+    }
 
-  .font16{
-    font-size:16px;
-    font-family:"微软雅黑";
-    color:../product/detail_1.html333;
-    font-weight:800;
-  }
-   
-  .item_content{
-    padding-right:20px;
-  } 
+    .dz_textarea textarea {
+      border-radius: 5px;
+      padding: 5px;
+    }
 
-  
-</style>
+    .font16 {
+      font-size: 16px;
+      font-family: "微软雅黑";
+      color: ../product/detail_1.html333;
+      font-weight: 800;
+    }
+
+    .item_content {
+      padding-right: 20px;
+    }
+  </style>
 
 </head>
 
 <body>
-	<div style="position: relative;z-index:1;">
+  <div style="position: relative;z-index:1;">
     <!-- 头部 -->
-   <div class="haisheng_header">
-       <div class="haisheng_title">
-           <img src="../assets/images/public/logo.png?v=1" class="logo" />
-           <div class="xiala">
-               <img src="../assets/images/public/cand.png" class="img1" />
-               <span>全部产品</span>
-               <img src="../assets/images/public/xiala.png" class="img2" />
-               <!--下拉框开始-->
-               <div id="xiala_ear" style="display: none;">
-                   <!--style="display: none;"-->
-                   <div class="cc">
-                       <div class="ear">
-                           <div class="earitem">
-                               <p class="earitem">
-                                   <img src="../assets/images/public/shangc.png" />
-                                   <span>商城类别</span>
-                               </p>
-                               <div class="lianjie">
-                                   <div>
-                                       <a>分销商城</a>
-                                       <a>代理分红系统</a>
-                                       <a>微商管理系统</a>
-                                       <a>直销公排系统</a>
-                                       <a>更多</a>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="earitem">
-                               <p>
-                                   <img src="../assets/images/public/h5e.png" />
-                                   <span>H5游戏</span>
-                               </p>
-                               <div class="lianjie">
-                                   <div>
-                                       <a>果园系统</a>
-                                       <a>农场养殖系统</a>
-                                       <a>游戏理财系统</a>
-                                       <a>抢红包系统</a>
-                                       <a>更多</a>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="earitem">
-                               <p>
-                                   <img src="../assets/images/public/wangzh.png" />
-                                   <span>网址搭建</span>
-                               </p>
+    <div class="haisheng_header">
+      <div class="haisheng_title">
+        <img src="../assets/images/public/logo.png?v=1" class="logo" />
+        <div class="xiala">
+          <img src="../assets/images/public/cand.png" class="img1" />
+          <span>全部产品</span>
+          <img src="../assets/images/public/xiala.png" class="img2" />
+          <!--下拉框开始-->
+          <div id="xiala_ear" style="display: none;">
+            <!--style="display: none;"-->
+            <div class="cc">
+              <div class="ear">
+                <div class="earitem">
+                  <p class="earitem">
+                    <img src="../assets/images/public/shangc.png" />
+                    <span>商城类别</span>
+                  </p>
+                  <div class="lianjie">
+                    <div>
+                      <a>分销商城</a>
+                      <a>代理分红系统</a>
+                      <a>微商管理系统</a>
+                      <a>直销公排系统</a>
+                      <a>更多</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="earitem">
+                  <p>
+                    <img src="../assets/images/public/h5e.png" />
+                    <span>H5游戏</span>
+                  </p>
+                  <div class="lianjie">
+                    <div>
+                      <a>果园系统</a>
+                      <a>农场养殖系统</a>
+                      <a>游戏理财系统</a>
+                      <a>抢红包系统</a>
+                      <a>更多</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="earitem">
+                  <p>
+                    <img src="../assets/images/public/wangzh.png" />
+                    <span>网址搭建</span>
+                  </p>
 
-                               <div class="lianjie">
-                                   <div>
-                                       <a>官网建设</a>
-                                       <a>电商网站建设</span>
-                                           <a>商务网站建设</a>
-                                           <a>门户网站建设</a>
-                                           <a>更多</a>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="earitem">
-                               <p>
-                                   <img src="../assets/images/public/o2o.png" />
-                                   <span>&nbsp;O2O</span>
-                               </p>
+                  <div class="lianjie">
+                    <div>
+                      <a>官网建设</a>
+                      <a>电商网站建设</span>
+                        <a>商务网站建设</a>
+                        <a>门户网站建设</a>
+                        <a>更多</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="earitem">
+                  <p>
+                    <img src="../assets/images/public/o2o.png" />
+                    <span>&nbsp;O2O</span>
+                  </p>
 
-                               <div class="lianjie">
-                                   <div>
-                                       <a>直播APP</a>
-                                       <a>新零售系统</span>
-                                           <a>多商家入驻平台</a>
-                                           <a>餐饮酒店系统</a>
-                                           <a>更多</a>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="earitem">
-                               <p>
-                                   <img src="../assets/images/public/loog.png" />
-                                   <span>&nbsp;小程序</span>
-                               </p>
+                  <div class="lianjie">
+                    <div>
+                      <a>直播APP</a>
+                      <a>新零售系统</span>
+                        <a>多商家入驻平台</a>
+                        <a>餐饮酒店系统</a>
+                        <a>更多</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="earitem">
+                  <p>
+                    <img src="../assets/images/public/loog.png" />
+                    <span>&nbsp;小程序</span>
+                  </p>
 
-                               <div class="lianjie">
-                                   <div>
-                                       <a>分销小程序</a>
-                                       <a>更多</a>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="earitem">
-                               <p>
-                                   <img src="../assets/images/public/addServer.png" />
-                                   <span>增值服务</span>
-                               </p>
+                  <div class="lianjie">
+                    <div>
+                      <a>分销小程序</a>
+                      <a>更多</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="earitem">
+                  <p>
+                    <img src="../assets/images/public/addServer.png" />
+                    <span>增值服务</span>
+                  </p>
 
-                               <div class="lianjie">
-                                   <div>
-                                       <a>UI设计</a>
-                                       <a>平面设计</a>
-                                       <a>软件定制开发</a>
-                                       <a>系统二次开发</a>
-                                       <a>更多</a>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
+                  <div class="lianjie">
+                    <div>
+                      <a>UI设计</a>
+                      <a>平面设计</a>
+                      <a>软件定制开发</a>
+                      <a>系统二次开发</a>
+                      <a>更多</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-                       <div class="pic">
-                           <img src="../assets/images/public/bodyHeader1.png" />
-                           <img src="../assets/images/public/bodyHeader2.png" />
-                           <img src="../assets/images/public/bodyHeader3.png" />
-                       </div>
-                   </div>
+              <div class="pic">
+                <img src="../assets/images/public/bodyHeader1.png" />
+                <img src="../assets/images/public/bodyHeader2.png" />
+                <img src="../assets/images/public/bodyHeader3.png" />
+              </div>
+            </div>
 
-               </div>
-               <!--下拉框结束-->
+          </div>
+          <!--下拉框结束-->
 
-           </div>
-           <div class="zixiang_title">
-               <a href="../index.html">首&nbsp;页</a>
-               <a class="activity" href="../product/product.html">产品中心</a>
-               <a href="../cases/cases.html">案例中心</a>
-               <a href="../help/help.html">帮助中心</a>
-               <a href="../news/news.html">最新资讯</a>
-               <a href="../connect/connect.html">关于智丰</a>
-               <a href="../classicModel/classicModel.html">经典模式</a>
-           </div>
-       </div>
-   </div>
+        </div>
+        <div class="zixiang_title">
+          <a href="../index.html">首&nbsp;页</a>
+          <a class="activity" href="../product/product.html">产品中心</a>
+          <a href="../cases/cases.html">案例中心</a>
+          <a href="../help/help.html">帮助中心</a>
+          <a href="../news/news.html">最新资讯</a>
+          <a href="../connect/connect.html">关于智丰</a>
+          <a href="../classicModel/classicModel.html">经典模式</a>
+        </div>
+      </div>
+    </div>
 
-   <!--banner -->
+    <!--banner -->
 
-   <div class="banner">
-   
-     <div class="banner-main">
-   
-       <section class="slider">
-   
-         <div class="flexslider" id="flexslider_head">
-   
-           <ul class="slides">
-   
-             <li class="f-relative">
-   
-               <a href="../product/detail_1.html">
-   
-                 <img class="hidden-xs" src="../assets/images/productBnaner.jpg" alt="" style="width: 100%;">
-   
-               </a>
-   
-             </li>
-   
-           </ul>
-   
-         </div>
-   
-         <div class="clearfix"> </div>
-   
-       </section>
-   
-     </div>
-   
-   </div>
+    <div class="banner">
 
-      
-      
- <div class="contactPath1">
+      <div class="banner-main">
 
-       <!-- 位置注明 -->
-     <div class="container">
- 
-     <div class='dd_w1200'>
-       <div class="cur_position">
-         <b>当前位置:</b>
-   
-         <a href="../product/detail_1.html">首页</a> &gt;
-   
-         <a href="../product/product.html">产品中心</a>
-       </div>
-     </div>
- 
-   </div>
+        <section class="slider">
 
-     
-       <!-- 轮播图下的导航栏 -->                 
-   <div class="leibie">
-     <div class="lb_leibie" id="tab">
-       <ul>
-         <li class="active"><a href="#fenxiao"> 分销系统 </a></li>
+          <div class="flexslider" id="flexslider_head">
+
+            <ul class="slides">
+
+              <li class="f-relative">
+
+                <a href="../product/detail_1.html">
+
+                  <img class="hidden-xs" src="../assets/images/productBnaner.jpg" alt="" style="width: 100%;">
+
+                </a>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="clearfix"> </div>
+
+        </section>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="contactPath1">
+
+      <!-- 位置注明 -->
+      <div class="container">
+
+        <div class='dd_w1200'>
+          <div class="cur_position">
+            <b>当前位置:</b>
+
+            <a href="../product/detail_1.html">首页</a> &gt;
+
+            <a href="../product/product.html">产品中心</a>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- 轮播图下的导航栏 -->
+      <div class="leibie">
+        <div class="lb_leibie" id="tab">
+          <ul>
+            <li class="active"><a href="#fenxiao"> 分销系统 </a></li>
             <li><a href="#fenhong">分红系统</a></li>
             <li><a href="#daili">代理系统</a></li>
             <li><a href="#shangjia">增值服务</a></li>
             <li><a href="#quanfan">全返系统</a></li>
-            <li><a href="#o2o">O2O</a></li>           
+            <li><a href="#o2o">O2O</a></li>
             <li><a href="#littleApp">小程序</a></li>
             <li><a href="#H5game">H5游戏</a></li>
             <li><a href="#gongpai">公排系统</a></li>
             <li><a href="#webDesign">网站建设</a></li>
             <li><a href="../product/detail.html">定制开发</a></li>
-       </ul>
-     </div>
-   
-   </div>
+          </ul>
+        </div>
 
-   <!-- 产品 -->
+      </div>
 
-       <div class="new_product">
+      <!-- 产品 -->
 
-           <div class="bonus index">
+      <div class="new_product">
 
-               <div class="bonus-main tab_content" id="fenxiao" style="display:block">
+        <div class="bonus index">
 
-                   <div class="container">
+          <div class="bonus-main tab_content" id="fenxiao" style="display:block">
 
-                           <div class="functionTrait-title wow" style="padding: 3rem 0;">
-                               <p class="tit">分销系统</p>
-                               <img style="width: 38%;position: relative;float: left;top: -91px;" src="../assets/images/proIcon/type1/1.png" >
-                               <p class="ziti">分销系统主要有三级分销、二级分销、单品分销等，是通过一层层的社交关系让粉丝成为分销会员，最终建立起企业的分销体系，通过微分销实现线下与线上资源的整合，在最短的时间内把成千上万的粉丝转变自己的分销商，同时可以在最短的时间内，投入最少的成本，最快的为企业打造最高的知名度。</p>              
-                           </div>
-                           <div class="clearboth"></div>
-                         
-                           
-                           <div class="bonus-bottom">
-                         
-                           <div class="swiper_c">     
-                               <div class="swiper-container" id="slider_fenxiao">
-                                   <div class="swiper-wrapper">
-                                   <div class="swiper-slide swiper_fx_bg1"></div>
-                                   <div class="swiper-slide swiper_fx_bg2 "></div>
-                                   <div class="swiper-slide swiper_fx_bg3"></div>
-                                   <div class="swiper-slide swiper_fx_bg4"></div>
-                                   <div class="swiper-slide swiper_fx_bg5"></div>
-                                 </div>
-                               </div>              
-                           </div>
-                           <div class="col-sm-12 bonus-rit">
+            <div class="container">
 
-                               <a href="../product/detail_1.html" >
-                                   <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+              <div class="functionTrait-title wow" style="padding: 3rem 0;">
+                <p class="tit">分销系统</p>
+                <img style="width: 38%;position: relative;float: left;top: -91px;"
+                  src="../assets/images/proIcon/type1/1.png">
+                <p class="ziti">
+                  分销系统主要有三级分销、二级分销、单品分销等，是通过一层层的社交关系让粉丝成为分销会员，最终建立起企业的分销体系，通过微分销实现线下与线上资源的整合，在最短的时间内把成千上万的粉丝转变自己的分销商，同时可以在最短的时间内，投入最少的成本，最快的为企业打造最高的知名度。
+                </p>
+              </div>
+              <div class="clearboth"></div>
 
-                                       <div class="bonuspadding">
 
-                                           <div class="bonus-img">
+              <div class="bonus-bottom">
 
-                                               <img src="../assets/images/proIcon/type1/2.png"  />
-
-                                           </div>
-
-                                        </div>
-
-                                       <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >设置各等级佣金规则；设定各分销等级的升级条件；可自由设置成为分销商的条件。</a></div>
-
-                                   </div>
-                               </a>
-
-                               <a href="../product/detail_1.html" >
-                                   <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
-
-                                       <div class="bonuspadding">
-
-                                           <div class="bonus-img">
-
-                                               <img src="../assets/images/proIcon/type1/3.png"  />
-
-                                           </div>
-
-                                        </div>
-
-                                       <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >可自由设置佣金的计算方式；商城内的商品可自由设置是否参与分销；参与分销的商品可独立设置分配佣金以及分佣级别。</a></div>
-
-                                   </div>
-                               </a>      
-
-                               <a href="../product/detail_1.html" >
-                                   <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
-
-                                       <div class="bonuspadding">
-
-                                           <div class="bonus-img">
-
-                                               <img src="../assets/images/proIcon/type1/4.png"  />
-
-                                           </div>
-
-                                        </div>
-
-                                       <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >可自由设置佣金计算方式；设置各等级佣金规则；设定各分销等级的升级条件。</a></div>
-
-                                   </div>
-                               </a>
-
-                               <a href="../product/detail_1.html" >
-                                   <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
-
-                                       <div class="bonuspadding">
-
-                                           <div class="bonus-img">
-
-                                               <img src="../assets/images/proIcon/type1/5.png"  />
-
-                                           </div>
-
-                                        </div>
-
-                                       <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >二级分销是指粉丝购买产品，由他直线往上（最多）两个层级的推广员可获得商家的一部分产品利润奖励，最终推广员获得佣金，商家获得粉丝和裂变传播。</a></div>
-
-                                   </div>
-                               </a>      
-
-                               <a href="../product/detail_1.html" >
-                                   <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
-
-                                       <div class="bonuspadding">
-
-                                           <div class="bonus-img">
-
-                                               <img src="../assets/images/proIcon/type1/6.png"  />
-
-                                           </div>
-
-                                        </div>
-
-                                       <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >顾客通过扫门店二维码，关注公众号，进入微商城即可线上购买，同时系统将自动给门店以及发展门店的业务员一定比例提成。</a></div>
-
-                                   </div>
-                               </a>
-
-                               <a href="../product/detail_1.html" >
-                                   <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
-
-                                       <div class="bonuspadding">
-
-                                           <div class="bonus-img">
-
-                                               <img src="../assets/images/proIcon/type1/7.png"  />
-
-                                           </div>
-
-                                        </div>
-
-                                       <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" ></p></a></div>
-
-                                   </div>
-                               </a>
-                             
-                           </div>
-
-                           <div class="f-cb"></div>
-                           <div class="clearfix"></div>
-                       </div>
-
-                   </div>
-
-               </div>
-
-               <div class="bonus-main tab_content" id="webDesign">
-
-                   <div class="container">
-
-                       <div class="functionTrait-title" style="padding: 3rem 0;">
-
-                           <p class="tit">网站搭建</p>
-                           <img style="width: 38%;position: relative;float: left;top: -91px;" src="../assets/images/proIcon/type10/10.png" >
-                           <p class="ziti">通过网站目标定位，针对性选择布局，重点展示了客户所关心的内容；并以简洁明朗的设计风格，清晰展现公司水平实力，确保一秒抓住目标用户眼球，给用户留下良好的第一印象。</p>
-                       </div>
-                       <div class="clearboth"></div>
-                       <div class="bonus-bottom">
-                           <div class="swiper_c">     
-                               <div class="swiper-container" id="slider_webDesign">
-                                   <div class="swiper-wrapper">
-                                       <div class="swiper-slide swiper_fh_bg1"></div>
-                                       <div class="swiper-slide swiper_fh_bg2 "></div>
-                                       <div class="swiper-slide swiper_fh_bg3"></div>
-                                       <div class="swiper-slide swiper_fh_bg4"></div>
-                                       <div class="swiper-slide swiper_fh_bg5"></div>
-                                         
-                                   </div>
-                               </div>              
-                           </div>
-                         
-                           <div class="col-sm-12 bonus-rit">
-
-                               <a href="../product/detail_1.html" >
-                                   <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
-
-                                     <div class="bonuspadding">
- 
-                                         <div class="bonus-img">
- 
-                                             <img src="../assets/images/proIcon/type10/6.png"  />
- 
-                                         </div>
- 
-                                     </div>
-
-                                     <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >抓住企业特点，突出企业核心体系，全面展示企业优势，与潜在客户建立商业联系。</a></div>
-
-                                   </div>
-                               </a>
-
-                               <a href="../product/detail_1.html" >
-                                   <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
-
-                                     <div class="bonuspadding">
- 
-                                         <div class="bonus-img">
- 
-                                             <img src="../assets/images/proIcon/type10/7.png"  />
- 
-                                         </div>
- 
-                                     </div>
- 
-                                     <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >建立部署自己的商业交易平台，开辟属于自己的营销渠道。</a></div>
-
-                                   </div>
-                               </a>
-
-                               <a href="../product/detail_1.html" >
-                                   <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
-
-                                     <div class="bonuspadding">
-
-                                         <div class="bonus-img">
-
-                                             <img src="../assets/images/proIcon/type10/8.png"  />
-
-                                         </div>
-
-                                      </div>
-
-                                   <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >突出企业核心体系，全面展示企业优势，确保给目标客户留下良好的第一印象。</a></div>
-
-                                   </div>
-                               </a>
-
-                             <a href="../product/detail_1.html" >
-                               <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
-
-                                 <div class="bonuspadding">
-
-                                     <div class="bonus-img">
-
-                                       <img src="../assets/images/proIcon/type10/9.png"  />
-
-                                     </div>
-
-                                    </div>
-
-                                   <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >提供并某个行业综合信息资源的大型网站，可提升行业整体的商业价值，覆盖了行业的一系列供应链以及相关的企业，是智能、便捷的一站式信息聚集平台。</a></div>
-
-                               </div>
-                             </a>
-                              
-
-                         </div>
-                         <div class="clearfix"> </div>
-
-                     </div>
-
-                 </div>
-             </div>
-
-             <div class="bonus-main tab_content" id="daili">
-
-               <div class="container">
-
-                 <div class="functionTrait-title wow" style="padding: 3rem 0;">
-
-                       <p class="tit">代理系统</p>
-                       <img style="width: 38%;position: relative;float: left;top: -91px;" src="../assets/images/proIcon/type3/11.png" >
-                       <p class="ziti">代理系统主要有区域代理系统、代理商ERP管理系统、微商管理系统等，管理所有的代理商信息，通过代理商合作快速打通线下销售渠道，建立代理商体系，抢占全球市场份额，帮助商家建立团队领导机制，最大程度激励代理商，迅速推动销量增长</p>
-                 </div>
-                 <div class="clearboth"></div>
-                 
-                 <div class="bonus-bottom">
-                     <div class="swiper_c">     
-                           <div class="swiper-container" id="slider_daili">
-                                 <div class="swiper-wrapper">
-                                       <div class="swiper-slide swiper_dl_bg1"></div>
-                                       <div class="swiper-slide swiper_dl_bg2 "></div>
-                                       <div class="swiper-slide swiper_dl_bg3"></div>
-                                       <div class="swiper-slide swiper_dl_bg4"></div>
-                                       <div class="swiper-slide swiper_dl_bg5"></div>
-                                 </div>
-                           </div>              
-                     </div>
-
-                     <div class="col-sm-12 bonus-rit">
-
-                       <a href="../product/detail_1.html" >
-                         <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
-
-                           <div class="bonuspadding">
-
-                               <div class="bonus-img">
-
-                                   <img src="../assets/images/proIcon/type3/6.png"  />
-
-                                   
-
-                               </div>
-
-                            </div>
-
-                             <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >后台手动指定区域代理商；可统一或单独设置各区域分红佣金比例；可开启区域级差分红</a></div>
-
-                         </div>
-                       </a>
-
-                       <a href="../product/detail_1.html" >
-                         <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
-
-                           <div class="bonuspadding">
-
-                               <div class="bonus-img">
-
-                                   <img src="../assets/images/proIcon/type3/7.png"  />
-
-                               </div>
-
-                            </div>
-
-                             <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >可自定义代理商等级；设置各等级的分红比例；可开启代理级差分红</a></div>
-
-                         </div>
-                       </a>  
-
-                       <a href="../product/detail_1.html" >  
-                         <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
-
-                           <div class="bonuspadding">
-
-                               <div class="bonus-img">
-
-                                   <img src="../assets/images/proIcon/type3/8.png"  />
-
-                               </div>
-
-                           </div>
-
-                             <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >可自由设定代理商等级及升级条件；平台统一发货，代理商无需囤货；不同等级设置的进货价格和最低进货量、提货量不同。</a></div>
-
-                         </div>
-                       </a>  
-                        
-                       <a href="../product/detail_1.html" > 
-                         <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
-
-                           <div class="bonuspadding">
-
-                               <div class="bonus-img">
-
-                                 <img src="../assets/images/proIcon/type3/9.png"  />
-
-                               </div>
-
-                            </div>
-
-                             <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >可自由设定代理商等级；设置多种代理商升级条件；不同级别的代理商设置不同的进货价格。</a></div>
-
-                         </div>
-                       </a>
-
-                         <div class="clearfix"> </div>
-
-                       <a href="../product/detail_1.html" >
-                         <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
-
-                           <div class="bonuspadding">
-
-                               <div class="bonus-img">
-
-                                   <img src="../assets/images/proIcon/type3/10.png"  />
-
-                               </div>
-
-                            </div>
-
-                             <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >可自由设定代理商等级以及升级条件；可设置代理收益奖、永续提成比例；代理商虚库、企业实库双库存管理。</a></div>
-
-                         </div>
-                       </a>
-                     </div>
-                   <div class="clearfix"> </div>
+                <div class="swiper_c">
+                  <div class="swiper-container" id="slider_fenxiao">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide swiper_fx_bg1"></div>
+                      <div class="swiper-slide swiper_fx_bg2 "></div>
+                      <div class="swiper-slide swiper_fx_bg3"></div>
+                      <div class="swiper-slide swiper_fx_bg4"></div>
+                      <div class="swiper-slide swiper_fx_bg5"></div>
+                    </div>
+                  </div>
                 </div>
-               </div>
+                <div class="col-sm-12 bonus-rit">
 
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
+                      <div class="bonuspadding">
 
-             </div>
+                        <div class="bonus-img">
 
-             <div class="bonus-main tab_content" id="littleApp">
+                          <img src="../assets/images/proIcon/type1/2.png" />
 
-               <div class="container">
+                        </div>
 
-                   <div class="functionTrait-title wow" style="padding: 3rem 0;">
+                      </div>
 
-                         <p class="tit">小程序&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                         <img style="width: 38%;position: relative;float: left;top: -91px;" src="../assets/images/proIcon/type7/13.png" >
-                         <p class="ziti">竞拍小程序、直播小程序、拼团小程序、餐饮定位小程序等等，不需下载安装即可使用的应用，它实现了“触手可及”的梦想，通过扫一扫或者搜一下即可打开应用。能够满足基础的应用，适合生活服务类线下商店以及非刚需低频应用转换</p>
-                   </div>
-                   <div class="clearboth"></div>
-                   <div class="bonus-bottom">
-                       <div class="swiper_c">     
-                         <div class="swiper-container" id="slider_littleApp">
-                               <div class="swiper-wrapper">
-                               <div class="swiper-slide swiper_xcx_bg1"></div>
-                               <div class="swiper-slide swiper_xcx_bg2 "></div>
-                               <div class="swiper-slide swiper_xcx_bg3"></div>
-                               <div class="swiper-slide swiper_xcx_bg4"></div>
-                               <div class="swiper-slide swiper_xcx_bg5"></div>
-                             </div>
-                         </div>              
-                       </div>
-                      
-                             <div class="col-sm-12 bonus-rit">
+                      <div class="bonus-content bonuspadding"><a
+                          href="../product/detail_1.html">设置各等级佣金规则；设定各分销等级的升级条件；可自由设置成为分销商的条件。</a></div>
 
-                                     <a href="../product/detail_1.html" >
-                                         <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                    </div>
+                  </a>
 
-                                           <div class="bonuspadding">
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                               <div class="bonus-img ">
+                      <div class="bonuspadding">
 
-                                                   <img src="../assets/images/proIcon/type7/6.png" />
+                        <div class="bonus-img">
 
+                          <img src="../assets/images/proIcon/type1/3.png" />
 
-                                               </div>
+                        </div>
 
-                                            </div>
+                      </div>
 
-                                             <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >裂变式营销模式，快速吸粉，短时间内为企业打造最高的知名度。</a></div>
+                      <div class="bonus-content bonuspadding"><a
+                          href="../product/detail_1.html">可自由设置佣金的计算方式；商城内的商品可自由设置是否参与分销；参与分销的商品可独立设置分配佣金以及分佣级别。</a>
+                      </div>
 
-                                         </div>
-                                     </a>
+                    </div>
+                  </a>
 
-                                     <a href="../product/detail_1.html" >
-                                         <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                           <div class="bonuspadding">
+                      <div class="bonuspadding">
 
-                                               <div class="bonus-img ">
+                        <div class="bonus-img">
 
-                                                   <img src="../assets/images/proIcon/type7/7.png"  />
+                          <img src="../assets/images/proIcon/type1/4.png" />
 
-                                                   
+                        </div>
 
-                                               </div>
+                      </div>
 
-                                               
+                      <div class="bonus-content bonuspadding"><a
+                          href="../product/detail_1.html">可自由设置佣金计算方式；设置各等级佣金规则；设定各分销等级的升级条件。</a></div>
 
-                                             </div>
+                    </div>
+                  </a>
 
-                                             
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                             <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >基于熟人之间的社交化电商传播，用户会自发地在熟人之间自传播，带来大量流量。</a></div>
+                      <div class="bonuspadding">
 
-                                         </div>
-                                     </a>
+                        <div class="bonus-img">
 
-                                     <a href="../product/detail_1.html" >
-                                         <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
-                                           <div class="bonuspadding">
+                          <img src="../assets/images/proIcon/type1/5.png" />
 
-                                               <div class="bonus-img ">
+                        </div>
 
-                                                   <img src="../assets/images/proIcon/type7/8.png"  />
+                      </div>
 
-                                                  
+                      <div class="bonus-content bonuspadding"><a
+                          href="../product/detail_1.html">二级分销是指粉丝购买产品，由他直线往上（最多）两个层级的推广员可获得商家的一部分产品利润奖励，最终推广员获得佣金，商家获得粉丝和裂变传播。</a>
+                      </div>
 
-                                               </div>
+                    </div>
+                  </a>
 
-                                               
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                             </div>
+                      <div class="bonuspadding">
 
+                        <div class="bonus-img">
 
-                                             <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >主流团购平台同步开发标准.新商业模式,打破电商价格壁垒。</a></div>
+                          <img src="../assets/images/proIcon/type1/6.png" />
 
-                                         </div>
-                                     </a>
+                        </div>
 
-                                     <a href="../product/detail_1.html" >
-                                           <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                      </div>
 
-                                             <div class="bonuspadding">
+                      <div class="bonus-content bonuspadding"><a
+                          href="../product/detail_1.html">顾客通过扫门店二维码，关注公众号，进入微商城即可线上购买，同时系统将自动给门店以及发展门店的业务员一定比例提成。</a>
+                      </div>
 
-                                                 <div class="bonus-img ">
+                    </div>
+                  </a>
 
-                                                     <img src="../assets/images/proIcon/type7/9.png"  />
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                                     
+                      <div class="bonuspadding">
 
-                                                 </div>
+                        <div class="bonus-img">
 
-                                              </div>
+                          <img src="../assets/images/proIcon/type1/7.png" />
 
-                                               <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >一站式定制服务，根据客户需求，量身设计，个性化定制开发。</a></div>
+                        </div>
 
-                                           </div>
-                                     </a>
+                      </div>
 
-                                     <div class="f-cb"></div>
+                      <div class="bonus-content bonuspadding"><a href="../product/detail_1.html"></p></a></div>
 
-                                   
+                    </div>
+                  </a>
 
-                             </div>
-                 
-                           <div class="f-cb"></div>
+                </div>
 
+                <div class="f-cb"></div>
+                <div class="clearfix"></div>
+              </div>
 
+            </div>
 
-                       <div class="clearfix"> </div>
-                     </div>
+          </div>
 
-                   </div>
+          <div class="bonus-main tab_content" id="webDesign">
 
+            <div class="container">
 
+              <div class="functionTrait-title" style="padding: 3rem 0;">
 
-               </div>
+                <p class="tit">网站搭建</p>
+                <img style="width: 38%;position: relative;float: left;top: -91px;"
+                  src="../assets/images/proIcon/type10/10.png">
+                <p class="ziti">通过网站目标定位，针对性选择布局，重点展示了客户所关心的内容；并以简洁明朗的设计风格，清晰展现公司水平实力，确保一秒抓住目标用户眼球，给用户留下良好的第一印象。</p>
+              </div>
+              <div class="clearboth"></div>
+              <div class="bonus-bottom">
+                <div class="swiper_c">
+                  <div class="swiper-container" id="slider_webDesign">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide swiper_fh_bg1"></div>
+                      <div class="swiper-slide swiper_fh_bg2 "></div>
+                      <div class="swiper-slide swiper_fh_bg3"></div>
+                      <div class="swiper-slide swiper_fh_bg4"></div>
+                      <div class="swiper-slide swiper_fh_bg5"></div>
 
-     
-             </div>
+                    </div>
+                  </div>
+                </div>
 
-             <div class="bonus-main tab_content" id="gongpai">
+                <div class="col-sm-12 bonus-rit">
 
-               <div class="container">
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                 <div class="functionTrait-title wow" style="padding: 3rem 0;">
+                      <div class="bonuspadding">
 
-                       <p class="tit">公排系统</p>
-                       <img style="width: 38%;position: relative;float: left;top: -91px;" src="../assets/images/proIcon/type9/12.png" >
-                       <p class="ziti">公排系统提供多种排位模式及奖励，鼓励各级会员开拓市场的积极性，在确保每个人都有丰厚的奖励的同时，又能给团队伙伴带来利益，扩大了薄弱市场，同时帮助了该市场中相关联的人。</p>
-                 </div>
-                 <div class="clearboth"></div>
-                 <div class="bonus-bottom">
-                 <div class="swiper_c">     
-                   <div class="swiper-container" id="slider_gongpai">
-                         <div class="swiper-wrapper">
-                         <div class="swiper-slide swiper_gp_bg1"></div>
-                         <div class="swiper-slide swiper_gp_bg2 "></div>
-                         <div class="swiper-slide swiper_gp_bg3"></div>
-                         <div class="swiper-slide swiper_gp_bg4"></div>
-                         <div class="swiper-slide swiper_gp_bg5"></div>
-                       </div>
-                 </div>              
-                 </div>
+                        <div class="bonus-img">
 
-                     <div class="col-sm-12 bonus-rit">
-                            
-                         <a href="../product/detail_1.html" >   
-                             <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                          <img src="../assets/images/proIcon/type10/6.png" />
 
-                               <div class="bonuspadding">
+                        </div>
 
-                                   <div class="bonus-img">
+                      </div>
 
-                                       <img src="../assets/images/proIcon/type9/6.png"  />
+                      <div class="bonus-content bonuspadding"><a
+                          href="../product/detail_1.html">抓住企业特点，突出企业核心体系，全面展示企业优势，与潜在客户建立商业联系。</a></div>
 
-                                       <!-- <p class="f-fsize17 hot hidden-xs">Hot!</p> -->
+                    </div>
+                  </a>
 
-                                   </div>
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                   <!-- <div class="bonus-title"></div> -->
+                      <div class="bonuspadding">
 
-                                 </div>
+                        <div class="bonus-img">
 
-                                 <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                          <img src="../assets/images/proIcon/type10/7.png" />
 
-                                 <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >大公排属于单网体，也叫作全网公排模式，所谓全网公排就是平台上所有的人都排在同一个大网体上面，你发展的人不一定是排在你自己的名下，有可能排在别人的名下。</a></div>
+                        </div>
 
-                             </div>
-                         </a>
+                      </div>
 
-                         <a href="../product/detail_1.html" >
-                             <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                      <div class="bonus-content bonuspadding"><a
+                          href="../product/detail_1.html">建立部署自己的商业交易平台，开辟属于自己的营销渠道。</a></div>
 
-                               <div class="bonuspadding">
+                    </div>
+                  </a>
 
-                                   <div class="bonus-img">
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                       <img src="../assets/images/proIcon/type9/7.png"  />
+                      <div class="bonuspadding">
 
-                                   </div>
+                        <div class="bonus-img">
 
-                                   <!-- <div class="bonus-title"></div> -->
+                          <img src="../assets/images/proIcon/type10/8.png" />
 
-                                 </div>
+                        </div>
 
-                                 <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                      </div>
 
-                                 <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >小公排跟大公排不一样，大公排是整个平台为一个网体，但是小公排是每一个人都是一个网体，叫多网体公排模式。自己发展的人会放在自己的名下。</a></div>
+                      <div class="bonus-content bonuspadding"><a
+                          href="../product/detail_1.html">突出企业核心体系，全面展示企业优势，确保给目标客户留下良好的第一印象。</a></div>
 
-                             </div>
-                         </a>
+                    </div>
+                  </a>
 
-                         <a href="../product/detail_1.html" >
-                             <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                               <div class="bonuspadding">
+                      <div class="bonuspadding">
 
-                                   <div class="bonus-img">
+                        <div class="bonus-img">
 
-                                       <img src="../assets/images/proIcon/type9/8.png"  />
+                          <img src="../assets/images/proIcon/type10/9.png" />
 
-                                   </div>
+                        </div>
 
-                                   <!-- <div class="bonus-title">一线公排</div> -->
+                      </div>
 
-                                 </div>
+                      <div class="bonus-content bonuspadding"><a
+                          href="../product/detail_1.html">提供并某个行业综合信息资源的大型网站，可提升行业整体的商业价值，覆盖了行业的一系列供应链以及相关的企业，是智能、便捷的一站式信息聚集平台。</a>
+                      </div>
 
-                                 <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                    </div>
+                  </a>
 
-                                 <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >可开启多个奖金：见点奖、层满奖、出局奖等；可自由选择会员入轨条件；可设置多种出局方式。</a></div>
 
-                             </div>
-                         </a>
+                </div>
+                <div class="clearfix"> </div>
 
-                         <a href="../product/detail_1.html" >
-                             <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+              </div>
 
-                               <div class="bonuspadding">
+            </div>
+          </div>
 
-                                   <div class="bonus-img">
+          <div class="bonus-main tab_content" id="daili">
 
-                                     <img src="../assets/images/proIcon/type9/9.png"  />
+            <div class="container">
 
-                                   </div>
+              <div class="functionTrait-title wow" style="padding: 3rem 0;">
 
-                                   <!-- <div class="bonus-title">二二复制</div> -->
+                <p class="tit">代理系统</p>
+                <img style="width: 38%;position: relative;float: left;top: -91px;"
+                  src="../assets/images/proIcon/type3/11.png">
+                <p class="ziti">
+                  代理系统主要有区域代理系统、代理商ERP管理系统、微商管理系统等，管理所有的代理商信息，通过代理商合作快速打通线下销售渠道，建立代理商体系，抢占全球市场份额，帮助商家建立团队领导机制，最大程度激励代理商，迅速推动销量增长
+                </p>
+              </div>
+              <div class="clearboth"></div>
 
-                                 </div>
+              <div class="bonus-bottom">
+                <div class="swiper_c">
+                  <div class="swiper-container" id="slider_daili">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide swiper_dl_bg1"></div>
+                      <div class="swiper-slide swiper_dl_bg2 "></div>
+                      <div class="swiper-slide swiper_dl_bg3"></div>
+                      <div class="swiper-slide swiper_dl_bg4"></div>
+                      <div class="swiper-slide swiper_dl_bg5"></div>
+                    </div>
+                  </div>
+                </div>
 
-                                 <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                <div class="col-sm-12 bonus-rit">
 
-                                 <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >“二二复制”是一种组织架构。即二二复制每个经销商只需开发两个销售市场：以A经销商为代表的A市场和以B经销商为代表的B市场。如此发展下去，形成一个销售网络体系。</a></div>
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                             </div>
-                         </a>
+                      <div class="bonuspadding">
 
-                         <a href="../product/detail_1.html" >
-                             <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                        <div class="bonus-img">
 
-                               <div class="bonuspadding">
+                          <img src="../assets/images/proIcon/type3/6.png" />
 
-                                   <div class="bonus-img">
 
-                                       <img src="../assets/images/proIcon/type9/10.png"  />
 
-                                   </div>
+                        </div>
 
-                                   <!-- <div class="bonus-title">三三复制</div> -->
+                      </div>
 
-                                 </div>
+                      <div class="bonus-content bonuspadding"><a
+                          href="../product/detail_1.html">后台手动指定区域代理商；可统一或单独设置各区域分红佣金比例；可开启区域级差分红</a></div>
 
-                                 <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                    </div>
+                  </a>
 
-                                 <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >可设置多个等级，每个等级可设置不同的奖金规则；可自由选择会员入轨条件；可设置多种出局方式。</a></div>
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                             </div>
-                         </a>
+                      <div class="bonuspadding">
 
-                         <a href="../product/detail_1.html" >
-                             <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                        <div class="bonus-img">
 
-                               <div class="bonuspadding">
+                          <img src="../assets/images/proIcon/type3/7.png" />
 
-                                   <div class="bonus-img">
+                        </div>
 
-                                       <img src="../assets/images/proIcon/type9/11.png"  />
+                      </div>
 
-                                   </div>
+                      <div class="bonus-content bonuspadding"><a
+                          href="../product/detail_1.html">可自定义代理商等级；设置各等级的分红比例；可开启代理级差分红</a></div>
 
-                                   <!-- <div class="bonus-title">专业跳排</div> -->
+                    </div>
+                  </a>
 
-                                 </div>
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                 <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                      <div class="bonuspadding">
 
-                                 <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >可自由设置推荐奖、消费基金奖、出局奖等多个奖金；可自由设置报单中心提成、区域代理提成、奖金提现手续费的比例；后台可查看每个会员的会员信息以及发展的网体结构图。</a></div>
+                        <div class="bonus-img">
 
-                             </div>
-                         </a>
-                         </div>
+                          <img src="../assets/images/proIcon/type3/8.png" />
 
-                         <div class="f-cb"></div>
+                        </div>
 
+                      </div>
 
+                      <div class="bonus-content bonuspadding"><a
+                          href="../product/detail_1.html">可自由设定代理商等级及升级条件；平台统一发货，代理商无需囤货；不同等级设置的进货价格和最低进货量、提货量不同。</a>
+                      </div>
 
-                     <div class="clearfix"> </div>
+                    </div>
+                  </a>
 
-                 </div>
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-               </div>
+                      <div class="bonuspadding">
 
-             </div>
+                        <div class="bonus-img">
 
-             <div class="bonus-main tab_content"id="H5game">
+                          <img src="../assets/images/proIcon/type3/9.png" />
 
-               <div class="container">
+                        </div>
 
-                   <div class="functionTrait-title wow" style="padding: 3rem 0;">
+                      </div>
 
-                         <p class="tit">H5游戏&nbsp;&nbsp;&nbsp;</p>
-                         <img style="width: 38%;position: relative;float: left;top: -91px;" src="../assets/images/proIcon/type8/10.png" >
-                         <p class="ziti">吉详兔理财游戏、种植养殖游戏、抢红包等H5营销小游戏，为商城增加趣味性，调动会员积极性，带动商城活跃性，拓宽了宣传推广渠道，提高产品成交量</p>
-                   </div>
-                   <div class="clearboth"></div>
-                   <div class="bonus-bottom">
-                       <div class="swiper_c">     
-                         <div class="swiper-container" id="slider_H5game">
-                               <div class="swiper-wrapper">
-                               <div class="swiper-slide swipwe_bg1 swiper_h5_bg1"></div>
-                               <div class="swiper-slide swipwe_bg2  swiper_h5_bg2"></div>
-                               <div class="swiper-slide swipwe_bg3 swiper_h5_bg3"></div>
-                               <div class="swiper-slide swipwe_bg4 swiper_h5_bg4"></div>
-                               <div class="swiper-slide swipwe_bg5 swiper_h5_bg5"></div>
-                             </div>
-                       </div>              
-                   </div>
+                      <div class="bonus-content bonuspadding"><a
+                          href="../product/detail_1.html">可自由设定代理商等级；设置多种代理商升级条件；不同级别的代理商设置不同的进货价格。</a></div>
 
-                   <div class="col-sm-12 bonus-rit">
-                     <a href="../product/detail_1.html" >
-                         <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                    </div>
+                  </a>
 
-                           <div class="bonuspadding">
+                  <div class="clearfix"> </div>
 
-                               <div class="bonus-img">
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                   <img src="../assets/images/proIcon/type8/1.png"  />
+                      <div class="bonuspadding">
 
-                                   <!-- <p class="f-fsize17 hot hidden-xs">Hot!</p> -->
+                        <div class="bonus-img">
 
-                               </div>
+                          <img src="../assets/images/proIcon/type3/10.png" />
 
-                               <!-- <div class="bonus-title">3+3分销</div> -->
+                        </div>
 
-                             </div>
+                      </div>
 
-                             <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                      <div class="bonus-content bonuspadding"><a
+                          href="../product/detail_1.html">可自由设定代理商等级以及升级条件；可设置代理收益奖、永续提成比例；代理商虚库、企业实库双库存管理。</a></div>
 
-                             <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >手机端网页版的理财游戏，通过游戏方式边玩边挣钱，让闲置的资金流动起来，实现其更大的价值。</a></div>
+                    </div>
+                  </a>
+                </div>
+                <div class="clearfix"> </div>
+              </div>
+            </div>
 
-                         </div>
-                     </a>
 
-                     <a href="../product/detail_1.html" >
-                         <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                           <div class="bonuspadding">
+          </div>
 
-                               <div class="bonus-img">
+          <div class="bonus-main tab_content" id="littleApp">
 
-                                   <img src="../assets/images/proIcon/type8/2.png"  />
+            <div class="container">
 
-                               </div>
+              <div class="functionTrait-title wow" style="padding: 3rem 0;">
 
-                               <!-- <div class="bonus-title">单品分销</div> -->
+                <p class="tit">小程序&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <img style="width: 38%;position: relative;float: left;top: -91px;"
+                  src="../assets/images/proIcon/type7/13.png">
+                <p class="ziti">
+                  竞拍小程序、直播小程序、拼团小程序、餐饮定位小程序等等，不需下载安装即可使用的应用，它实现了“触手可及”的梦想，通过扫一扫或者搜一下即可打开应用。能够满足基础的应用，适合生活服务类线下商店以及非刚需低频应用转换
+                </p>
+              </div>
+              <div class="clearboth"></div>
+              <div class="bonus-bottom">
+                <div class="swiper_c">
+                  <div class="swiper-container" id="slider_littleApp">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide swiper_xcx_bg1"></div>
+                      <div class="swiper-slide swiper_xcx_bg2 "></div>
+                      <div class="swiper-slide swiper_xcx_bg3"></div>
+                      <div class="swiper-slide swiper_xcx_bg4"></div>
+                      <div class="swiper-slide swiper_xcx_bg5"></div>
+                    </div>
+                  </div>
+                </div>
 
-                             </div>
+                <div class="col-sm-12 bonus-rit">
 
-                             <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                             <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >金鸡理财系统是在商城的基础上开发的一款独立板块的理财游戏，静态收益加动态收益让钱生钱。不同等级金鸡获益性不同，结合会员推广可得的多种奖金制度。</a></div>
+                      <div class="bonuspadding">
 
-                         </div>
-                     </a>
+                        <div class="bonus-img ">
 
-                     <a href="../product/detail_1.html" >
-                       <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                          <img src="../assets/images/proIcon/type7/6.png" />
 
-                         <div class="bonuspadding">
 
-                             <div class="bonus-img">
+                        </div>
 
-                                 <img src="../assets/images/proIcon/type8/3.png"  />
+                      </div>
 
-                             </div>
+                      <div class="bonus-content bonuspadding"><a
+                          href="../product/detail_1.html">裂变式营销模式，快速吸粉，短时间内为企业打造最高的知名度。</a></div>
 
-                             <!-- <div class="bonus-title">区域分销</div> -->
+                    </div>
+                  </a>
 
-                           </div>
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                           <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                      <div class="bonuspadding">
 
-                           <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >H5资金盘游戏，专业搭建果园游戏系统，省时省力。</a></div>
+                        <div class="bonus-img ">
 
-                       </div>
-                     </a>  
+                          <img src="../assets/images/proIcon/type7/7.png" />
 
-                     <a href="../product/detail_1.html" >
-                       <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                         <div class="bonuspadding">
 
-                             <div class="bonus-img">
+                        </div>
 
-                               <img src="../assets/images/proIcon/type8/4.png"  />
 
-                             </div>
 
-                             <!-- <div class="bonus-title">供应商分销</div> -->
+                      </div>
 
-                           </div>
 
-                           <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                           <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >农场养殖游戏是一款以复利拆分模式为原型的理财游戏，既可以娱乐消遣，也可以获取收益。这款新颖的农业游戏可以打造企业形象、吸引客户，促进企业的运营模式。</a></div>
+                      <div class="bonus-content bonuspadding"><a
+                          href="../product/detail_1.html">基于熟人之间的社交化电商传播，用户会自发地在熟人之间自传播，带来大量流量。</a></div>
 
-                         </div>
-                       </div>
-                     </a>  
+                    </div>
+                  </a>
 
-                     <a href="../product/detail_1.html" >
-                       <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                      <div class="bonuspadding">
 
-                         <div class="bonuspadding">
+                        <div class="bonus-img ">
 
-                             <div class="bonus-img">
+                          <img src="../assets/images/proIcon/type7/8.png" />
 
-                                 <img src="../assets/images/proIcon/type8/5.png"  />
 
-                             </div>
 
-                             <!-- <div class="bonus-title">二级分销</div> -->
+                        </div>
 
-                           </div>
 
-                           <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                           <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >随着互联网的迅速开展，大众碎片化时间基本都花费在网络上，人们也更加热衷于文娱，理财。渔场养殖理财游戏就是互联网时代的产物。</a></div>
+                      </div>
 
-                       </div>
-                     </a>  
 
-                     <a href="../product/detail_1.html" >
-                       <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                      <div class="bonus-content bonuspadding"><a
+                          href="../product/detail_1.html">主流团购平台同步开发标准.新商业模式,打破电商价格壁垒。</a></div>
 
-                         <div class="bonuspadding">
+                    </div>
+                  </a>
 
-                             <div class="bonus-img">
+                  <a href="../product/detail_1.html">
+                    <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                 <img src="../assets/images/proIcon/type8/6.png"  />
+                      <div class="bonuspadding">
 
-                             </div>
+                        <div class="bonus-img ">
 
-                             <!-- <div class="bonus-title">门店分销</div> -->
+                          <img src="../assets/images/proIcon/type7/9.png" />
 
-                           </div>
 
-                           <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                           <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >玩家可自由选择参与抢红包类型，不同类型需交付参与游戏金额不同，而可抢到红包获益金额也不同。</a></div>
+                        </div>
 
-                       </div>
-                     </a>                          
+                      </div>
 
-                     <a href="../product/detail_1.html" >
-                       <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                      <div class="bonus-content bonuspadding"><a
+                          href="../product/detail_1.html">一站式定制服务，根据客户需求，量身设计，个性化定制开发。</a></div>
 
-                         <div class="bonuspadding">
+                    </div>
+                  </a>
 
-                             <div class="bonus-img">
+                  <div class="f-cb"></div>
 
-                                 <img src="../assets/images/proIcon/type8/7.png"  />
 
-                             </div>
 
-                             <!-- <div class="bonus-title">微商分销</div> -->
+                </div>
 
-                           </div>
+                <div class="f-cb"></div>
 
-                           <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                           <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" ></p></a></div>
 
-                       </div>
-                     </a>  
+                <div class="clearfix"> </div>
+              </div>
 
-                     <a href="../product/detail_1.html" >
-                       <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+            </div>
 
-                         <div class="bonuspadding">
 
-                             <div class="bonus-img">
 
-                                 <img src="../assets/images/proIcon/type8/8.png"  />
+          </div>
 
-                             </div>
 
-                             <!-- <div class="bonus-title">微商分销</div> -->
+        </div>
 
-                           </div>
+        <div class="bonus-main tab_content" id="gongpai">
 
-                           <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+          <div class="container">
 
-                           <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" ></p></a></div>
+            <div class="functionTrait-title wow" style="padding: 3rem 0;">
 
-                       </div>
-                     </a> 
+              <p class="tit">公排系统</p>
+              <img style="width: 38%;position: relative;float: left;top: -91px;"
+                src="../assets/images/proIcon/type9/12.png">
+              <p class="ziti">公排系统提供多种排位模式及奖励，鼓励各级会员开拓市场的积极性，在确保每个人都有丰厚的奖励的同时，又能给团队伙伴带来利益，扩大了薄弱市场，同时帮助了该市场中相关联的人。</p>
+            </div>
+            <div class="clearboth"></div>
+            <div class="bonus-bottom">
+              <div class="swiper_c">
+                <div class="swiper-container" id="slider_gongpai">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper_gp_bg1"></div>
+                    <div class="swiper-slide swiper_gp_bg2 "></div>
+                    <div class="swiper-slide swiper_gp_bg3"></div>
+                    <div class="swiper-slide swiper_gp_bg4"></div>
+                    <div class="swiper-slide swiper_gp_bg5"></div>
+                  </div>
+                </div>
+              </div>
 
-                       <div class="clearfix"> </div>
+              <div class="col-sm-12 bonus-rit">
 
-                     
-                   </div>
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                   <div class="f-cb"></div>
+                    <div class="bonuspadding">
 
-                   <div class="clearfix"> </div>
-               </div>
+                      <div class="bonus-img">
 
-             </div>
+                        <img src="../assets/images/proIcon/type9/6.png" />
 
-             <div class="bonus-main tab_content" id="fenhong">
+                        <!-- <p class="f-fsize17 hot hidden-xs">Hot!</p> -->
 
-               <div class="container">
+                      </div>
 
-                 <div class="functionTrait-title" style="padding: 3rem 0;">
+                      <!-- <div class="bonus-title"></div> -->
 
-                       <p class="tit">分红系统</p>
-                       <img style="width: 38%;position: relative;float: left;top: -91px;" src="../assets/images/proIcon/type2/8.png" >
-                       <p class="ziti">分红系统主要有全球分红系统、静态分红系统等，系统通过设置分红奖励模式，除了购买商品的会员可得到分红外，会员的下级购买也可设置得到一定的分红，从而刺激消费，促进平台发展壮大，形成良性循环。</p>
-                 </div>
-                 <div class="clearboth"></div>
-                 <div class="bonus-bottom">
-                 <div class="swiper_c">     
-                   <div class="swiper-container" id="slider_fenhong">
-                         <div class="swiper-wrapper">
-                         <div class="swiper-slide swiper_fh_bg1"></div>
-                         <div class="swiper-slide swiper_fh_bg2 "></div>
-                         <div class="swiper-slide swiper_fh_bg3"></div>
-                         <div class="swiper-slide swiper_fh_bg4"></div>
-                         <div class="swiper-slide swiper_fh_bg5"></div>
-                       </div>
-                 </div>              
-                 </div>
+                    </div>
 
-                     <div class="col-sm-12 bonus-rit">
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                         <a href="../product/detail_1.html" >
-                             <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">大公排属于单网体，也叫作全网公排模式，所谓全网公排就是平台上所有的人都排在同一个大网体上面，你发展的人不一定是排在你自己的名下，有可能排在别人的名下。</a>
+                    </div>
 
-                               <div class="bonuspadding">
+                  </div>
+                </a>
 
-                                   <div class="bonus-img">
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                       <img src="../assets/images/proIcon/type2/6.png"  />
+                    <div class="bonuspadding">
 
-                                       <!-- <p class="f-fsize17 hot hidden-xs">Hot!</p> -->
+                      <div class="bonus-img">
 
-                                   </div>
+                        <img src="../assets/images/proIcon/type9/7.png" />
 
-                                   <!-- <div class="bonus-title">全球分红</div> -->
+                      </div>
 
-                                 </div>
+                      <!-- <div class="bonus-title"></div> -->
 
-                                 <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                    </div>
 
-                                 <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >让闲置的钱流动起来，在调动会员理财的同时带动商城的流量，拓宽商品宣传营销的渠道.</a></div>
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                             </div>
-                         </a>
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">小公排跟大公排不一样，大公排是整个平台为一个网体，但是小公排是每一个人都是一个网体，叫多网体公排模式。自己发展的人会放在自己的名下。</a>
+                    </div>
 
-                         <a href="../product/detail_1.html" >
-                             <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                  </div>
+                </a>
 
-                               <div class="bonuspadding">
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                   <div class="bonus-img">
+                    <div class="bonuspadding">
 
-                                       <img src="../assets/images/proIcon/type2/7.png"  />
+                      <div class="bonus-img">
 
-                                       <!-- <p class="f-fsize17 hot hidden-xs">Hot!</p> -->
+                        <img src="../assets/images/proIcon/type9/8.png" />
 
-                                   </div>
+                      </div>
 
-                                   <!-- <div class="bonus-title">全球分红</div> -->
+                      <!-- <div class="bonus-title">一线公排</div> -->
 
-                                 </div>
+                    </div>
 
-                                 <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                                 <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >平台运营者将一定比例的产品利润用于奖励平台中业绩突出的推广者，并根据推广者的业绩评定级别。</a></div>
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">可开启多个奖金：见点奖、层满奖、出局奖等；可自由选择会员入轨条件；可设置多种出局方式。</a></div>
 
-                             </div>
-                         </a>
+                  </div>
+                </a>
 
-                         <a href="../product/detail_1.html" >
-                             <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                               <div class="bonuspadding">
+                    <div class="bonuspadding">
 
-                                   <div class="bonus-img">
+                      <div class="bonus-img">
 
-                                       <img src="../assets/images/proIcon/type2/9.png"  />
+                        <img src="../assets/images/proIcon/type9/9.png" />
 
-                                   </div>
+                      </div>
 
-                                   <!-- <div class="bonus-title">静态分红</div> -->
+                      <!-- <div class="bonus-title">二二复制</div> -->
 
-                                 </div>
+                    </div>
 
-                                 <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                                 <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >静态分红系统是针对商城的某几款商品的分红设置，除会员自购可得到分红，会员的下级购买后会员也可得分红。</a></div>
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">“二二复制”是一种组织架构。即二二复制每个经销商只需开发两个销售市场：以A经销商为代表的A市场和以B经销商为代表的B市场。如此发展下去，形成一个销售网络体系。</a>
+                    </div>
 
-                             </div>
-                         </a>
+                  </div>
+                </a>
 
-                         </div>
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                         <div class="f-cb"></div>
+                    <div class="bonuspadding">
 
+                      <div class="bonus-img">
 
+                        <img src="../assets/images/proIcon/type9/10.png" />
 
-                     <div class="clearfix"> </div>
+                      </div>
 
-                 </div>
+                      <!-- <div class="bonus-title">三三复制</div> -->
 
-               </div>
+                    </div>
 
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">可设置多个等级，每个等级可设置不同的奖金规则；可自由选择会员入轨条件；可设置多种出局方式。</a></div>
 
-             </div>
+                  </div>
+                </a>
 
-             <div class="bonus-main tab_content" id="quanfan">
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-               <div class="container">
+                    <div class="bonuspadding">
 
-                 <div class="functionTrait-title" style="padding: 3rem 0;">
+                      <div class="bonus-img">
 
-                       <p class="tit">全返系统</p>
-                       <img style="width: 38%;position: relative;float: left;top: -91px;" src="../assets/images/proIcon/type5/9.png" >
-                       <p class="ziti">全返系统主要有购物返系统、排队返系统等，系统通过对购物返现设置返现金额以及返现模式，在消费者购买商品后，平台通过已设置的返现形式将金额返现到客户</p>
-                 </div>
-                 <div class="clearboth"></div>
-                 <div class="bonus-bottom">
-                 <div class="swiper_c">     
-                   <div class="swiper-container" id="slider_quanfan">
-                         <div class="swiper-wrapper">
-                         <div class="swiper-slide swiper_qf_bg1"></div>
-                         <div class="swiper-slide swiper_qf_bg2 "></div>
-                         <div class="swiper-slide swiper_qf_bg3"></div>
-                         <div class="swiper-slide swiper_qf_bg4"></div>
-                         <div class="swiper-slide swiper_qf_bg5"></div>
-                       </div>
-                 </div>              
-                 </div>
+                        <img src="../assets/images/proIcon/type9/11.png" />
 
-                     <div class="col-sm-12 bonus-rit">
-                         <a href="../product/detail_1.html" >
-                             <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                      </div>
 
-                               <div class="bonuspadding">
+                      <!-- <div class="bonus-title">专业跳排</div> -->
 
-                                   <div class="bonus-img">
+                    </div>
 
-                                       <img src="../assets/images/proIcon/type5/6.png"  />
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                                       <!-- <p class="f-fsize17 hot hidden-xs">Hot!</p> -->
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">可自由设置推荐奖、消费基金奖、出局奖等多个奖金；可自由设置报单中心提成、区域代理提成、奖金提现手续费的比例；后台可查看每个会员的会员信息以及发展的网体结构图。</a>
+                    </div>
 
-                                   </div>
+                  </div>
+                </a>
+              </div>
 
-                                   <!-- <div class="bonus-title">购物返</div> -->
+              <div class="f-cb"></div>
 
-                                 </div>
 
-                                 <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                                 <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >购物全返又叫累计订单金额全返，即当客户得到全返资格，商城拿出前一天订单部分金额全返给客户。</a></div>
+              <div class="clearfix"> </div>
 
-                             </div>
-                         </a>
+            </div>
 
-                         <a href="../product/detail_1.html" >    
-                             <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+          </div>
 
-                               <div class="bonuspadding">
+        </div>
 
-                                   <div class="bonus-img">
+        <div class="bonus-main tab_content" id="H5game">
 
-                                       <img src="../assets/images/proIcon/type5/7.png"  />
+          <div class="container">
 
-                                   </div>
+            <div class="functionTrait-title wow" style="padding: 3rem 0;">
 
-                                   <!-- <div class="bonus-title">递减返</div> -->
+              <p class="tit">H5游戏&nbsp;&nbsp;&nbsp;</p>
+              <img style="width: 38%;position: relative;float: left;top: -91px;"
+                src="../assets/images/proIcon/type8/10.png">
+              <p class="ziti">吉详兔理财游戏、种植养殖游戏、抢红包等H5营销小游戏，为商城增加趣味性，调动会员积极性，带动商城活跃性，拓宽了宣传推广渠道，提高产品成交量</p>
+            </div>
+            <div class="clearboth"></div>
+            <div class="bonus-bottom">
+              <div class="swiper_c">
+                <div class="swiper-container" id="slider_H5game">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide swipwe_bg1 swiper_h5_bg1"></div>
+                    <div class="swiper-slide swipwe_bg2  swiper_h5_bg2"></div>
+                    <div class="swiper-slide swipwe_bg3 swiper_h5_bg3"></div>
+                    <div class="swiper-slide swipwe_bg4 swiper_h5_bg4"></div>
+                    <div class="swiper-slide swipwe_bg5 swiper_h5_bg5"></div>
+                  </div>
+                </div>
+              </div>
 
-                                 </div>
+              <div class="col-sm-12 bonus-rit">
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                 <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                    <div class="bonuspadding">
 
-                                 <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >消费者购买商品之后获得全返资格的，平台会以设定好的比例给消费者返现，返完为止。</a></div>
+                      <div class="bonus-img">
 
-                             </div>
-                         </a>    
+                        <img src="../assets/images/proIcon/type8/1.png" />
 
-                         <a href="../product/detail_1.html" >
-                             <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                        <!-- <p class="f-fsize17 hot hidden-xs">Hot!</p> -->
 
-                               <div class="bonuspadding">
+                      </div>
 
-                                   <div class="bonus-img">
+                      <!-- <div class="bonus-title">3+3分销</div> -->
 
-                                       <img src="../assets/images/proIcon/type5/8.png"  />
+                    </div>
 
-                                   </div>
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                                   <!-- <div class="bonus-title">排队返</div> -->
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">手机端网页版的理财游戏，通过游戏方式边玩边挣钱，让闲置的资金流动起来，实现其更大的价值。</a></div>
 
-                                 </div>
+                  </div>
+                </a>
 
-                                 <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                 <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >全平台进行公开公正排队，以先来后到规则，客户在商城上消费的钱，通过排队形式又返还给消费者。</a></div>
+                    <div class="bonuspadding">
 
-                             </div>
-                         </a>
-                         </div>
+                      <div class="bonus-img">
 
-                         <div class="f-cb"></div>
+                        <img src="../assets/images/proIcon/type8/2.png" />
 
+                      </div>
 
+                      <!-- <div class="bonus-title">单品分销</div> -->
 
-                     <div class="clearfix"> </div>
+                    </div>
 
-                 </div>
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-               </div>
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">金鸡理财系统是在商城的基础上开发的一款独立板块的理财游戏，静态收益加动态收益让钱生钱。不同等级金鸡获益性不同，结合会员推广可得的多种奖金制度。</a>
+                    </div>
 
+                  </div>
+                </a>
 
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-             </div>
+                    <div class="bonuspadding">
 
-             <div class="bonus-main tab_content" id="o2o">
+                      <div class="bonus-img">
 
-                   <div class="container">
+                        <img src="../assets/images/proIcon/type8/3.png" />
 
-                           <div class="functionTrait-title wow" style="padding: 3rem 0;">
+                      </div>
 
-                                 <p class="tit">O2O&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-                                 <img style="width: 38%;position: relative;float: left;top: -91px;" src="../assets/images/proIcon/type6/12.png" >
-                                 <p class="ziti">外卖、拼团、直播等O2O系统，把互联网与地面店完美对接，实现互联网落地。让消费者在享受线上优惠价格的同时，又可享受线下贴身的服务。同时，O2O模式还可实现不同商家的联盟</p>
-                           </div>
-                           <div class="clearboth"></div>
-                           <div class="bonus-bottom">
-                                 <div class="swiper_c">     
-                                         <div class="swiper-container" id="slider_o2o">
-                                               <div class="swiper-wrapper">
-                                                   <div class="swiper-slide swiper_o2o_bg1"></div>
-                                                   <div class="swiper-slide swiper_o2o_bg2 "></div>
-                                                   <div class="swiper-slide swiper_o2o_bg3"></div>
-                                                   <div class="swiper-slide swiper_o2o_bg4"></div>
-                                                   <div class="swiper-slide swiper_o2o_bg5"></div>
-                                               </div>
-                                         </div>              
-                                 </div>
+                      <!-- <div class="bonus-title">区域分销</div> -->
 
-                                 <div class="col-sm-12 bonus-rit">
+                    </div>
 
-                                   <a href="../product/detail_1.html" >
-                                       <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                                         <div class="bonuspadding">
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">H5资金盘游戏，专业搭建果园游戏系统，省时省力。</a></div>
 
-                                             <div class="bonus-img">
+                  </div>
+                </a>
 
-                                                 <img src="../assets/images/proIcon/type6/6.png"  />
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                                 <!-- <p class="f-fsize17 hot hidden-xs">Hot!</p> -->
+                    <div class="bonuspadding">
 
-                                             </div>
+                      <div class="bonus-img">
 
-                                             <!-- <div class="bonus-title">3+3分销</div> -->
+                        <img src="../assets/images/proIcon/type8/4.png" />
 
-                                           </div>
+                      </div>
 
-                                           <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                      <!-- <div class="bonus-title">供应商分销</div> -->
 
-                                           <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >快速打造餐厅运营系统，构建客户精准大数据。</a></div>
+                    </div>
 
-                                       </div>
-                                   </a>    
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                                   <a href="../product/detail_1.html" >
-                                       <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">农场养殖游戏是一款以复利拆分模式为原型的理财游戏，既可以娱乐消遣，也可以获取收益。这款新颖的农业游戏可以打造企业形象、吸引客户，促进企业的运营模式。</a>
+                    </div>
 
-                                         <div class="bonuspadding">
+                  </div>
+              </div>
+              </a>
 
-                                             <div class="bonus-img">
+              <a href="../product/detail_1.html">
+                <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                                 <img src="../assets/images/proIcon/type6/7.png"  />
+                  <div class="bonuspadding">
 
-                                             </div>
+                    <div class="bonus-img">
 
-                                             <!-- <div class="bonus-title">单品分销</div> -->
+                      <img src="../assets/images/proIcon/type8/5.png" />
 
-                                           </div>
+                    </div>
 
-                                           <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                    <!-- <div class="bonus-title">二级分销</div> -->
 
-                                           <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >功能强大的管理后台，商家随时随地管理订单，配送员实时跟进订单。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
+                  </div>
 
-                                       </div>
-                                   </a>    
+                  <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                                   <a href="../product/detail_1.html" >
-                                       <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                  <div class="bonus-content bonuspadding"><a
+                      href="../product/detail_1.html">随着互联网的迅速开展，大众碎片化时间基本都花费在网络上，人们也更加热衷于文娱，理财。渔场养殖理财游戏就是互联网时代的产物。</a>
+                  </div>
 
-                                         <div class="bonuspadding">
+                </div>
+              </a>
 
-                                             <div class="bonus-img">
+              <a href="../product/detail_1.html">
+                <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                                 <img src="../assets/images/proIcon/type6/8.png"  />
+                  <div class="bonuspadding">
 
-                                             </div>
+                    <div class="bonus-img">
 
-                                             <!-- <div class="bonus-title">区域分销</div> -->
+                      <img src="../assets/images/proIcon/type8/6.png" />
 
-                                           </div>
+                    </div>
 
-                                           <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                    <!-- <div class="bonus-title">门店分销</div> -->
 
-                                           <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >[实时直播]土豪爆屏，精彩不延时；[高清画质]拒绝YY，爱要高品质；[真实玩家]海量优质用户，查找附近的TA。</a></div>
+                  </div>
 
-                                       </div>
-                                   </a>
+                  <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                                   <a href="../product/detail_1.html" >
-                                         <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                  <div class="bonus-content bonuspadding"><a
+                      href="../product/detail_1.html">玩家可自由选择参与抢红包类型，不同类型需交付参与游戏金额不同，而可抢到红包获益金额也不同。</a></div>
 
-                                           <div class="bonuspadding">
+                </div>
+              </a>
 
-                                               <div class="bonus-img">
+              <a href="../product/detail_1.html">
+                <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                                 <img src="../assets/images/proIcon/type6/9.png"  />
+                  <div class="bonuspadding">
 
-                                               </div>
+                    <div class="bonus-img">
 
-                                               <!-- <div class="bonus-title">供应商分销</div> -->
+                      <img src="../assets/images/proIcon/type8/7.png" />
 
-                                             </div>
+                    </div>
 
-                                             <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                    <!-- <div class="bonus-title">微商分销</div> -->
 
-                                             <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >语音直播新玩法，多功能语音，不一样的直播体验，一次接入，全球运营。</a></div>
+                  </div>
 
-                                         </div>
-                                   </a>
+                  <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
+                  <div class="bonus-content bonuspadding"><a href="../product/detail_1.html"></p></a></div>
 
-                                   <div class="clearfix"> </div>
+                </div>
+              </a>
 
-                                   <a href="../product/detail_1.html" >
-                                       <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+              <a href="../product/detail_1.html">
+                <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                         <div class="bonuspadding">
+                  <div class="bonuspadding">
 
-                                               <div class="bonus-img">
+                    <div class="bonus-img">
 
-                                                   <img src="../assets/images/proIcon/type6/10.png"  />
+                      <img src="../assets/images/proIcon/type8/8.png" />
 
-                                               </div>
+                    </div>
 
-                                             <!-- <div class="bonus-title">二级分销</div> -->
+                    <!-- <div class="bonus-title">微商分销</div> -->
 
-                                         </div>
+                  </div>
 
-                                           <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                  <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                                           <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >基于熟人之间的社交电商传播，用户会自发地在熟人之间传播。</a></div>
+                  <div class="bonus-content bonuspadding"><a href="../product/detail_1.html"></p></a></div>
 
-                                       </div>
-                                   </a>    
+                </div>
+              </a>
 
-                                   <a href="../product/detail_1.html" >
-                                       <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+              <div class="clearfix"> </div>
 
-                                           <div class="bonuspadding">
 
-                                               <div class="bonus-img">
+            </div>
 
-                                                   <img src="../assets/images/proIcon/type6/11.png"  />
+            <div class="f-cb"></div>
 
-                                               </div>
+            <div class="clearfix"> </div>
+          </div>
 
-                                               <!-- <div class="bonus-title">门店分销</div> -->
+        </div>
 
-                                           </div>
+        <div class="bonus-main tab_content" id="fenhong">
 
-                                           <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+          <div class="container">
 
-                                           <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >以平台设置的投资周期及利率来分配利润，让闲置的资金流动起来。</a></div>
+            <div class="functionTrait-title" style="padding: 3rem 0;">
 
-                                       </div>
-                                   </a>
+              <p class="tit">分红系统</p>
+              <img style="width: 38%;position: relative;float: left;top: -91px;"
+                src="../assets/images/proIcon/type2/8.png">
+              <p class="ziti">
+                分红系统主要有全球分红系统、静态分红系统等，系统通过设置分红奖励模式，除了购买商品的会员可得到分红外，会员的下级购买也可设置得到一定的分红，从而刺激消费，促进平台发展壮大，形成良性循环。</p>
+            </div>
+            <div class="clearboth"></div>
+            <div class="bonus-bottom">
+              <div class="swiper_c">
+                <div class="swiper-container" id="slider_fenhong">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper_fh_bg1"></div>
+                    <div class="swiper-slide swiper_fh_bg2 "></div>
+                    <div class="swiper-slide swiper_fh_bg3"></div>
+                    <div class="swiper-slide swiper_fh_bg4"></div>
+                    <div class="swiper-slide swiper_fh_bg5"></div>
+                  </div>
+                </div>
+              </div>
 
+              <div class="col-sm-12 bonus-rit">
 
-                                   <a href="../product/detail_1.html" >
-                                       <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                           <div class="bonuspadding">
+                    <div class="bonuspadding">
 
-                                               <div class="bonus-img">
+                      <div class="bonus-img">
 
-                                                   <img src="../assets/images/proIcon/type6/13.png"  />
+                        <img src="../assets/images/proIcon/type2/6.png" />
 
-                                               </div>
+                        <!-- <p class="f-fsize17 hot hidden-xs">Hot!</p> -->
 
-                                               <!-- <div class="bonus-title">门店分销</div> -->
+                      </div>
 
-                                           </div>
+                      <!-- <div class="bonus-title">全球分红</div> -->
 
-                                           <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                    </div>
 
-                                           <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >独立部署自由选择，会营销的商城系统</a></div>
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                                       </div>
-                                   </a>
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">让闲置的钱流动起来，在调动会员理财的同时带动商城的流量，拓宽商品宣传营销的渠道.</a></div>
 
-                                   <a href="../product/detail_1.html" >
-                                       <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                  </div>
+                </a>
 
-                                           <div class="bonuspadding">
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                               <div class="bonus-img">
+                    <div class="bonuspadding">
 
-                                                   <img src="../assets/images/proIcon/type6/14.png"  />
+                      <div class="bonus-img">
 
-                                               </div>
+                        <img src="../assets/images/proIcon/type2/7.png" />
 
-                                               <!-- <div class="bonus-title">门店分销</div> -->
+                        <!-- <p class="f-fsize17 hot hidden-xs">Hot!</p> -->
 
-                                           </div>
+                      </div>
 
-                                           <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                      <!-- <div class="bonus-title">全球分红</div> -->
 
-                                           <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >可自营也可招募商家入驻的平台，实现线上线下销售盈利相结合，帮助传统商家顺利转型，打破旧的营销思路，打通行业，商圈上下游供应链的专业B2B、B2C系统，通过新模式增加商业价值。</a></div>
+                    </div>
 
-                                       </div>
-                                   </a>
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                                 </div>
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">平台运营者将一定比例的产品利润用于奖励平台中业绩突出的推广者，并根据推广者的业绩评定级别。</a></div>
 
-                                 <div class="f-cb"></div>
+                  </div>
+                </a>
 
-                                 <div class="clearfix"> </div>
-                           </div>
-                   </div>
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-             </div>
+                    <div class="bonuspadding">
 
-             <div class="bonus-main tab_content" id="shangjia">
+                      <div class="bonus-img">
 
-               <div class="container">
+                        <img src="../assets/images/proIcon/type2/9.png" />
 
-                   <div class="functionTrait-title wow" style="padding: 3rem 0;">
+                      </div>
 
-                         <p class="tit">增值服务</p>
-                         <img style="width: 38%;position: relative;float: left;top: -91px;" src="../assets/images/proIcon/type4/7.png" >
-                         <p class="ziti">专业技术团队高端定制服务，提供互联网定制应用服务，为企业量身打造UI设计、平面设计，根据企业需求定制各类个性化软件开发，系统二次开发维护与升级，提高企业在互联网端上的整体质量。</p>
-                   </div>
-                   <div class="clearboth"></div>
-                   <div class="bonus-bottom">
-                       <div class="swiper_c">     
-                         <div class="swiper-container" id="slider_shangjia">
-                               <div class="swiper-wrapper">
-                               <div class="swiper-slide swiper_sj_bg1"></div>
-                               <div class="swiper-slide swiper_sj_bg2 "></div>
-                               <div class="swiper-slide swiper_sj_bg3"></div>
-                               <div class="swiper-slide swiper_sj_bg4"></div>
-                               <div class="swiper-slide swiper_sj_bg5"></div>
-                             </div>
-                         </div>              
-                       </div>
+                      <!-- <div class="bonus-title">静态分红</div> -->
 
-                       <div class="col-sm-12 bonus-rit">
+                    </div>
 
-                             <a href="../product/detail_1.html" >
-                               <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                                 <div class="bonuspadding">
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">静态分红系统是针对商城的某几款商品的分红设置，除会员自购可得到分红，会员的下级购买后会员也可得分红。</a></div>
 
-                                     <div class="bonus-img ">
+                  </div>
+                </a>
 
-                                         <img src="../assets/images/proIcon/type4/icon1.png"  />
+              </div>
 
-                                     </div>
+              <div class="f-cb"></div>
 
-                                   </div>
 
-                                   <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >高端定制UI设计，提供互联网定制应用服务，高品质，视觉协调的页面设计，为企业高效率传播流量，根据客户的基本需求量身设计。</a></div>
 
-                               </div>
-                             </a>
-                             
-                             <a href="../product/detail_1.html" >
-                               <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+              <div class="clearfix"> </div>
 
-                                 <div class="bonuspadding">
+            </div>
 
-                                     <div class="bonus-img ">
+          </div>
 
-                                         <img src="../assets/images/proIcon/type4/icon2.png"  />
 
-                                     </div>
 
-                                   </div>
+        </div>
 
-                                   <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >包装、画册、展示类平面设计，高端定制精美的页面布局，资深设计师团队一对一咨询交流方案，打造企业良好的印象。</a></div>
+        <div class="bonus-main tab_content" id="quanfan">
 
-                               </div>
-                             </a>
+          <div class="container">
 
-                             <a href="../product/detail_1.html" >
-                               <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+            <div class="functionTrait-title" style="padding: 3rem 0;">
 
-                                 <div class="bonuspadding">
+              <p class="tit">全返系统</p>
+              <img style="width: 38%;position: relative;float: left;top: -91px;"
+                src="../assets/images/proIcon/type5/9.png">
+              <p class="ziti">全返系统主要有购物返系统、排队返系统等，系统通过对购物返现设置返现金额以及返现模式，在消费者购买商品后，平台通过已设置的返现形式将金额返现到客户</p>
+            </div>
+            <div class="clearboth"></div>
+            <div class="bonus-bottom">
+              <div class="swiper_c">
+                <div class="swiper-container" id="slider_quanfan">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper_qf_bg1"></div>
+                    <div class="swiper-slide swiper_qf_bg2 "></div>
+                    <div class="swiper-slide swiper_qf_bg3"></div>
+                    <div class="swiper-slide swiper_qf_bg4"></div>
+                    <div class="swiper-slide swiper_qf_bg5"></div>
+                  </div>
+                </div>
+              </div>
 
-                                     <div class="bonus-img ">
+              <div class="col-sm-12 bonus-rit">
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                         <img src="../assets/images/proIcon/type4/icon3.png"  />
+                    <div class="bonuspadding">
 
-                                     </div>
+                      <div class="bonus-img">
 
-                                   </div>
+                        <img src="../assets/images/proIcon/type5/6.png" />
 
-                                   <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >提供各类个性化定制软件开发，为企业打造独一无二的平台，资深技术研发团队为企业量身设计，可迅速提高企业的商业价值，带来无限商机。</a></div>
+                        <!-- <p class="f-fsize17 hot hidden-xs">Hot!</p> -->
 
-                               </div>
-                             </a>
+                      </div>
 
+                      <!-- <div class="bonus-title">购物返</div> -->
 
-                             <a href="../product/detail_1.html" >
-                               <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+                    </div>
 
-                                 <div class="bonuspadding">
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                                     <div class="bonus-img ">
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">购物全返又叫累计订单金额全返，即当客户得到全返资格，商城拿出前一天订单部分金额全返给客户。</a></div>
 
-                                         <img src="../assets/images/proIcon/type4/icon4.png"  />
+                  </div>
+                </a>
 
-                                     </div>
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-                                   </div>
+                    <div class="bonuspadding">
 
-                                   <div class="bonus-content bonuspadding"><a href="../product/detail_1.html" >全面纠察系统存在BUG，落实所有细节升级维护，让体验感焕然一新，专业技术人员进行代码质量提升，大幅度增强实用性和兼容性。</a></div>
+                      <div class="bonus-img">
 
-                               </div>
-                             </a>
+                        <img src="../assets/images/proIcon/type5/7.png" />
 
-                           </div>
+                      </div>
 
-                           <div class="f-cb"></div>
+                      <!-- <div class="bonus-title">递减返</div> -->
 
+                    </div>
 
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-                       <div class="clearfix"> </div>
-                     </div>
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">消费者购买商品之后获得全返资格的，平台会以设定好的比例给消费者返现，返完为止。</a></div>
 
-                   </div>
+                  </div>
+                </a>
 
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
+                    <div class="bonuspadding">
 
-               </div>
+                      <div class="bonus-img">
 
-     
-             </div>
+                        <img src="../assets/images/proIcon/type5/8.png" />
 
-   </div>
+                      </div>
 
-</div>	
- <!-- 商桥 -->
-   <!-- <div id='ddBridge'></div> -->
-   <!-- 底部 -->
-       <div class="footer">
-           <!--1200-->
-           <div class="footer_center">
-               <div class="san">
-                   <div>
-                       <img src="../assets/images/public/shoucang.png" class="title_img" />
-                       <span>专注服务于电商领域</span>
-                   </div>
-                   <div>
-                       <img src="../assets/images/public/dianhua.png" class="title_img" />
-                       <span>7X24小时售后支持</span>
-                   </div>
-                   <div>
-                       <img src="../assets/images/public/huiyuan.png" class="title_img" />
-                       <span>一对一专属会员经理</span>
-                   </div>
-                   <div>
-                       <img src="../assets/images/public/zan.png" class="title_img" />
-                       <span>385万用户诚意推荐</span>
-                   </div>
-               </div>
-               <div class="spp">
-                   <span>全方位的购买咨询</span><span>精准的产品推荐</span><span>专业支持的售后咨询</span><span>电商业务开展咨询</span>
-               </div>
-               <div style="width: 100%;height: 50px;border-bottom: 2px solid ../product/detail_1.html35383C;"></div>
-               <div class="ear">
-                   <div class="ear_left">
-                       <div class="ear_left_text">
-                           <div>
-                               <p>微商城开发</p>
-                               <a href="../product/detail_2.html">区域分销</a>
-                               <a  href="../product/detail_2.html">门店分销</a>
-                               <a  href="../product/detail_2.html">单品分销</a>
-                               <a  href="../product/detail_2.html">微商分销</a>
-                           </div>
-                           <div>
-                               <p href="../product/detail_2.html">H5游戏</p>
-                               <a href="../product/detail_2.html">吉祥兔系统</a>
-                               <a href="../product/detail_2.html">渔场系统</a>
-                               <a href="../product/detail_2.html">果园系统</a>
-                               <a href="../product/detail_2.html">大转盘</a>
-                           </div>
-                           <div>
-                               <p href="../product/detail_2.html">O2O开发</p>
-                               <a href="../product/detail_2.html">理财系统</a>
-                               <a href="../product/detail_2.html">外卖系统</a>
-                               <a href="../product/detail_2.html">直播系统</a>
-                               <a href="../product/detail_2.html">拼团系统</a>
-                           </div>
-                           <div>
-                               <p href="../product/detail_1.html">公排系统</p>
-                               <a href="../product/detail_1.html">大公排</a>
-                               <a href="../product/detail_1.html">小公排</a>
-                               <a href="../product/detail_1.html">二二复制</a>
-                               <a href="../product/detail_1.html">三三复制</a>
-                           </div>
-                       </div>
-   
-                       <!--时间地点-->
-                       <div class="where">
-                           <p>工作时间：9:00AM-18:30PM</p>
-                           <p>公司地址：广东省广州市白云区嘉禾望岗G出口嘉禾汇商务大厦7楼726</p>
-                       </div>
-                   </div>
-                   <div class="ear_right">
-                       <div>
-                           <img src="../assets/images/public/erweima.png?v=1" />
-                           <p>扫码关注</p>
-                       </div>
-                       <div>
-                           <img src="../assets/images/public/erweima.png?v=1" />
-                           <p>扫码服务</p>
-                       </div>
-                   </div>
-               </div>
-               <!--友情链接-->
-               <div class="lianjie">
-                   <span>友情链接</span>
-                   <div class="lianjie_right">
-                       <a href="https://www.aliyun.com/">阿里云</a>
-                       <a href="https://cloud.baidu.com/index.html">百度云</a>
-                       <a href="http://www.61wsw.com/">61微商网</a>
-                       <a href="https://www.taobao.com/">淘宝网</a>
-                       <a href="https://www.jd.com/">京东网</a>
-                       <a href="https://guangzhou.zbj.com/">猪八戒</a>
-                       <a href="https://weibo.com/login.php">新浪微博</a>
-                       <a href="https://www.tenpay.com/v3/">财付通</a>
-                       <a href="https://www.antfin.com/">蚂蚁金服</a>
-                       <a href="https://www.alipay.com/">微商网</a>
-                       <a href="https://www.microsoft.com/zh-cn/">Microsoft</a>
-                       <a href="https://weixin.qq.com/">财付通</a>
-                   </div>
-               </div>
-               <p class="bottom_text">Copyright ©2016-2018 All Rights Reserved. 广州智丰网络科技有限公司版权所有 粤ICP备19034071号</p>
-       </div>
+                      <!-- <div class="bonus-title">排队返</div> -->
 
+                    </div>
 
-  <script type="text/javascript" src="../assets/js/jquery.min.js" ></script>
-  <script type="text/javascript" src="../assets/js/bootstrap.min.js" ></script>
-  <script type="text/javascript" src="../assets/js/jquery.flexslider.js" ></script>
-  <script type="text/javascript" src="../assets/js/responsiveMenu.js" ></script>
-  <script type="text/javascript" src="../assets/js/swiper-4.2.0.min.js" ></script>
-  <script type="text/javascript" src="../assets/js/sketch.min.js" ></script>
-  <script type="text/javascript" src="../assets/js/public/header.js" ></script>
-  <script src="../assets/js/number.js"></script>
-  <script src="../assets/js/headerUser.js"></script>
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-<script>
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">全平台进行公开公正排队，以先来后到规则，客户在商城上消费的钱，通过排队形式又返还给消费者。</a></div>
 
-$(function(){
+                  </div>
+                </a>
+              </div>
 
-  /*轮播图*/
+              <div class="f-cb"></div>
 
-  $('#flexslider_head').flexslider({
 
-    animation: "slide",
 
-    directionNav:true,
+              <div class="clearfix"> </div>
 
-    start: function(slider){
+            </div>
 
-       $('body').removeClass('loading');
+          </div>
 
-      }
 
-  });
 
-  $(".typeBanner").each(function(){
+        </div>
 
-    var bannerId = $(this).attr("data-bannerId");
+        <div class="bonus-main tab_content" id="o2o">
 
-    $('.typeBanner'+bannerId).flexslider({
+          <div class="container">
 
-      animation: "slide",
+            <div class="functionTrait-title wow" style="padding: 3rem 0;">
 
-      directionNav:true,
+              <p class="tit">O2O&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+              <img style="width: 38%;position: relative;float: left;top: -91px;"
+                src="../assets/images/proIcon/type6/12.png">
+              <p class="ziti">外卖、拼团、直播等O2O系统，把互联网与地面店完美对接，实现互联网落地。让消费者在享受线上优惠价格的同时，又可享受线下贴身的服务。同时，O2O模式还可实现不同商家的联盟</p>
+            </div>
+            <div class="clearboth"></div>
+            <div class="bonus-bottom">
+              <div class="swiper_c">
+                <div class="swiper-container" id="slider_o2o">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper_o2o_bg1"></div>
+                    <div class="swiper-slide swiper_o2o_bg2 "></div>
+                    <div class="swiper-slide swiper_o2o_bg3"></div>
+                    <div class="swiper-slide swiper_o2o_bg4"></div>
+                    <div class="swiper-slide swiper_o2o_bg5"></div>
+                  </div>
+                </div>
+              </div>
 
-    });
+              <div class="col-sm-12 bonus-rit">
 
-  })
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
+                    <div class="bonuspadding">
 
+                      <div class="bonus-img">
 
-  /*导航栏固定*/
+                        <img src="../assets/images/proIcon/type6/6.png" />
 
-  if($(window).width()>768){
+                        <!-- <p class="f-fsize17 hot hidden-xs">Hot!</p> -->
 
-    navScroll(300);
+                      </div>
 
-  }else{
+                      <!-- <div class="bonus-title">3+3分销</div> -->
 
-    navScroll(225);
+                    </div>
 
-  }
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
+                    <div class="bonus-content bonuspadding"><a href="../product/detail_1.html">快速打造餐厅运营系统，构建客户精准大数据。</a>
+                    </div>
 
+                  </div>
+                </a>
 
-  function navScroll(num){
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
+                    <div class="bonuspadding">
 
+                      <div class="bonus-img">
 
-    window.onscroll = function(){
+                        <img src="../assets/images/proIcon/type6/7.png" />
 
+                      </div>
 
+                      <!-- <div class="bonus-title">单品分销</div> -->
 
-      if($(window).scrollTop()>num){
+                    </div>
 
-          $(".navWrap").addClass("gudingColor");
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
-      }else{
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">功能强大的管理后台，商家随时随地管理订单，配送员实时跟进订单。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    </div>
 
-          $(".navWrap").removeClass("gudingColor");
+                  </div>
+                </a>
 
-      }
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-    }
+                    <div class="bonuspadding">
 
-  }
+                      <div class="bonus-img">
 
+                        <img src="../assets/images/proIcon/type6/8.png" />
 
+                      </div>
 
+                      <!-- <div class="bonus-title">区域分销</div> -->
 
+                    </div>
 
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
 
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">[实时直播]土豪爆屏，精彩不延时；[高清画质]拒绝YY，爱要高品质；[真实玩家]海量优质用户，查找附近的TA。</a>
+                    </div>
 
-  /*导航栏*/
+                  </div>
+                </a>
 
-  var menu = $('.rm-nav').rMenu({
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
 
-      minWidth: '960px',
+                    <div class="bonuspadding">
 
-  });
+                      <div class="bonus-img">
 
+                        <img src="../assets/images/proIcon/type6/9.png" />
 
+                      </div>
 
-  $('.rm-top-menu li').on({
+                      <!-- <div class="bonus-title">供应商分销</div> -->
 
-    click:function(){
+                    </div>
 
-      var This =$(this);
-        var hei=$('.common-topbar-dropdown').css('height');
-        console.log(hei);
-        if(hei=='0px' && $(this).index()==1){
-          $(".common-topbar-dropdown").css({"height":'auto'});
-          $('.common-topbar-body').slideDown();
-        }else{
-          $('.common-topbar-body').slideUp();
-          $(".common-topbar-dropdown").css({"height":'0px'});
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">语音直播新玩法，多功能语音，不一样的直播体验，一次接入，全球运营。</a></div>
+
+                  </div>
+                </a>
+
+
+                <div class="clearfix"> </div>
+
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+
+                    <div class="bonuspadding">
+
+                      <div class="bonus-img">
+
+                        <img src="../assets/images/proIcon/type6/10.png" />
+
+                      </div>
+
+                      <!-- <div class="bonus-title">二级分销</div> -->
+
+                    </div>
+
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">基于熟人之间的社交电商传播，用户会自发地在熟人之间传播。</a></div>
+
+                  </div>
+                </a>
+
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+
+                    <div class="bonuspadding">
+
+                      <div class="bonus-img">
+
+                        <img src="../assets/images/proIcon/type6/11.png" />
+
+                      </div>
+
+                      <!-- <div class="bonus-title">门店分销</div> -->
+
+                    </div>
+
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">以平台设置的投资周期及利率来分配利润，让闲置的资金流动起来。</a></div>
+
+                  </div>
+                </a>
+
+
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+
+                    <div class="bonuspadding">
+
+                      <div class="bonus-img">
+
+                        <img src="../assets/images/proIcon/type6/13.png" />
+
+                      </div>
+
+                      <!-- <div class="bonus-title">门店分销</div> -->
+
+                    </div>
+
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+
+                    <div class="bonus-content bonuspadding"><a href="../product/detail_1.html">独立部署自由选择，会营销的商城系统</a>
+                    </div>
+
+                  </div>
+                </a>
+
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+
+                    <div class="bonuspadding">
+
+                      <div class="bonus-img">
+
+                        <img src="../assets/images/proIcon/type6/14.png" />
+
+                      </div>
+
+                      <!-- <div class="bonus-title">门店分销</div> -->
+
+                    </div>
+
+                    <!-- <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">可自营也可招募商家入驻的平台，实现线上线下销售盈利相结合，帮助传统商家顺利转型，打破旧的营销思路，打通行业，商圈上下游供应链的专业B2B、B2C系统，通过新模式增加商业价值。</a>
+                    </div>
+
+                  </div>
+                </a>
+
+              </div>
+
+              <div class="f-cb"></div>
+
+              <div class="clearfix"> </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="bonus-main tab_content" id="shangjia">
+
+          <div class="container">
+
+            <div class="functionTrait-title wow" style="padding: 3rem 0;">
+
+              <p class="tit">增值服务</p>
+              <img style="width: 38%;position: relative;float: left;top: -91px;"
+                src="../assets/images/proIcon/type4/7.png">
+              <p class="ziti">专业技术团队高端定制服务，提供互联网定制应用服务，为企业量身打造UI设计、平面设计，根据企业需求定制各类个性化软件开发，系统二次开发维护与升级，提高企业在互联网端上的整体质量。
+              </p>
+            </div>
+            <div class="clearboth"></div>
+            <div class="bonus-bottom">
+              <div class="swiper_c">
+                <div class="swiper-container" id="slider_shangjia">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper_sj_bg1"></div>
+                    <div class="swiper-slide swiper_sj_bg2 "></div>
+                    <div class="swiper-slide swiper_sj_bg3"></div>
+                    <div class="swiper-slide swiper_sj_bg4"></div>
+                    <div class="swiper-slide swiper_sj_bg5"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 bonus-rit">
+
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+
+                    <div class="bonuspadding">
+
+                      <div class="bonus-img ">
+
+                        <img src="../assets/images/proIcon/type4/icon1.png" />
+
+                      </div>
+
+                    </div>
+
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">高端定制UI设计，提供互联网定制应用服务，高品质，视觉协调的页面设计，为企业高效率传播流量，根据客户的基本需求量身设计。</a>
+                    </div>
+
+                  </div>
+                </a>
+
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+
+                    <div class="bonuspadding">
+
+                      <div class="bonus-img ">
+
+                        <img src="../assets/images/proIcon/type4/icon2.png" />
+
+                      </div>
+
+                    </div>
+
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">包装、画册、展示类平面设计，高端定制精美的页面布局，资深设计师团队一对一咨询交流方案，打造企业良好的印象。</a></div>
+
+                  </div>
+                </a>
+
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+
+                    <div class="bonuspadding">
+
+                      <div class="bonus-img ">
+
+                        <img src="../assets/images/proIcon/type4/icon3.png" />
+
+                      </div>
+
+                    </div>
+
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">提供各类个性化定制软件开发，为企业打造独一无二的平台，资深技术研发团队为企业量身设计，可迅速提高企业的商业价值，带来无限商机。</a>
+                    </div>
+
+                  </div>
+                </a>
+
+
+                <a href="../product/detail_1.html">
+                  <div class="col-md-3 col-sm-6 col-xs-12 bonus-list wow">
+
+                    <div class="bonuspadding">
+
+                      <div class="bonus-img ">
+
+                        <img src="../assets/images/proIcon/type4/icon4.png" />
+
+                      </div>
+
+                    </div>
+
+                    <div class="bonus-content bonuspadding"><a
+                        href="../product/detail_1.html">全面纠察系统存在BUG，落实所有细节升级维护，让体验感焕然一新，专业技术人员进行代码质量提升，大幅度增强实用性和兼容性。</a>
+                    </div>
+
+                  </div>
+                </a>
+
+              </div>
+
+              <div class="f-cb"></div>
+
+
+
+              <div class="clearfix"> </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- 商桥 -->
+  <!-- <div id='ddBridge'></div> -->
+  <!-- 底部 -->
+  <div class="footer">
+    <!--1200-->
+    <div class="footer_center">
+      <div class="san">
+        <div>
+          <img src="../assets/images/public/shoucang.png" class="title_img" />
+          <span>专注服务于电商领域</span>
+        </div>
+        <div>
+          <img src="../assets/images/public/dianhua.png" class="title_img" />
+          <span>7X24小时售后支持</span>
+        </div>
+        <div>
+          <img src="../assets/images/public/huiyuan.png" class="title_img" />
+          <span>一对一专属会员经理</span>
+        </div>
+        <div>
+          <img src="../assets/images/public/zan.png" class="title_img" />
+          <span>385万用户诚意推荐</span>
+        </div>
+      </div>
+      <div class="spp">
+        <span>全方位的购买咨询</span><span>精准的产品推荐</span><span>专业支持的售后咨询</span><span>电商业务开展咨询</span>
+      </div>
+      <div style="width: 100%;height: 50px;border-bottom: 2px solid ../product/detail_1.html35383C;"></div>
+      <div class="ear">
+        <div class="ear_left">
+          <div class="ear_left_text">
+            <div>
+              <p>微商城开发</p>
+              <a href="../product/detail_2.html">区域分销</a>
+              <a href="../product/detail_2.html">门店分销</a>
+              <a href="../product/detail_2.html">单品分销</a>
+              <a href="../product/detail_2.html">微商分销</a>
+            </div>
+            <div>
+              <p href="../product/detail_2.html">H5游戏</p>
+              <a href="../product/detail_2.html">吉祥兔系统</a>
+              <a href="../product/detail_2.html">渔场系统</a>
+              <a href="../product/detail_2.html">果园系统</a>
+              <a href="../product/detail_2.html">大转盘</a>
+            </div>
+            <div>
+              <p href="../product/detail_2.html">O2O开发</p>
+              <a href="../product/detail_2.html">理财系统</a>
+              <a href="../product/detail_2.html">外卖系统</a>
+              <a href="../product/detail_2.html">直播系统</a>
+              <a href="../product/detail_2.html">拼团系统</a>
+            </div>
+            <div>
+              <p href="../product/detail_1.html">公排系统</p>
+              <a href="../product/detail_1.html">大公排</a>
+              <a href="../product/detail_1.html">小公排</a>
+              <a href="../product/detail_1.html">二二复制</a>
+              <a href="../product/detail_1.html">三三复制</a>
+            </div>
+          </div>
+
+          <!--时间地点-->
+          <div class="where">
+            <p>工作时间：9:00AM-18:30PM</p>
+            <p>公司地址：广东省广州市白云区嘉禾望岗G出口嘉禾汇商务大厦7楼726</p>
+          </div>
+        </div>
+        <div class="ear_right">
+          <div>
+            <img src="../assets/images/public/erweima.png?v=1" />
+            <p>公众号</p>
+          </div>
+          <div>
+            <img src="../assets/images/public/qinge.jpg?v=1" />
+            <p>微信咨询</p>
+          </div>
+        </div>
+      </div>
+      <!--友情链接-->
+      <div class="lianjie">
+        <span>友情链接</span>
+        <div class="lianjie_right">
+          <a href="https://www.aliyun.com/">阿里云</a>
+          <a href="https://cloud.baidu.com/index.html">百度云</a>
+          <a href="http://www.61wsw.com/">61微商网</a>
+          <a href="https://www.taobao.com/">淘宝网</a>
+          <a href="https://www.jd.com/">京东网</a>
+          <a href="https://guangzhou.zbj.com/">猪八戒</a>
+          <a href="https://weibo.com/login.php">新浪微博</a>
+          <a href="https://www.tenpay.com/v3/">财付通</a>
+          <a href="https://www.antfin.com/">蚂蚁金服</a>
+          <a href="https://www.alipay.com/">微商网</a>
+          <a href="https://www.microsoft.com/zh-cn/">Microsoft</a>
+          <a href="https://weixin.qq.com/">财付通</a>
+        </div>
+      </div>
+      <p class="bottom_text">Copyright ©2016-2018 All Rights Reserved. 广州智丰网络科技有限公司版权所有 粤ICP备19034071号</p>
+    </div>
+
+
+    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="../assets/js/responsiveMenu.js"></script>
+    <script type="text/javascript" src="../assets/js/swiper-4.2.0.min.js"></script>
+    <script type="text/javascript" src="../assets/js/sketch.min.js"></script>
+    <script type="text/javascript" src="../assets/js/public/header.js"></script>
+    <script src="../assets/js/number.js"></script>
+    <script src="../assets/js/headerUser.js"></script>
+
+    <script>
+
+      $(function () {
+
+        /*轮播图*/
+
+        $('#flexslider_head').flexslider({
+
+          animation: "slide",
+
+          directionNav: true,
+
+          start: function (slider) {
+
+            $('body').removeClass('loading');
+
+          }
+
+        });
+
+        $(".typeBanner").each(function () {
+
+          var bannerId = $(this).attr("data-bannerId");
+
+          $('.typeBanner' + bannerId).flexslider({
+
+            animation: "slide",
+
+            directionNav: true,
+
+          });
+
+        })
+
+
+
+        /*导航栏固定*/
+
+        if ($(window).width() > 768) {
+
+          navScroll(300);
+
+        } else {
+
+          navScroll(225);
+
         }
-    },
 
-  })
-  $(".shq_").click(function(){
 
-  $(".common-topbar-body").slideUp();
- 
-})
 
-  $(".navWrap").on({
+        function navScroll(num) {
 
-    mouseout:function(e){
 
-      if(checkHover(e,this)){
-       
-        $("#J_topbar_2016").slideUp();
 
-       }
+          window.onscroll = function () {
 
-    },
 
-  })
 
-  /**
+            if ($(window).scrollTop() > num) {
 
-   * 下面是一些基础函数，解决mouseover与mouserout事件不停切换的问题（问题不是由冒泡产生的）
+              $(".navWrap").addClass("gudingColor");
 
-   */
+            } else {
 
-  function checkHover(e, target) {
+              $(".navWrap").removeClass("gudingColor");
 
-      if (getEvent(e).type == "mouseover") {
+            }
 
-          return !contains(target, getEvent(e).relatedTarget
-
-                  || getEvent(e).fromElement)
-
-                  && !((getEvent(e).relatedTarget || getEvent(e).fromElement) === target);
-
-      } else {
-
-          return !contains(target, getEvent(e).relatedTarget
-
-                  || getEvent(e).toElement)
-
-                  && !((getEvent(e).relatedTarget || getEvent(e).toElement) === target);
-
-      }
-
-  }
-
-
-
-  function contains(parentNode, childNode) {
-
-      if (parentNode.contains) {
-
-          return parentNode != childNode && parentNode.contains(childNode);
-
-      } else {
-
-          return !!(parentNode.compareDocumentPosition(childNode) & 16);
-
-      }
-
-  }
-
-  //取得当前window对象的事件
-
-  function getEvent(e) {
-
-      return e || window.event;
-
-  }
-
-
-
-
-
-
-
-  // 功能特点
-
-  $('.content-top').hover(
-
-  function(){
-
-    $(this).find('.xuanzhuan').addClass('picTrantalte');
-
-  }
-
-  ,function(){
-
-    $(this).find('.xuanzhuan').removeClass('picTrantalte');
-
-
-
-  })
-
-
-
-
-
-
-
-  /*左边分类滑动*/
-
-  $(".category-layer .list").on("click",function() {
-
-    $(".cat-name").css({"background":'#f3f3f3'});
-
-    $(this).find(".cat-name").css({"background":'white'});
-
-
-
-    $(".cat-name a").css({"color":'#333'});
-
-    $(this).find(".cat-name a").css({"color":'#03a9f4'});
-
-
-
-    $(".category-layer .list").children('.categorys').css("opacity",'0');
-
-    $(this).children('.categorys').css("opacity",'1');
-
-  })
-
-
-
-
-
-
-
-
-
-
-
-  if($(window).width()<480){
-
-      /*案例*/
-
-        var height = $(".categorys").height()-1;
-
-        $(".anliWrap").css("min-height",height)
-
-
-
-        if($(".bonus-list").length>5){
-
-          $(".bonus-list-wrap").hide();
+          }
 
         }
 
 
 
-        /*奖金模式*/
 
-        $(".bonus-list-more").on("click",function(){
 
-          var type = $(this).attr("data-type");
 
-          if(type ==0){
 
-            $(".bonus-list-wrap").show();
+        /*导航栏*/
 
-            $(this).attr("data-type",1);
+        var menu = $('.rm-nav').rMenu({
 
-            $(".bonus-title-more .text").text("收起");
+          minWidth: '960px',
 
-            $(".bonus-title-more .glyphicon").removeClass("glyphicon-menu-down");
+        });
 
-            $(".bonus-title-more .glyphicon").addClass("glyphicon-menu-up");
 
-          }else{
+
+        $('.rm-top-menu li').on({
+
+          click: function () {
+
+            var This = $(this);
+            var hei = $('.common-topbar-dropdown').css('height');
+            console.log(hei);
+            if (hei == '0px' && $(this).index() == 1) {
+              $(".common-topbar-dropdown").css({ "height": 'auto' });
+              $('.common-topbar-body').slideDown();
+            } else {
+              $('.common-topbar-body').slideUp();
+              $(".common-topbar-dropdown").css({ "height": '0px' });
+            }
+          },
+
+        })
+        $(".shq_").click(function () {
+
+          $(".common-topbar-body").slideUp();
+
+        })
+
+        $(".navWrap").on({
+
+          mouseout: function (e) {
+
+            if (checkHover(e, this)) {
+
+              $("#J_topbar_2016").slideUp();
+
+            }
+
+          },
+
+        })
+
+        /**
+      
+         * 下面是一些基础函数，解决mouseover与mouserout事件不停切换的问题（问题不是由冒泡产生的）
+      
+         */
+
+        function checkHover(e, target) {
+
+          if (getEvent(e).type == "mouseover") {
+
+            return !contains(target, getEvent(e).relatedTarget
+
+              || getEvent(e).fromElement)
+
+              && !((getEvent(e).relatedTarget || getEvent(e).fromElement) === target);
+
+          } else {
+
+            return !contains(target, getEvent(e).relatedTarget
+
+              || getEvent(e).toElement)
+
+              && !((getEvent(e).relatedTarget || getEvent(e).toElement) === target);
+
+          }
+
+        }
+
+
+
+        function contains(parentNode, childNode) {
+
+          if (parentNode.contains) {
+
+            return parentNode != childNode && parentNode.contains(childNode);
+
+          } else {
+
+            return !!(parentNode.compareDocumentPosition(childNode) & 16);
+
+          }
+
+        }
+
+        //取得当前window对象的事件
+
+        function getEvent(e) {
+
+          return e || window.event;
+
+        }
+
+
+
+
+
+
+
+        // 功能特点
+
+        $('.content-top').hover(
+
+          function () {
+
+            $(this).find('.xuanzhuan').addClass('picTrantalte');
+
+          }
+
+          , function () {
+
+            $(this).find('.xuanzhuan').removeClass('picTrantalte');
+
+
+
+          })
+
+
+
+
+
+
+
+        /*左边分类滑动*/
+
+        $(".category-layer .list").on("click", function () {
+
+          $(".cat-name").css({ "background": '#f3f3f3' });
+
+          $(this).find(".cat-name").css({ "background": 'white' });
+
+
+
+          $(".cat-name a").css({ "color": '#333' });
+
+          $(this).find(".cat-name a").css({ "color": '#03a9f4' });
+
+
+
+          $(".category-layer .list").children('.categorys').css("opacity", '0');
+
+          $(this).children('.categorys').css("opacity", '1');
+
+        })
+
+
+
+
+
+
+
+
+
+
+
+        if ($(window).width() < 480) {
+
+          /*案例*/
+
+          var height = $(".categorys").height() - 1;
+
+          $(".anliWrap").css("min-height", height)
+
+
+
+          if ($(".bonus-list").length > 5) {
 
             $(".bonus-list-wrap").hide();
 
-            $(this).attr("data-type",0);
-
-            $(".bonus-title-more .text").text("查看全部");
-
-            $(".bonus-title-more .glyphicon").removeClass("glyphicon-menu-up");
-
-            $(".bonus-title-more .glyphicon").addClass("glyphicon-menu-down");
-
-
-
           }
 
 
 
-        })
+          /*奖金模式*/
 
-    }
+          $(".bonus-list-more").on("click", function () {
+
+            var type = $(this).attr("data-type");
+
+            if (type == 0) {
+
+              $(".bonus-list-wrap").show();
+
+              $(this).attr("data-type", 1);
+
+              $(".bonus-title-more .text").text("收起");
+
+              $(".bonus-title-more .glyphicon").removeClass("glyphicon-menu-down");
+
+              $(".bonus-title-more .glyphicon").addClass("glyphicon-menu-up");
+
+            } else {
+
+              $(".bonus-list-wrap").hide();
+
+              $(this).attr("data-type", 0);
+
+              $(".bonus-title-more .text").text("查看全部");
+
+              $(".bonus-title-more .glyphicon").removeClass("glyphicon-menu-up");
+
+              $(".bonus-title-more .glyphicon").addClass("glyphicon-menu-down");
+
+
+
+            }
+
+
+
+          })
+
+        }
 
 
 
 
 
-      if($(window).width()>975){
+        if ($(window).width() > 975) {
 
-        $(".product").on("click",function(){
+          $(".product").on("click", function () {
 
-          window.location.href="index.html"/*tpa=http://www.47cu.com/product/index.php*/;
+            window.location.href = "index.html"/*tpa=http://www.47cu.com/product/index.php*/;
 
-        })
+          })
 
-      }
+        }
 
-      if($(window).width()<768){
+        if ($(window).width() < 768) {
 
-        $("body").on("click",".bonus-rit .bonus-list .glyphicon",function(e){
+          $("body").on("click", ".bonus-rit .bonus-list .glyphicon", function (e) {
 
-          var oe = e || event;
+            var oe = e || event;
 
-          if($(this).hasClass('glyphicon-menu-down')){
+            if ($(this).hasClass('glyphicon-menu-down')) {
 
-            $(this).removeClass('glyphicon-menu-down').addClass('glyphicon-menu-up');
+              $(this).removeClass('glyphicon-menu-down').addClass('glyphicon-menu-up');
 
-            $(this).next().slideDown(200);
+              $(this).next().slideDown(200);
 
-          }else{
+            } else {
 
-            $(this).removeClass('glyphicon-menu-up').addClass('glyphicon-menu-down');
+              $(this).removeClass('glyphicon-menu-up').addClass('glyphicon-menu-down');
 
-            $(this).next().slideUp(200);
+              $(this).next().slideUp(200);
 
+            }
+
+          })
+
+          if ($(window).width() < 480) {
+
+            var height = $(".categorys").height();
+
+            $(".anliWrap").css("min-height", height)
           }
+        }
 
-        })
+        //  }else{
 
-      if($(window).width()<480){
-
-        var height = $(".categorys").height();
-
-        $(".anliWrap").css("min-height",height)}}
-
-    //  }else{
-
-     // //    var s = function(){
+        // //    var s = function(){
 
         // // $(".bonus-rit .bonus-list").each(function(i){
 
@@ -2767,36 +2961,36 @@ $(function(){
 
         // // });
 
-     // //    }
+        // //    }
 
-     // //    s();
+        // //    s();
 
-    //  }
+        //  }
 
 
 
-    })
+      })
 
     </script>
 
-  <script type="text/javascript">
-  aa();
-  function aa(){
-    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fc8e70d3fbdce198650e3060a5fa6c8f4' type='text/javascript'%3E%3C/script%3E"));
-  }
+    <script type="text/javascript">
+      aa();
+      function aa() {
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fc8e70d3fbdce198650e3060a5fa6c8f4' type='text/javascript'%3E%3C/script%3E"));
+      }
 
 
 
 
 
-      $(".go_connect,.yanshi, .dd_service").click(function(event) {
+      $(".go_connect,.yanshi, .dd_service").click(function (event) {
 
-          if ($('#nb_invite_ok').length > 0) {
+        if ($('#nb_invite_ok').length > 0) {
 
-              $('#nb_invite_ok').click();
+          $('#nb_invite_ok').click();
 
-          }
+        }
 
       });
 
@@ -2807,392 +3001,392 @@ $(function(){
       //新添加
 
 
-    //初始化swiper轮播
-   
-    var swiper0= new Swiper('slider_fenxiao', {
-      slidesPerView: 4,
-      spaceBetween: 50,
-      freeMode: true,
-      autoplay: {
-      delay: 3000,
-      },
-      speed:1000,
+      //初始化swiper轮播
 
-      navigation:true,
-    });
+      var swiper0 = new Swiper('slider_fenxiao', {
+        slidesPerView: 4,
+        spaceBetween: 50,
+        freeMode: true,
+        autoplay: {
+          delay: 3000,
+        },
+        speed: 1000,
 
-    
+        navigation: true,
+      });
 
-function tabChange(index){
-    var dd_li=$('.lb_leibie ul li').eq(index);
-    var activeTab = dd_li.find("a").attr("href");
-    if(!activeTab||activeTab==''){
-      alert("该板块暂无内容")
-      return false;
+
+
+      function tabChange(index) {
+        var dd_li = $('.lb_leibie ul li').eq(index);
+        var activeTab = dd_li.find("a").attr("href");
+        if (!activeTab || activeTab == '') {
+          alert("该板块暂无内容")
+          return false;
+        }
+        dd_li.addClass("active");
+        dd_li.siblings().removeClass('active');
+        $('.tab_content').hide();
+        $(activeTab).fadeIn();
+
       }
-    dd_li.addClass("active");
-    dd_li.siblings().removeClass('active');
-    $('.tab_content').hide();
-    $(activeTab).fadeIn();
 
-}
+      var key = getQueryString('key');
 
-  var key=getQueryString('key');
 
+      if (key == 2) {
 
-  if(key==2){
-    
-    tabChange(2);
+        tabChange(2);
 
-      var swiper2 = new Swiper('#slider_daili', {
-      slidesPerView: 4,
-      spaceBetween: 50,
-      freeMode: true,
-      autoplay: {
-      delay: 3000,
-      },
-      speed:1000,
+        var swiper2 = new Swiper('#slider_daili', {
+          slidesPerView: 4,
+          spaceBetween: 50,
+          freeMode: true,
+          autoplay: {
+            delay: 3000,
+          },
+          speed: 1000,
 
-      navigation:true,
-    });
+          navigation: true,
+        });
 
-  }
+      }
 
-  if(key==3){
+      if (key == 3) {
 
-    tabChange(3);
+        tabChange(3);
 
-    var swiper3 = new Swiper('#slider_shangjia', {
-      slidesPerView: 4,
-      spaceBetween: 50,
-      freeMode: true,
-      autoplay: {
-      delay: 3000,
-      },
-      speed:1000,
+        var swiper3 = new Swiper('#slider_shangjia', {
+          slidesPerView: 4,
+          spaceBetween: 50,
+          freeMode: true,
+          autoplay: {
+            delay: 3000,
+          },
+          speed: 1000,
 
-      navigation:true,
-    });
-  }
+          navigation: true,
+        });
+      }
 
-  if(key==4){
+      if (key == 4) {
 
-    tabChange(8);
+        tabChange(8);
 
-    var swiper4 = new Swiper('#slider_gongpai', {
-      slidesPerView: 4,
-      spaceBetween: 50,
-      freeMode: true,
-      autoplay: {
-      delay: 3000,
-      },
-      speed:1000,
-      navigation:true,
-    });
+        var swiper4 = new Swiper('#slider_gongpai', {
+          slidesPerView: 4,
+          spaceBetween: 50,
+          freeMode: true,
+          autoplay: {
+            delay: 3000,
+          },
+          speed: 1000,
+          navigation: true,
+        });
 
-  }
+      }
 
-  if(key==5){
+      if (key == 5) {
 
-    tabChange(1);
+        tabChange(1);
 
-    var swiper1= new Swiper('#slider_fenhong', {
-      slidesPerView: 4,
-      spaceBetween: 50,
-      freeMode: true,
-      autoplay: {
-      delay: 3000,
-      },
-      speed:1000,
+        var swiper1 = new Swiper('#slider_fenhong', {
+          slidesPerView: 4,
+          spaceBetween: 50,
+          freeMode: true,
+          autoplay: {
+            delay: 3000,
+          },
+          speed: 1000,
 
-      navigation:true,
-    });
+          navigation: true,
+        });
 
-    }
-    if(key==6){
-     
-     window.location.href='../product/detail.html'/*tpa=http://www.47cu.com/detail/detail11.php*/;
-      
-    }
+      }
+      if (key == 6) {
 
-    if(key==7){
+        window.location.href = '../product/detail.html'/*tpa=http://www.47cu.com/detail/detail11.php*/;
 
-      tabChange(7);
+      }
 
-      var swiper7= new Swiper('#slider_H5game', {
-        slidesPerView: 4,
-        spaceBetween: 50,
-        freeMode: true,
-        autoplay: {
-        delay: 3000,
-        },
-        speed:1000,
+      if (key == 7) {
 
-        navigation:true,
-      });
+        tabChange(7);
 
-    }
+        var swiper7 = new Swiper('#slider_H5game', {
+          slidesPerView: 4,
+          spaceBetween: 50,
+          freeMode: true,
+          autoplay: {
+            delay: 3000,
+          },
+          speed: 1000,
 
+          navigation: true,
+        });
 
-    if(key==8){
+      }
 
-      tabChange(9);
 
-      var swiper9= new Swiper('#slider_webDesign', {
-        slidesPerView: 4,
-        spaceBetween: 50,
-        freeMode: true,
-        autoplay: {
-        delay: 3000,
-        },
-        speed:1000,
+      if (key == 8) {
 
-        navigation:true,
-      });
+        tabChange(9);
 
-    }
+        var swiper9 = new Swiper('#slider_webDesign', {
+          slidesPerView: 4,
+          spaceBetween: 50,
+          freeMode: true,
+          autoplay: {
+            delay: 3000,
+          },
+          speed: 1000,
 
-    if(key==9){
+          navigation: true,
+        });
 
-      tabChange(5);
+      }
 
-      var swiper5= new Swiper('#slider_o2o', {
-        slidesPerView: 4,
-        spaceBetween: 50,
-        freeMode: true,
-        autoplay: {
-        delay: 3000,
-        },
-        speed:1000,
+      if (key == 9) {
 
-        navigation:true,
-      });
-
-    }
-
-    if(key==10){
-
-      tabChange(6);
-
-      var swiper6= new Swiper('#slider_littleApp', {
-        slidesPerView: 4,
-        spaceBetween: 50,
-        freeMode: true,
-        autoplay: {
-        delay: 3000,
-        },
-        speed:1000,
-
-        navigation:true,
-      });
-
-    }
-
-    if(key==11){
-
-    tabChange(4);
-
-    var swiper4= new Swiper('#slider_quanfan', {
-      slidesPerView: 4,
-      spaceBetween: 50,
-      freeMode: true,
-      autoplay: {
-      delay: 3000,
-      },
-      speed:1000,
-
-      navigation:true,
-    });
-
-    }
-
-    
-
-
-
-$('.lb_leibie').on('click','li',function(e){
-   
-    
-    var index=$(this).index();
-    if(index!=10){
-      tabChange(index);
-    }
-
-  
-
-   //初始化相应模块的slider插件
-   if($(this).index()==0){
-      var swiper0= new Swiper('#slider_fenxiao', {
-      slidesPerView: 4,
-      spaceBetween: 50,
-      freeMode: true,
-      autoplay: {
-      delay: 3000,
-      },
-      speed:1000,
-
-      navigation:true,
-    });
-    }
-
-     if($(this).index()==1){
-      var swiper1= new Swiper('#slider_fenhong', {
-      slidesPerView: 4,
-      spaceBetween: 50,
-      freeMode: true,
-      autoplay: {
-      delay: 3000,
-      },
-      speed:1000,
-
-      navigation:true,
-    });
-    }
-   
-
-  if(key==2||$(this).index()==2){
-      var swiper2 = new Swiper('#slider_daili', {
-      slidesPerView: 4,
-      spaceBetween: 50,
-      freeMode: true,
-      autoplay: {
-      delay: 3000,
-      },
-      speed:1000,
-
-      navigation:true,
-    });
-    }
-
-    if($(this).index()==3){
-      var swiper3 = new Swiper('#slider_shangjia', {
-      slidesPerView: 4,
-      spaceBetween: 50,
-      freeMode: true,
-      autoplay: {
-      delay: 3000,
-      },
-      speed:1000,
-
-      navigation:true,
-    });
-    }
-    if($(this).index()==4){
-      var swiper4 = new Swiper('#slider_quanfan', {
-      slidesPerView: 4,
-      spaceBetween: 50,
-      freeMode: true,
-      autoplay: {
-      delay: 3000,
-      },
-      speed:1000,
-
-      navigation:true,
-    });
-    }
-    if($(this).index()==5){
-      var swiper5 = new Swiper('#slider_o2o', {
-      slidesPerView: 4,
-      spaceBetween: 50,
-      freeMode: true,
-      autoplay: {
-      delay: 3000,
-      },
-      speed:1000,
-
-      navigation:true,
-    });
-    }
-
-    if($(this).index()==6){
-      var swiper5 = new Swiper('#slider_littleApp', {
-      slidesPerView: 4,
-      spaceBetween: 50,
-      freeMode: true,
-      autoplay: {
-      delay: 3000,
-      },
-      speed:1000,
-
-      navigation:true,
-    });
-    }
-
-    if($(this).index()==7){
-      var swiper7 = new Swiper('#slider_H5game', {
-      slidesPerView: 4,
-      spaceBetween: 50,
-      freeMode: true,
-      autoplay: {
-      delay: 3000,
-      },
-      speed:1000,
-
-      navigation:true,
-    });
-    }
-
-    if($(this).index()==8){
-      var swiper8 = new Swiper('#slider_gongpai', {
-      slidesPerView: 4,
-      spaceBetween: 50,
-      freeMode: true,
-      autoplay: {
-      delay: 3000,
-      },
-      speed:1000,
-
-      navigation:true,
-    });
-    }
-    if($(this).index()==9){
-      var swiper8 = new Swiper('#slider_webDesign', {
-      slidesPerView: 4,
-      spaceBetween: 50,
-      freeMode: true,
-      autoplay: {
-      delay: 3000,
-      },
-      speed:1000,
-
-      navigation:true,
-    });
-    }
-
-    if($(this).index()==10){
-      window.location.href='../product/detail.html'/*tpa=http://www.47cu.com/detail/detail11.php*/;
-    }
-
-
-   return false; 
-})
-
-// 商桥的点击关闭事件
-
-$('.dd_close').on('click',function(){
-  $('.dd_bridge').hide();
-  $('.img_bridge').css('display','block');
-})
-
-
-$('.img_bridge').on('click',function(){
-  $(this).hide();
-  $('.dd_bridge').css('display','block');
-})
-
-//回到顶部事件
-
-$('.bridge_back').on('click','a',function(){
-  $('body,html').animate({
-       scrollTop: 0
-      }, 200);
-      return false;
-})
-
-
-
-
-   
+        tabChange(5);
+
+        var swiper5 = new Swiper('#slider_o2o', {
+          slidesPerView: 4,
+          spaceBetween: 50,
+          freeMode: true,
+          autoplay: {
+            delay: 3000,
+          },
+          speed: 1000,
+
+          navigation: true,
+        });
+
+      }
+
+      if (key == 10) {
+
+        tabChange(6);
+
+        var swiper6 = new Swiper('#slider_littleApp', {
+          slidesPerView: 4,
+          spaceBetween: 50,
+          freeMode: true,
+          autoplay: {
+            delay: 3000,
+          },
+          speed: 1000,
+
+          navigation: true,
+        });
+
+      }
+
+      if (key == 11) {
+
+        tabChange(4);
+
+        var swiper4 = new Swiper('#slider_quanfan', {
+          slidesPerView: 4,
+          spaceBetween: 50,
+          freeMode: true,
+          autoplay: {
+            delay: 3000,
+          },
+          speed: 1000,
+
+          navigation: true,
+        });
+
+      }
+
+
+
+
+
+      $('.lb_leibie').on('click', 'li', function (e) {
+
+
+        var index = $(this).index();
+        if (index != 10) {
+          tabChange(index);
+        }
+
+
+
+        //初始化相应模块的slider插件
+        if ($(this).index() == 0) {
+          var swiper0 = new Swiper('#slider_fenxiao', {
+            slidesPerView: 4,
+            spaceBetween: 50,
+            freeMode: true,
+            autoplay: {
+              delay: 3000,
+            },
+            speed: 1000,
+
+            navigation: true,
+          });
+        }
+
+        if ($(this).index() == 1) {
+          var swiper1 = new Swiper('#slider_fenhong', {
+            slidesPerView: 4,
+            spaceBetween: 50,
+            freeMode: true,
+            autoplay: {
+              delay: 3000,
+            },
+            speed: 1000,
+
+            navigation: true,
+          });
+        }
+
+
+        if (key == 2 || $(this).index() == 2) {
+          var swiper2 = new Swiper('#slider_daili', {
+            slidesPerView: 4,
+            spaceBetween: 50,
+            freeMode: true,
+            autoplay: {
+              delay: 3000,
+            },
+            speed: 1000,
+
+            navigation: true,
+          });
+        }
+
+        if ($(this).index() == 3) {
+          var swiper3 = new Swiper('#slider_shangjia', {
+            slidesPerView: 4,
+            spaceBetween: 50,
+            freeMode: true,
+            autoplay: {
+              delay: 3000,
+            },
+            speed: 1000,
+
+            navigation: true,
+          });
+        }
+        if ($(this).index() == 4) {
+          var swiper4 = new Swiper('#slider_quanfan', {
+            slidesPerView: 4,
+            spaceBetween: 50,
+            freeMode: true,
+            autoplay: {
+              delay: 3000,
+            },
+            speed: 1000,
+
+            navigation: true,
+          });
+        }
+        if ($(this).index() == 5) {
+          var swiper5 = new Swiper('#slider_o2o', {
+            slidesPerView: 4,
+            spaceBetween: 50,
+            freeMode: true,
+            autoplay: {
+              delay: 3000,
+            },
+            speed: 1000,
+
+            navigation: true,
+          });
+        }
+
+        if ($(this).index() == 6) {
+          var swiper5 = new Swiper('#slider_littleApp', {
+            slidesPerView: 4,
+            spaceBetween: 50,
+            freeMode: true,
+            autoplay: {
+              delay: 3000,
+            },
+            speed: 1000,
+
+            navigation: true,
+          });
+        }
+
+        if ($(this).index() == 7) {
+          var swiper7 = new Swiper('#slider_H5game', {
+            slidesPerView: 4,
+            spaceBetween: 50,
+            freeMode: true,
+            autoplay: {
+              delay: 3000,
+            },
+            speed: 1000,
+
+            navigation: true,
+          });
+        }
+
+        if ($(this).index() == 8) {
+          var swiper8 = new Swiper('#slider_gongpai', {
+            slidesPerView: 4,
+            spaceBetween: 50,
+            freeMode: true,
+            autoplay: {
+              delay: 3000,
+            },
+            speed: 1000,
+
+            navigation: true,
+          });
+        }
+        if ($(this).index() == 9) {
+          var swiper8 = new Swiper('#slider_webDesign', {
+            slidesPerView: 4,
+            spaceBetween: 50,
+            freeMode: true,
+            autoplay: {
+              delay: 3000,
+            },
+            speed: 1000,
+
+            navigation: true,
+          });
+        }
+
+        if ($(this).index() == 10) {
+          window.location.href = '../product/detail.html'/*tpa=http://www.47cu.com/detail/detail11.php*/;
+        }
+
+
+        return false;
+      })
+
+      // 商桥的点击关闭事件
+
+      $('.dd_close').on('click', function () {
+        $('.dd_bridge').hide();
+        $('.img_bridge').css('display', 'block');
+      })
+
+
+      $('.img_bridge').on('click', function () {
+        $(this).hide();
+        $('.dd_bridge').css('display', 'block');
+      })
+
+      //回到顶部事件
+
+      $('.bridge_back').on('click', 'a', function () {
+        $('body,html').animate({
+          scrollTop: 0
+        }, 200);
+        return false;
+      })
+
+
+
+
+
     </script>
 
 </body>
